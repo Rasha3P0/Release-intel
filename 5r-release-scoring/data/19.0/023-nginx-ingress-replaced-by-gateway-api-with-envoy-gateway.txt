@@ -1,0 +1,11 @@
+Title: NGINX Ingress replaced by Gateway API with Envoy Gateway
+Release: 19.0
+Source: https://docs.gitlab.com/releases/19/gitlab-19-0-released/
+Tier: Free, Premium, Ultimate
+Offering: GitLab Self-Managed
+Links: Documentation, Related issue
+
+Gateway API with Envoy Gateway becomes the default networking configuration in the GitLab Helm chart in GitLab 19.0,
+replacing NGINX Ingress which reached end-of-life in March 2026. If migration to Envoy Gateway is not immediately feasible,
+you can explicitly re-enable the bundled NGINX Ingress, which remains available until its planned removal in GitLab 20.0. Thischange does not impact the NGINX used in the Linux package, or Helm chart instances using an externally managed Ingress or
+Gateway API controller.

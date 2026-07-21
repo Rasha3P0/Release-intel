@@ -1,0 +1,1784 @@
+{
+  "001-group-level-custom-review-instructions-for-gitlab-duo": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The note describes sharing review-instruction configuration ('configure shared custom review instructions for an entire group and its subgroups'); no schema, stored data shape, or calculation change is described, so data-structure impact is implausible."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "The change is an opt-in configuration convenience for code review instructions; the note describes no batch job, high-volume process, or feed, only per-review instruction merging."
+    },
+    "R3": {
+      "stamp": "no",
+      "evidence": "The note describes internal review-instruction configuration only; no API, report, or downstream consumer interface is mentioned, making integration impact implausible."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "The change is additive configuration ('Select a project in your group to use as a template'); removing the group-level instructions file restores prior behavior, so nothing one-way is described."
+    }
+  },
+  "002-configure-work-item-types": {
+    "R1": {
+      "stamp": "yes",
+      "evidence": "\"You can now configure custom work item types in a project\" and \"The new types support custom fields and status lifecycles\" — this changes the stored shape and typing of work item data."
+    },
+    "R2": {
+      "stamp": "unclear",
+      "evidence": "Missing information: whether creating, renaming, or cascading a type ('Type configuration in the top-level group ... cascades down to all projects') triggers any bulk update or batch reprocessing of existing work items across projects, or is configuration-only."
+    },
+    "R3": {
+      "stamp": "yes",
+      "evidence": "\"appear in your saved views and issue boards\" — new and renamed types surface in existing views and boards that consume work item data."
+    },
+    "R5": {
+      "stamp": "unclear",
+      "evidence": "Missing information: whether a custom type can be deleted or a rename reverted, and what happens to work items already assigned to a custom type; the note only says disabling a type leaves 'existing work items ... not affected'."
+    }
+  },
+  "003-gitlab-secrets-manager-now-available-in-open-beta": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The note describes widening availability of an existing closed-beta feature ('now available in open beta'); no change to schema, stored data shape, or calculations of existing data is described."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "The feature is opt-in and narrowly scoped: 'Secrets are scoped to a project or group and are accessible to only pipeline jobs that explicitly request them' — no high-volume process, batch job, or feed is touched by default."
+    },
+    "R3": {
+      "stamp": "no",
+      "evidence": "The change is an additive opt-in capability for storing CI/CD secrets; the note describes no modification to existing interfaces, APIs, reports, or downstream consumers."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "An opt-in beta capability ('When the GitLab Secrets Manager is enabled') that teams choose to adopt; nothing forward-only or irreversible is described in the note."
+    }
+  },
+  "004-gitlab-duo-developer-enhancements-for-merge-request-workflow": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The note describes new trigger methods for an agent workflow ('assign it to an issue, select Generate MR, or @mention it'); no schema, stored data, or calculation change is described."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "The feature is an interactive, per-issue/per-MR agent workflow triggered by user actions; the note describes no batch job, high-volume process, or critical feed."
+    },
+    "R3": {
+      "stamp": "no",
+      "evidence": "Outputs are 'code changes, follow-up MRs, or research summaries' within the user's own project workflow; no API, report, or downstream consumer interface change is described."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "The agent produces ordinary commits and merge requests, which are standard revertible git operations; the note describes nothing one-way, and it 'runs your tests and checks before committing'."
+    }
+  },
+  "005-dependency-scanning-by-using-sbom-generally-available": {
+    "R1": {
+      "stamp": "yes",
+      "evidence": "\"complete visibility into vulnerabilities across their full dependency tree, including vulnerable packages introduced transitively, not just those declared directly\" — the analyzer changes what dependency data is resolved and how vulnerability results are derived."
+    },
+    "R2": {
+      "stamp": "yes",
+      "evidence": "\"Dependency resolution is enabled by default and requires little-to-no additional configuration beyond including the v2 Dependency Scanning template\" — default-on behavior change in pipeline scanning across all Maven, Gradle, and Python projects using the template."
+    },
+    "R3": {
+      "stamp": "yes",
+      "evidence": "\"Manifest scanning is enabled by default and returns direct dependencies only. For full transitive coverage, enable dependency resolution\" — the contents of vulnerability/dependency scan results consumed downstream change with the new analyzer behavior."
+    },
+    "R5": {
+      "stamp": "unclear",
+      "evidence": "Missing information: whether the previous dependency scanning analyzer or template remains available so teams can revert from the now-generally-available SBOM-based scanner; the note does not say."
+    }
+  },
+  "006-gitlab-duo-core-moves-to-usage-based-billing": {
+    "R1": {
+      "stamp": "yes",
+      "evidence": "\"GitLab Duo Core moves to usage-based billing. Code Suggestions in the Web IDE and desktop IDEs now consume GitLab Credits.\" — the billing calculation model for usage changes."
+    },
+    "R2": {
+      "stamp": "yes",
+      "evidence": "\"Code Suggestions in the Web IDE and desktop IDEs now consume GitLab Credits\" — every code suggestion event is now metered, a high-volume usage-accounting process."
+    },
+    "R3": {
+      "stamp": "yes",
+      "evidence": "\"For GitLab Duo Core users, Chat is now agentic and runs on GitLab Duo Agent Platform. To use GitLab Duo Chat in the GitLab UI or desktop IDEs, enable GitLab Duo Agent Platform\" — the Chat interface moves to a different platform and requires enablement."
+    },
+    "R5": {
+      "stamp": "yes",
+      "evidence": "\"Starting in GitLab 19.0, GitLab Duo Core moves to usage-based billing\" — the note presents an unconditional forward transition of the billing model with no option described to remain on or return to the previous model."
+    }
+  },
+  "007-filter-exact-code-search-results-by-repository": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The note describes an additive search filter syntax ('With the repo: syntax, you can directly scope your search query'); no data, schema, or calculation change is described."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "An interactive, user-invoked search filter; the note describes no batch job, high-volume process, or feed."
+    },
+    "R3": {
+      "stamp": "no",
+      "evidence": "Purely additive query syntax; existing searches and their results are unchanged per the note's description, so impact on interfaces, APIs, or downstream consumers is implausible."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "An additive, stateless query capability; nothing is migrated or made irreversible, so rollback risk is implausible."
+    }
+  },
+  "008-merge-request-ready-event-trigger": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The note describes a new event trigger configuration ('configure flows and external agents to run on the Merge request ready event'); no schema, stored data, or calculation change is described."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "A per-merge-request event trigger, opt-in and 'behind the merge_request_ready_flow_trigger feature flag, disabled by default'; no batch or high-volume process is described."
+    },
+    "R3": {
+      "stamp": "yes",
+      "evidence": "\"You can now configure flows and external agents to run on the Merge request ready event.\" — adds a new trigger point on the integration surface for external agents."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "The feature is 'disabled by default' behind a feature flag and configured per project; disabling the flag or removing the trigger restores prior behavior, so nothing one-way is described."
+    }
+  },
+  "009-claude-opus-4-7-now-available-in-gitlab-duo-agent-platform": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The note announces availability of an additional model option ('Claude Opus 4.7 is now available'); no schema, stored data, or calculation change is described."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "An additive model option in the agent platform; no batch job, high-volume process, or feed is described as changed."
+    },
+    "R3": {
+      "stamp": "no",
+      "evidence": "Additive model availability; no existing interface, API, report, or downstream consumer behavior is described as changing."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "Selecting a model is a reversible configuration choice; the note describes no migration or one-way operation."
+    }
+  },
+  "010-support-for-self-hosted-gemini-models": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The note announces model compatibility ('now compatible with Gemini models'); no schema, stored data, or calculation change is described."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "Additive model compatibility for self-hosted deployments; no batch job, high-volume process, or feed is described."
+    },
+    "R3": {
+      "stamp": "no",
+      "evidence": "Additive compatibility; no existing interface, API, report, or downstream consumer change is described."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "Choosing a self-hosted model is a reversible configuration choice; nothing one-way or forward-only is described."
+    }
+  },
+  "011-expanded-open-source-model-support-in-gitlab-duo-agent-platf": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The note announces support for additional models ('now supports additional open source models'); no schema, stored data, or calculation change is described."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "Additive model support for self-hosted deployments; no batch job, high-volume process, or feed is described."
+    },
+    "R3": {
+      "stamp": "no",
+      "evidence": "Additive model support; no existing interface, API, report, or downstream consumer change is described."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "Adopting a supported model is a reversible configuration choice; nothing one-way or forward-only is described."
+    }
+  },
+  "012-per-session-tool-approvals-with-admin-controls": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The note describes an approval-granularity setting ('approve a trusted tool once for an entire session'); no schema, stored data, or calculation change is described."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "An interactive chat approval workflow; no batch job, high-volume process, or feed is described."
+    },
+    "R3": {
+      "stamp": "no",
+      "evidence": "The change alters when a user approves tool use within Agentic Chat sessions; no API, report, or downstream consumer interface change is described."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "A cascading admin setting whose 'default setting is Off by default'; it can be changed back at any level, so nothing one-way is described."
+    }
+  },
+  "013-resolve-merge-conflicts-with-gitlab-duo-beta": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The note describes automated editing of conflicting repository files ('analyze merge conflicts, edit the conflicting files'); no schema, stored data shape, or calculation change is described."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "A per-merge-request, user-triggered action ('Trigger conflict resolution from the Resolve conflicts page or directly from the merge request widget'); no batch or high-volume process is described."
+    },
+    "R3": {
+      "stamp": "no",
+      "evidence": "The change writes commits to the user's own source branch and posts a summary comment; no API, report, or downstream consumer interface change is described."
+    },
+    "R5": {
+      "stamp": "unclear",
+      "evidence": "Missing information: whether GitLab Duo can force-push to unprotected source branches — the note only says it 'does not force-push to protected branches', leaving open whether history on other branches could be irreversibly rewritten; an ordinary commit push would be cleanly revertible."
+    }
+  },
+  "014-restrict-the-ai-catalog-to-a-group-hierarchy": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The note describes a visibility restriction setting for the AI Catalog; no schema, stored data, or calculation change is described."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "A group-level visibility control; no batch job, high-volume process, or feed is described."
+    },
+    "R3": {
+      "stamp": "yes",
+      "evidence": "\"This blocks agents, external agents, or flows not in this hierarchy from being visible or enabled by any user in that group.\" — the restriction changes which external agents and flows are available on the group's integration surface."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "An owner-controlled restriction setting; the note describes a toggleable restriction, not a migration or one-way operation, so it can be lifted to restore visibility."
+    }
+  },
+  "015-purchase-credits-on-the-free-tier-on-gitlab-self-managed": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The note describes a purchasing option ('Choose your monthly credit amount, commit to an annual term'); no schema, stored data, or calculation change to the software is described."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "An additive purchase/entitlement option for Free tier instances; no batch job, high-volume process, or feed is described."
+    },
+    "R3": {
+      "stamp": "no",
+      "evidence": "Additive access to existing GitLab Duo Agent Platform tools; no interface, API, report, or downstream consumer change is described."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "The release change is an additive purchase capability; no system migration or one-way technical operation is described (the annual purchase term is a commercial commitment, not a software rollback concern)."
+    }
+  },
+  "016-admin-defined-network-access-controls-for-agent-platform-rem": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The change is described as admin policy configuration and enforcement — \"define centralized network policies for GitLab Duo Agent Platform remote flows directly in Settings\" — with no schema, stored data shape, calculation, or interpretation change described, making the category implausible for this note."
+    },
+    "R2": {
+      "stamp": "yes",
+      "evidence": "\"Policies are enforced at runtime across all remote flows\" — the enforcement layer sits in the execution path of every Agent Platform remote flow across the organization."
+    },
+    "R3": {
+      "stamp": "yes",
+      "evidence": "\"configureorganization-wide domain denylists and allowlists that projects inherit automatically\" governing \"agent network egress\" — outbound connections from agent flows to external services can be blocked, affecting integrations those flows depend on."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "The change is a set of admin settings (\"An additional setting controls whether projects can extend the approved domain list\"); settings can be changed back and the note describes no migration or one-way operation, making an irreversible change implausible."
+    }
+  },
+  "017-postgresql-17-minimum-requirement": {
+    "R1": {
+      "stamp": "yes",
+      "evidence": "\"The minimum supported version of PostgreSQL is now version 17. If you use the packaged PostgreSQL 16, upgrade the packaged PostgreSQL server before installing GitLab 19.0.\" — a major-version upgrade of the database engine that holds all stored data."
+    },
+    "R2": {
+      "stamp": "yes",
+      "evidence": "\"The minimum supported version of PostgreSQL is now version 17\" — the primary datastore that backs all instance workloads, including high-volume and batch processing, must be upgraded."
+    },
+    "R3": {
+      "stamp": "unclear",
+      "evidence": "Missing information: whether any external systems, reporting tools, or consumers connect directly to the packaged PostgreSQL instance; the note describes only the version requirement and gives no basis either way on interfaces or downstream consumers."
+    },
+    "R5": {
+      "stamp": "unclear",
+      "evidence": "The note requires 'upgrade the packaged PostgreSQL server before installing GitLab 19.0' but does not state whether the database upgrade is reversible. Missing: whether a supported downgrade path from PostgreSQL 17 to 16 exists once GitLab 19.0 is installed."
+    }
+  },
+  "018-linux-package-support-for-ubuntu-20-04-discontinued": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "\"Linux packages are no longer provided for Ubuntu 20.04\" — the change is package availability for an operating system; no schema, data shape, calculation, or interpretation logic is involved in the note's own description."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "The change is packaging support (\"GitLab 18.11 is the last release with packages for this distribution\"), not a change to any running process, batch job, or feed, so blast-radius impact on high-volume processing is implausible from the description."
+    },
+    "R3": {
+      "stamp": "no",
+      "evidence": "The note describes only host operating system support (\"Ubuntu 20.04 reached end of standard support\"); no interface, API, report, or downstream consumer is touched by a packaging discontinuation."
+    },
+    "R5": {
+      "stamp": "yes",
+      "evidence": "\"Before upgrading to GitLab 19.0, migrate to Ubuntu 22.04 or another supported operating system.\" — a required host migration; because no 19.0 packages exist for Ubuntu 20.04, the move cannot be reversed while remaining on 19.0."
+    }
+  },
+  "019-redis-6-support-removed": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The note describes dropping support for an external datastore version (\"Support for Redis 6 is removed in GitLab 19.0\") and states the bundled Redis \"is not affected\"; no schema, data shape, or interpretation change is described, making the category implausible."
+    },
+    "R2": {
+      "stamp": "yes",
+      "evidence": "\"If you use an external Redis 6 deployment, migrate to Redis 7.2 or Valkey 7.2 before upgrading.\" — Redis is the queueing/caching backbone for the instance, so replacing the deployment touches the infrastructure behind high-volume background processing."
+    },
+    "R3": {
+      "stamp": "no",
+      "evidence": "The change concerns the version of an internal backing datastore (\"external Redis 6 deployment\"); the note describes no interface, API, report, or downstream consumer change, making integration impact implausible from its own description."
+    },
+    "R5": {
+      "stamp": "yes",
+      "evidence": "\"migrate to Redis 7.2 or Valkey 7.2 before upgrading\" — a required datastore migration that must complete before the upgrade; with Redis 6 support removed in 19.0 the migration is forward-only."
+    }
+  },
+  "020-mattermost-removed-from-the-linux-package": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The change removes a bundled component (\"Bundled Mattermost is removed from the Linux package\") and \"Customers not using the bundledMattermost are not impacted\"; no schema, calculation, or data-interpretation change to GitLab data is described."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "Removal of an optional bundled chat application from the package (\"Bundled Mattermost is removed from the Linux package in GitLab 19.0\") does not touch any high-volume process, batch job, or critical feed per the note's description."
+    },
+    "R3": {
+      "stamp": "no",
+      "evidence": "The note frames this purely as packaging and relocation (\"refer to Migrating from the Linux package to Mattermost Standalone for migration instructions\"); the service continues standalone, so no interface, API, or report change is described."
+    },
+    "R5": {
+      "stamp": "yes",
+      "evidence": "\"If you currently use the bundled Mattermost, refer to Migrating from the Linux package to Mattermost Standalone for migration instructions.\" — a required migration of the service out of the bundle; once on 19.0 the bundled deployment no longer exists to return to."
+    }
+  },
+  "021-linux-package-support-for-suse-distributions-discontinued": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "\"Linux package support for SUSE distributions ends in GitLab 19.0\" — an operating system packaging change; no schema, data shape, calculation, or interpretation logic is involved in the note's description."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "The change is package availability (\"GitLab 18.11 is the last version with Linux packages for these distributions\"), not a modification to any running process, batch job, or feed, so the category is implausible from the description."
+    },
+    "R3": {
+      "stamp": "no",
+      "evidence": "The note describes only host distribution support (openSUSE Leap and SLES versions); no interface, API, report, or downstream consumer is touched by discontinuing packages."
+    },
+    "R5": {
+      "stamp": "yes",
+      "evidence": "\"Tocontinue to use SUSE distributions, migrate to a Docker deployment of GitLab.\" — a required deployment-platform migration; with no SUSE packages from 19.0 onward, the move cannot be reversed while staying on 19.0."
+    }
+  },
+  "022-spamcheck-removed-from-linux-package-and-gitlab-helm-chart": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The note states \"No data migration is required.\" and describes only removal of a bundled component — no schema, stored data, calculation, or interpretation change is involved."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "Removal of an optional bundled service where \"Customers not currently using Spamcheck are not impacted\" — no high-volume process, batch job, or critical feed is touched per the note's own description."
+    },
+    "R3": {
+      "stamp": "no",
+      "evidence": "The change is packaging only; the note says \"you can deploy it separately using Docker\", so the service and its interface persist externally — no interface, API, or report change is described."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "\"No data migration is required.\" and the service \"can deploy it separately using Docker\" — the note's own description involves no one-way operation or forward-only migration."
+    }
+  },
+  "023-nginx-ingress-replaced-by-gateway-api-with-envoy-gateway": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "\"Gateway API with Envoy Gateway becomes the default networking configuration in the GitLab Helm chart\" — a networking-layer default change; no schema, stored data, calculation, or interpretation logic is involved in the description."
+    },
+    "R2": {
+      "stamp": "yes",
+      "evidence": "\"becomes the default networking configuration in the GitLab Helm chart in GitLab 19.0, replacing NGINX Ingress\" — the ingress layer carries all inbound traffic for a Helm-chart instance, placing this change in the critical path of every request."
+    },
+    "R3": {
+      "stamp": "yes",
+      "evidence": "\"replacing NGINX Ingress which reached end-of-life\" — the component through which all external clients and consumers reach the instance is swapped, so the exposed interface configuration changes."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "The note documents an explicit rollback path: \"you can explicitly re-enable the bundled NGINX Ingress, which remains available until its planned removal in GitLab 20.0\" — the change is cleanly reversible in this release."
+    }
+  },
+  "024-bundled-postgresql-redis-and-minio-removed-from-gitlab-helm": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The note describes removal of bundled deployment charts (\"The bundled Bitnami PostgreSQL, Bitnami Redis, and MinIO charts are removed\"), not any change to schema, data shape, or interpretation; data is relocated to external services, not restructured."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "Per the note, the removed components \"were intended only for proof-of-concept and test environments and are not recommended for production use\", making impact on production high-volume processes or critical feeds implausible from its own description."
+    },
+    "R3": {
+      "stamp": "no",
+      "evidence": "The change is deployment packaging (\"removed from the GitLab Helm chart and GitLab Operator\"); the note describes no interface, API, report, or downstream consumer change."
+    },
+    "R5": {
+      "stamp": "yes",
+      "evidence": "\"removed from the GitLab Helm chart and GitLab Operator in GitLab 19.0 with no replacement\" and \"follow the migration guide toconfigure external services before upgrading\" — a required forward-only migration with no bundled option to return to."
+    }
+  },
+  "025-reliable-scim-user-deprovisioning-for-large-groups": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The change alters request-handling timing (\"Membership removal is handledasynchronously\"), not schema, stored data shape, calculations, or interpretation logic; no data-structure change is described."
+    },
+    "R2": {
+      "stamp": "yes",
+      "evidence": "\"For organizations managing large numbers of users through SCIM, deprovisioning group members could time out and return 500 errors.\" — the change explicitly targets high-volume bulk deprovisioning processing."
+    },
+    "R3": {
+      "stamp": "yes",
+      "evidence": "\"SCIM DELETE and PATCH requests now return a success response immediately\" and \"identity providers and SCIM clients receive consistent success responses\" — the API response semantics seen by downstream identity providers change from synchronous to accepted-then-async."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "The change is to response handling and asynchronous processing of an existing operation; the note describes no migration or one-way operation introduced by the change itself."
+    }
+  },
+  "026-filter-credits-dashboard-by-product-and-date-beta": {
+    "R1": {
+      "stamp": "yes",
+      "evidence": "\"The dashboard also includes usage from service accounts so automated activity is reflected in per-user attribution, and surfaces non-billable and beta events\" — the attribution and inclusion logic for usage data changes, altering how consumption is interpreted and reported."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "The change is a read-only reporting UI enhancement (\"supports product filtering, date range selection, and Secrets Manager usage visibility\"); no high-volume process, batch job, or critical feed is touched per the description."
+    },
+    "R3": {
+      "stamp": "yes",
+      "evidence": "\"see a daily usage chart across selected products, and review per-user attribution with a Usage control status column\" — the Credits dashboard report contents and views change for its consumers."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "A dashboard display feature (\"You can filter usage by product (including GitLab Duo and Secrets Manager) and date range\"); nothing one-way or migratory is described, making irreversibility implausible."
+    }
+  },
+  "027-review-prior-months-of-credits-usage-beta": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The change adds navigation to existing historical data (\"Now you can navigate to prior billing months in the Credits dashboard\"); no change to schema, stored data shape, calculations, or interpretation is described."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "A reporting UI capability on the Credits dashboard; the note describes no high-volume process, batch job, or feed being touched, making the category implausible from its description."
+    },
+    "R3": {
+      "stamp": "yes",
+      "evidence": "\"Now you can navigate to prior billing months in the Credits dashboard.\" — the report's scope changes from \"only the current billing month\" to prior months, altering what report consumers can see and audit."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "A display capability addition to a dashboard; the note describes no migration or one-way operation, and viewing prior months is inherently non-destructive per its own description."
+    }
+  },
+  "028-auto-remediation-for-vulnerable-dependencies-experiment": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The change proposes repository file edits via review (\"GitLab generates the manifest file change and opens a merge request\"); no schema, stored data shape, calculation, or interpretation logic change is described."
+    },
+    "R2": {
+      "stamp": "yes",
+      "evidence": "\"After each pipeline, GitLab identifies the highest-severity vulnerability with an available patch or minor version upgrade.\" — the feature hooks into every pipeline run for enrolled projects, attaching automation to a high-volume process."
+    },
+    "R3": {
+      "stamp": "no",
+      "evidence": "Output is merge requests that go \"throughyour projectʼs standard review and approval workflow\" — no interface, API, report, or downstream consumer change is described; changes stay gated inside the project workflow."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "All changes are proposed as merge requests subject to \"standard review and approval workflow\" and capped (\"up to three auto-remediation merge requests can be open per project at a time\") — fully reversible before merge, with no one-way operation described."
+    }
+  },
+  "029-dependency-scanning-in-security-configuration-profiles": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The change is scan configuration management (\"a unified control surface to apply standardized SCA coverage across all of your projects without editing a single CI/CD configuration file\"); no schema, data shape, or calculation change is described."
+    },
+    "R2": {
+      "stamp": "yes",
+      "evidence": "\"Automatically runs a dependency scanning scan each time new commits are pushed to a branchwith an open merge request\" applied \"across all of your projects\" — the profile adds scan jobs to pipeline volume organization-wide."
+    },
+    "R3": {
+      "stamp": "yes",
+      "evidence": "\"Results include only new vulnerabilities introduced by the merge request\" and branch pipelines provide \"acomplete view of your default branchʼs dependency posture\" — the security scan results and reports consumed downstream change."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "The change is activation of a configuration profile (\"The profile activates two scan triggers\"); no migration or one-way operation is described, and profile-based configuration is deactivatable by its nature as described."
+    }
+  },
+  "030-dependency-resolution-for-gradle-sbom-scanning": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The change automates a previously manual build step (\"removing this manual step for Java and Kotlin projects using Gradle\"); no schema, stored data shape, calculation, or interpretation change is described."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "A convenience change within one analyzer that applies only \"when a graph file is not available\"; the note describes no high-volume process, batch job, or critical feed being touched."
+    },
+    "R3": {
+      "stamp": "yes",
+      "evidence": "\"GitLab dependency scanning using SBOM now automatically generates a dependency graph (gradle.graph.txt) for Gradle projects\" — Gradle projects that previously lacked a graph now produce dependency scanning results, changing the scan output and reports downstream."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "An analyzer behavior change that generates a file during scanning (\"the analyzer generates one automatically\"); no migration or one-way operation is described, and each scan run is independent."
+    }
+  },
+  "031-remediation-guidance-for-api-security-testing-findings": {
+    "R1": {
+      "stamp": "yes",
+      "evidence": "\"each finding includes vulnerability-specific remediation steps and references to relevant OWASP and CWE identifiers directly in the vulnerability report\" — finding records now carry additional attributes, changing the shape of vulnerability report data."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "The note describes only additive guidance text attached to individual findings in the vulnerability report; no high-volume process, batch job, or feed is part of its own description of the change."
+    },
+    "R3": {
+      "stamp": "yes",
+      "evidence": "\"remediation steps and references to relevant OWASP and CWE identifiers directly in the vulnerability report\" — the vulnerability report consumed downstream now contains new content."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "The change adds guidance text to report findings; nothing in the note describes a migration or one-way operation, and additive report content is cleanly removable."
+    }
+  },
+  "032-security-data-in-merge-request-reports-tab": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The note describes a UI tab that \"shows all findings\" already produced by existing scans; a display-only aggregation makes schema, stored-data, or calculation changes implausible."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "A new tab in the merge request UI; the note's description of a viewing surface makes changes to high-volume processes, batch jobs, or feeds implausible."
+    },
+    "R3": {
+      "stamp": "yes",
+      "evidence": "\"Merge requests include a new Reports tab that shows all findings from security scans, license compliance results\" — this changes where and how report data is surfaced to consumers of the merge request view."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "A UI tab addition with existing bot comments \"still available to view\"; nothing one-way or forward-only is described, and a display tab can be removed cleanly."
+    }
+  },
+  "033-improved-array-support-for-ci-cd-inputs": {
+    "R1": {
+      "stamp": "yes",
+      "evidence": "\"Use the array index operator [] to access specific elements within array inputs\" and \"provides more flexible and powerful input interpolation capabilities\" — this changes how input values are interpreted during pipeline configuration interpolation."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "The note describes an additive, opt-in syntax operator for array inputs; per its own description existing pipelines are untouched unless they adopt the new operator, making impact on high-volume processes or batch jobs implausible."
+    },
+    "R3": {
+      "stamp": "yes",
+      "evidence": "\"provides more flexible and powerful input interpolation capabilities\" — CI/CD inputs are the interface between pipeline callers and configurations, and that interface's capabilities are extended."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "An additive syntax capability with no migration described; per the note nothing is one-way — configurations simply may or may not use the new operator."
+    }
+  },
+  "034-select-multiple-values-for-pipeline-inputs": {
+    "R1": {
+      "stamp": "yes",
+      "evidence": "\"the selected values are combined into an array\" — the value delivered to the pipeline changes shape from a single value to an array when multiple options are selected."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "The note describes a manual UI selection when a user runs a pipeline; its own description of an interactive dropdown makes changes to batch jobs or high-volume automated processes implausible."
+    },
+    "R3": {
+      "stamp": "yes",
+      "evidence": "\"when you run a pipeline with inputs from the UI, you can select multiple values from a dropdown list and the selected values are combined into an array\" — the pipeline-run input interface now passes a new value form to consuming configurations."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "A UI selection enhancement with no migration or one-way operation described; per the note it only changes how a pipeline run is started, which is repeatable."
+    }
+  },
+  "035-detailed-ci-cd-catalog-component-usage-analytics": {
+    "R1": {
+      "stamp": "unclear",
+      "evidence": "Missing information: whether the usage details view is backed by newly collected/stored usage and version data or new calculations, versus a display of data GitLab already stored."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "The note describes \"The component usage details view in the catalog resource page\" — a read-only reporting view; its own description does not involve changing any high-volume process, batch job, or feed."
+    },
+    "R3": {
+      "stamp": "yes",
+      "evidence": "\"The component usage details view in the catalog resource page now shows exactly which projects use each component\" — a new report surface for component maintainers."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "An additive analytics view; nothing in the note describes a one-way operation or forward-only migration, and a view can be removed without residue."
+    }
+  },
+  "036-configure-parallel-pipeline-limits-for-merge-trains": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The note describes a configurable numeric limit setting; per its own description no schema, stored data shape, calculation, or interpretation logic changes."
+    },
+    "R2": {
+      "stamp": "yes",
+      "evidence": "\"configure the parallel pipeline limit per merge train\" to \"balance runner load and merge throughput\" — merge trains are a high-throughput pipeline process and this changes their concurrency behavior."
+    },
+    "R3": {
+      "stamp": "no",
+      "evidence": "A project/instance setting for internal pipeline scheduling; the note describes no downstream consumers, interfaces, APIs, or reports being affected."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "\"you can configure the parallel pipeline limit\" — a setting that can be changed back at any time; nothing one-way is described."
+    }
+  },
+  "037-customize-default-merge-request-titles": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The note describes a per-project template for default merge request titles; a cosmetic default-text template with editable output makes schema or calculation changes implausible."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "Title templating applied at merge request creation in the UI; the note's own description involves no batch jobs, high-volume processes, or feeds."
+    },
+    "R3": {
+      "stamp": "no",
+      "evidence": "Per the note, only the default title shown to the author changes and \"You can still edit the title before creating the merge request\"; no interfaces, APIs, or reports are described as affected."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "A configurable template with editable results; the note describes nothing one-way — the template can be removed and titles edited."
+    }
+  },
+  "038-secure-webhooks-with-hmac-signing-tokens": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "\"GitLab then sends the result in the webhook-signature header\" — the change adds signature headers to outgoing requests; per the note the payload and stored data are not reshaped."
+    },
+    "R2": {
+      "stamp": "yes",
+      "evidence": "\"You can now add a signing token to any webhook\" and GitLab \"sends the result in the webhook-signature header alongside webhook-id and webhook-timestamp headers\" — webhook delivery is an event feed, and every delivery for a signed webhook now carries changed request headers."
+    },
+    "R3": {
+      "stamp": "yes",
+      "evidence": "\"sends the result in the webhook-signature header alongside webhook-id and webhook-timestamp headers\" following \"the Standard Webhooks specification\" — downstream webhook receivers see new headers and may add verification against them."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "Opt-in per webhook (\"You can now add a signing token to any webhook\"); the note describes an additive header mechanism that can be disabled by removing the token — nothing forward-only."
+    }
+  },
+  "039-cross-project-pushes-using-ci-cd-job-tokens": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The note describes an authorization scope change for CI_JOB_TOKEN; per its own description no schema, stored data, calculation, or interpretation logic is touched."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "An opt-in permission expansion (\"The target project opts in\") behind a default-disabled feature flag; the note's description involves no batch jobs, high-volume processes, or feeds."
+    },
+    "R3": {
+      "stamp": "yes",
+      "evidence": "\"You can now use a job token to push to another project\" — this changes the cross-project access interface for job tokens and what target projects can receive from other projects' pipelines."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "\"behind the allow_push_to_allowlisted_projects feature flag, disabled by default\" — the capability is opt-in and can be switched off; the note describes no one-way operation or migration."
+    }
+  },
+  "040-mermaid-diagram-rendering-upgraded-to-version-11": {
+    "R1": {
+      "stamp": "yes",
+      "evidence": "\"GitLab now uses Mermaid version 11 for rendering diagrams in Markdown\" with \"new diagram types, syntax\" changes — the interpretation of stored diagram markup changes with the major-version renderer upgrade."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "A client-side diagram rendering library upgrade; the note's own description makes involvement of high-volume processes, batch jobs, or feeds implausible."
+    },
+    "R3": {
+      "stamp": "no",
+      "evidence": "Per the note the change is confined to \"rendering diagrams in Markdown\" in the UI; no downstream consumers, interfaces, APIs, or reports are described."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "A rendering library version swap with no data migration described in the note; reverting the deployed library is a clean code-level reversal."
+    }
+  },
+  "041-rapid-diffs-for-merge-request-reviews-beta": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The note describes a performance-focused diff viewing experience (\"faster initial load, smoother scrolling\"); a UI rendering change makes schema, data shape, or calculation changes implausible."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "A beta UI mode for reviewing merge requests in the browser; the note's own description involves no batch jobs, high-volume processes, or feeds."
+    },
+    "R3": {
+      "stamp": "no",
+      "evidence": "Per the note it changes only the in-product review experience and \"uses the same technology that already powers the commits page\"; no interfaces, APIs, or reports are described as affected."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "\"You can switch back at any time.\" — the note explicitly states the change is reversible per user."
+    }
+  },
+  "042-gitlab-runner-19-0": {
+    "R1": {
+      "stamp": "yes",
+      "evidence": "\"Negative exit codes are reported incorrectly on Windows\" (fixed) — a correction to how job results are interpreted and reported."
+    },
+    "R2": {
+      "stamp": "yes",
+      "evidence": "\"GitLab Runner is the highly-scalable build agent that runs your CI/CD jobs\" — a new major version changes the core high-volume job execution agent itself."
+    },
+    "R3": {
+      "stamp": "yes",
+      "evidence": "\"sends the results back to a GitLab instance\" plus \"Runner instrumentation: Feature negotiation, OTLP export client\" — the release touches the runner-to-GitLab interface and adds a telemetry export interface."
+    },
+    "R5": {
+      "stamp": "unclear",
+      "evidence": "Missing information: whether Runner 19.0 (a major version) includes breaking configuration, protocol, or feature-flag behavior changes that would prevent a clean downgrade to the 18.x line."
+    }
+  },
+  "001-secret-false-positive-detection-with-gitlab-duo": {
+    "R1": {
+      "stamp": "yes",
+      "evidence": "\"The AI assessment appears in the vulnerability report\" and \"Each detection includes a confidence score\" — vulnerability findings now carry new assessment and confidence data."
+    },
+    "R2": {
+      "stamp": "yes",
+      "evidence": "\"Automatic analysis: Runs after each security scan without manual trigger\" — an automated processing step now runs against every security scan's critical and high severity findings."
+    },
+    "R3": {
+      "stamp": "yes",
+      "evidence": "\"Results appear directly in the vulnerability report alongside existing severity, status, and remediation information\" — the vulnerability report consumed for triage gains new content."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "Per the note the feature only adds assessments and explanations to the report for triage context; no status changes, migrations, or one-way operations are described."
+    }
+  },
+  "002-always-on-availability-mode-for-gitlab-duo": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The note describes an availability/governance setting; per its own description no schema, stored data, calculations, or interpretation logic is involved."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "An administrative toggle in instance or group settings; the note's description of a settings change makes involvement of high-volume processes, batch jobs, or feeds implausible."
+    },
+    "R3": {
+      "stamp": "no",
+      "evidence": "The change controls whether Duo can be turned off within a hierarchy; the note describes no downstream consumers, interfaces, APIs, or reports being affected."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "\"This new setting is symmetrical to the existing always off setting\" — an administrator-reversible setting; nothing one-way is described."
+    }
+  },
+  "003-automatically-assign-code-owners-as-reviewers": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The note describes automated reviewer assignment from an existing CODEOWNERS file; per its own description no schema, data shape, or calculation changes are involved."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "An opt-in per-project workflow setting acting at merge request creation; the note's description involves no batch jobs, high-volume processes, or feeds."
+    },
+    "R3": {
+      "stamp": "no",
+      "evidence": "Per the note the change only sets reviewers inside the merge request workflow; no external consumers, interfaces, APIs, or reports are described."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "\"If you already assigned a reviewer, GitLab skips automatic assignment and keeps your choice.\" — assignments remain editable and the setting is opt-in; nothing one-way is described."
+    }
+  },
+  "004-compliance-framework-templates-beta": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The note describes a new creation path only — 'Select Create from template to start from a preconfigured framework with requirements and controls already in place' — the framework data model itself is unchanged, so a schema/stored-shape/calculation change is implausible."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "This is an interactive UI workflow in the Compliance center ('when you create a new framework in the Compliance center'); no batch job, high-volume process, or feed is involved in creating a framework from a template."
+    },
+    "R3": {
+      "stamp": "no",
+      "evidence": "The change replaces 'defining every requirement and control by hand' with a template picker; the resulting frameworks are the same artifacts as before, so no downstream interface, API, or report changes."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "The note describes an additive creation convenience ('customize the name, description, and color, and then apply it to your group in a single step'); a framework created from a template can be edited or removed like any manually created one, so a one-way operation is implausible."
+    }
+  },
+  "005-improved-secret-detection-coverage-for-feature-branch-pipeli": {
+    "R1": {
+      "stamp": "yes",
+      "evidence": "'In GitLab 19.1, secret detection scans every commit from the branchʼs divergence point with the default branch to the latest commit' — the scan-scope computation (which commits are analysed) is changed, altering what the detection logic produces."
+    },
+    "R2": {
+      "stamp": "yes",
+      "evidence": "The change applies to every feature branch pipeline run — 'you couldnʼt trust a feature branch pipeline to surface every secret in your branch' is the problem being fixed, and the new per-push scanning covers 'every commit from the branchʼs divergence point', widening work done in a high-volume pipeline process."
+    },
+    "R3": {
+      "stamp": "unclear",
+      "evidence": "Missing information: whether the expanded set of findings ('fewer secrets slip through to later stages') flows into security reports, MR widgets, or vulnerability dashboards consumed downstream, or is only surfaced within the pipeline itself. The note does not say where findings are reported."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "This is a change to scan coverage behaviour only ('secret detection scans every commit...'); no migration or data transformation is described, and reverting to scanning only the latest commit would be a clean behavioural revert."
+    }
+  },
+  "006-tool-approval-guardrails-for-gitlab-duo-agents-beta": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The change adds runtime gating of agent actions ('gating sensitive actions with human approval at the moment of execution'); no schema, stored data shape, or calculation/interpretation change is described — policies control execution, not data."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "The scope is interactive agent tool invocations ('the user is prompted with an inline approval card before execution proceeds'); no batch job, high-volume process, or critical feed is touched."
+    },
+    "R3": {
+      "stamp": "yes",
+      "evidence": "'emits audit events for every approval decision' — a new class of events is produced for downstream audit consumers, and the policies change what tools agents in 'Agentic Chat, IDE, and flows' may invoke."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "Policies are configuration mapping 'each tool to one of three modes: Allow... Ask... Deny'; the modes can be reconfigured at any time, so an irreversible or forward-only operation is implausible."
+    }
+  },
+  "007-custom-and-external-ai-feature-controls": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "This is an administrative availability control ('control which AI agents and flows are available within their organization'); no data structures, stored shapes, or calculations are described as changing."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "The controls act on creation and enablement of agents and flows ('Prevent users from creating or enabling custom agents and flows'); no batch process, high-volume job, or feed is involved."
+    },
+    "R3": {
+      "stamp": "no",
+      "evidence": "The note describes prospective restrictions on enabling agents/flows ('Restrict users from enabling agents and flows owned by projects outside the group hierarchy'); no interface, API, report, or existing downstream consumer is described as changing."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "These are group/instance settings that admins 'can now control'; settings can be toggled back, so a one-way or forward-only operation is implausible."
+    }
+  },
+  "008-custom-flows-yaml-validation": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "Validation is added before save/trigger only, and 'Valid flows are unaffected and continue to save and trigger as usual' — no change to stored data shape, calculations, or how valid configurations are interpreted."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "The check runs interactively at save time ('when you save or update a custom flow in the AI Catalog, GitLab checks the configuration upfront'); no batch job or high-volume process is touched."
+    },
+    "R3": {
+      "stamp": "no",
+      "evidence": "Errors are 'surfaced... directly in the UI' to the flow author; the note describes no change to downstream consumers, APIs, or reports, and valid flows behave exactly as before."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "An upfront validation gate is additive and side-effect free — it prevents bad saves rather than transforming anything ('checks the configuration upfront'); nothing one-way is involved."
+    }
+  },
+  "009-pattern-based-tool-approval-for-agentic-chat": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The change adds a third approval choice in an interactive prompt ('Approve all uses of this tool for session'); no schema, stored data, or calculation/interpretation logic is described."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "Approvals are per interactive chat session ('approves invocations of the tool for the remainder of the session'); no batch job, high-volume process, or feed is touched."
+    },
+    "R3": {
+      "stamp": "no",
+      "evidence": "This is a client-side UX option available 'in the GitLab UI, GitLab Duo CLI, GitLab for VS Code, and the GitLab Duo plugin for JetBrains IDEs'; no downstream consumer, API contract, or report changes."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "The approval is session-scoped and ephemeral ('for the remainder of the session'); it expires on its own, so an irreversible operation is implausible."
+    }
+  },
+  "010-automatic-code-review-for-new-gitlab-customers": {
+    "R1": {
+      "stamp": "unclear",
+      "evidence": "Missing information: whether the mentioned 'new flat pricing model' changes billing or metering calculation logic, or is purely a commercial packaging statement. The note does not say what, if anything, changes in how usage is calculated."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "The change is a default-on setting scoped to 'new GitLab Duo trial customers on GitLab.com'; reviews run per merge request on new accounts only, and no existing batch job, high-volume process, or feed is modified."
+    },
+    "R3": {
+      "stamp": "no",
+      "evidence": "The note describes enabling an existing feature by default ('Automatic reviews in Code Review Flow are now turned on by default'); no API, interface, report, or downstream consumer contract is described as changing."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "'If needed, you can opt out in your group settings' — the change is a reversible default with an explicit opt-out path, so a one-way operation is implausible."
+    }
+  },
+  "011-foundational-flows-readiness-checks": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The checks only 'verify' existing conditions ('The instance-level flow execution setting is enabled... At least one active instance runner... is registered and connected'); read-only diagnostics touch no schema, stored data, or calculations."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "This adds items to an admin health check ('GitLab Duo health checks now include foundational flows readiness checks'); it inspects configuration and runner state, touching no batch job, high-volume process, or feed."
+    },
+    "R3": {
+      "stamp": "no",
+      "evidence": "Readiness checks report status to the administrator running them; the note describes no change to downstream consumers, interfaces, APIs, or reports beyond the health check output itself."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "Verification-only checks ('which verify...') perform no mutations at all, so an irreversible or forward-only operation is implausible."
+    }
+  },
+  "012-gpt-models-for-code-review-flow": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "This is an optional model choice with output parity claimed — 'Both models passed benchmark evaluation... with review quality comparable to the default Claude Sonnet 4.6 Vertex model' — and no change to schema, stored data, or calculation logic is described."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "The change is a per-group model selection ('Top-level group Owners can switch the model for Agentic Code Review in Settings'); no batch job, high-volume process, or critical feed is touched."
+    },
+    "R3": {
+      "stamp": "no",
+      "evidence": "'The GPT models are hosted through the GitLab AI Gateway, so no additional configuration is required' — the existing integration path is reused unchanged; no API, interface, or report contract changes for consumers."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "Model selection is a setting Owners 'can switch' in Settings; switching back to the default model is a clean revert, so a one-way operation is implausible."
+    }
+  },
+  "013-model-selection-allowlist": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The change is administrative configuration ('you can now configure an allowlist of approved models, and set an organization-wide default'); no schema, stored data shape, or calculation/interpretation logic is described."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "The allowlist governs interactive model selection in Agentic Chat ('control over which models users can select when using Agentic Chat'); no batch job, high-volume process, or feed is involved."
+    },
+    "R3": {
+      "stamp": "no",
+      "evidence": "The note describes restricting user-facing model choice only ('which models users can select'); no downstream consumer, API, interface, or report is described as changing."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "An allowlist and default are settings that can be reconfigured ('you can now configure an allowlist'); nothing one-way or forward-only is involved."
+    }
+  },
+  "014-new-event-triggers-for-flows-and-external-agents": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The change adds event triggers ('You can now configure triggers for four additional events'); it changes when automation runs, not any schema, stored data shape, or calculation/interpretation logic."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "Triggers are opt-in per-project configuration ('To configure a trigger, go to AI > Triggers in your project, or select one when you enable a flow'); no existing batch job, high-volume process, or feed is modified."
+    },
+    "R3": {
+      "stamp": "yes",
+      "evidence": "'New event triggers for flows and external agents' — four new events ('Merge request ready... code conflict... approved... Work item created') are now deliverable to external agents, expanding the integration surface that previously 'required external glue'."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "Triggers are configuration the user enables ('select one when you enable a flow') and can equally be removed; no migration or one-way operation is described."
+    }
+  },
+  "015-close-coverage-gaps-with-the-scanner-enablement-wizard": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The wizard applies existing configuration profiles ('Security configuration profiles define which scanners run and how'); it changes which scanners are enabled where, not any schema, stored data shape, or calculation."
+    },
+    "R2": {
+      "stamp": "yes",
+      "evidence": "'Security inventory shows scanner coverage across your projects and lets you bulk-apply profiles to selected projects or subgroups' — a bulk operation that enables scan jobs across many projects' pipelines at once."
+    },
+    "R3": {
+      "stamp": "unclear",
+      "evidence": "Missing information: whether the scanners newly enabled by the wizard produce findings that feed downstream security reports, dashboards, or feeds consumed by other systems; the note only describes coverage changing, not where scanner output goes."
+    },
+    "R5": {
+      "stamp": "unclear",
+      "evidence": "Missing information: whether a bulk profile application across 'selected projects or subgroups' can be reversed as a single operation, or whether undoing it requires per-project manual removal. The note describes no revert path."
+    }
+  },
+  "016-custom-lifetime-for-oauth-access-tokens": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "This is a new instance setting for token lifetimes ('You can configure any value from 300 to 7200 seconds') 'without changing the behavior of existing tokens'; no schema, stored data shape, or calculation change is described."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "The setting affects lifetime of newly issued OAuth tokens ('set a custom lifetime for new OAuth access tokens'); no batch job, high-volume process, or critical feed is touched."
+    },
+    "R3": {
+      "stamp": "yes",
+      "evidence": "'This helps you enforce shorter-lived tokens for security-sensitive OAuth integrations, including MCP clients' — the change alters token expiry behaviour experienced by integrating API clients, which must refresh more frequently."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "The lifetime is an adjustable configuration value applied only to new tokens ('without changing the behavior of existing tokens'); restoring the default is a clean revert, so a one-way operation is implausible."
+    }
+  },
+  "017-emoji-reactions-on-wiki-pages": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "This is an additive social feature ('You can now add emoji reactions directly to wiki pages'); existing wiki page content, structure, and any calculations are untouched by adding reactions alongside pages."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "Reactions are individual interactive user actions ('Use the GitLab emoji picker to react to page content'); no batch job, high-volume process, or feed is involved."
+    },
+    "R3": {
+      "stamp": "no",
+      "evidence": "The note describes an in-UI feature only ('Each page shows reaction counts and who reacted'); no API, interface, report, or downstream consumer change is described."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "Emoji reactions are toggleable per-user interactions via 'the GitLab emoji picker'; adding or removing a reaction is trivially reversible, so a one-way operation is implausible."
+    }
+  },
+  "018-scheduled-pipeline-execution-policies-beta": {
+    "R1": {
+      "stamp": "yes",
+      "evidence": "'Scheduled policies now enforce variable precedence consistently with regular pipeline execution policies' — the variable-resolution (interpretation) logic applied to scheduled policy pipelines changes."
+    },
+    "R2": {
+      "stamp": "yes",
+      "evidence": "'You can enforce custom CI/CD jobs on a daily, weekly, or monthly cadence across your projects, independent of commit activity' — this is scheduled batch execution of enforced jobs across many projects."
+    },
+    "R3": {
+      "stamp": "unclear",
+      "evidence": "Missing information: whether the outputs of the enforced jobs ('run compliance scripts, security scans, or dependency checks') feed downstream reports, dashboards, or consumers, or remain internal to each project's pipelines; the note does not say where results go."
+    },
+    "R5": {
+      "stamp": "yes",
+      "evidence": "'GitLab automatically cancels running pipelines when a policy is disabled or deleted' — disabling or rolling back the policy has an automatic side effect on in-flight pipelines that cannot be un-cancelled, so the disable path is not cleanly reversible."
+    }
+  },
+  "019-security-manager-role-generally-available": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The change is a new membership role granting access to existing features ('providing comprehensive access to security features'); the note describes permission grants only, no change to schema, stored data shape, calculations, or interpretation logic, making the category implausible."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "The change is role assignment via 'select Manage > Members to invite and assign members to the Security Manager role'; nothing in the note touches high-volume processes, batch jobs, or feeds."
+    },
+    "R3": {
+      "stamp": "no",
+      "evidence": "The note describes who can view and manage existing features ('View, triage, and manage vulnerabilities'); no API, interface, report output, or downstream consumer is changed, only access to them."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "Assigning a role ('invite and assign members to the Security Manager role') is a reversible membership operation; no migration or one-way step is described."
+    }
+  },
+  "020-use-third-party-scanner-results-with-gitlab": {
+    "R1": {
+      "stamp": "yes",
+      "evidence": "'GitLab parses, validates, and imports those findings' and 'GitLab assigns each finding a report type based on its identifiers, mapping results into categories' - new interpretation logic and imported stored findings."
+    },
+    "R2": {
+      "stamp": "yes",
+      "evidence": "'Define a CI/CD job that runs your scanner and outputs a SARIF artifact' - ingestion runs in the pipeline artifact-processing path, a high-volume process."
+    },
+    "R3": {
+      "stamp": "yes",
+      "evidence": "'Results appear alongside GitLab native scanner output in the pipeline security tab, the vulnerability report, the security dashboard, the merge request security widget, and security policies' - reports and policy consumers are affected."
+    },
+    "R5": {
+      "stamp": "unclear",
+      "evidence": "Missing information: whether imported third-party findings can be deleted or an import can be undone once GitLab 'parses, validates, and imports those findings' into vulnerability management."
+    }
+  },
+  "021-wiki-pages-in-recently-viewed-items": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The change adds wiki pages to a homepage listing ('the Quick access widget lists recently viewed project and group wiki pages'); the note describes a display convenience with no change to schema, calculations, or data interpretation."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "A per-user homepage widget ('On the GitLab homepage, the Quick access widget') is not a high-volume process, batch job, or critical feed."
+    },
+    "R3": {
+      "stamp": "no",
+      "evidence": "The note describes only the GitLab homepage UI; no API, interface, report, or downstream consumer is mentioned or plausibly affected by a recently-viewed listing."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "A widget listing ('Wiki pages now appear in your recently viewed items') involves no migration or one-way operation; the feature's own behavior is self-cleaning ('automatically removes pages that are deleted')."
+    }
+  },
+  "022-ci-cd-analytics-now-shows-accurate-pipeline-rates": {
+    "R1": {
+      "stamp": "yes",
+      "evidence": "'GitLab calculates the failure rate and success rate using only completed pipelines' - a change to metric calculation logic (previously the rates 'included canceled and skipped pipelines in their calculations')."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "The change is confined to metrics 'on the CI/CD analytics page (<project>/-/pipelines/charts)'; it alters a displayed calculation, not a high-volume process, batch job, or feed."
+    },
+    "R3": {
+      "stamp": "yes",
+      "evidence": "'the failure rate and success rate metrics on the CI/CD analytics page' change value - reported figures that anyone consuming this analytics report will see shift."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "The note describes a recalculation of displayed rates only; no data migration or one-way operation is described, so an irreversible step is implausible."
+    }
+  },
+  "023-clearer-security-industry-standard-labels-in-vulnerability-d": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The change renames display labels ('Scanner is now Detected by', 'Solution is now Remediation Guidance') on the details page; terminology relabeling makes a change to schema, stored data, or calculations implausible."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "Label text on 'the vulnerability results details page' is a UI-only change; no high-volume process, batch job, or feed is touched."
+    },
+    "R3": {
+      "stamp": "no",
+      "evidence": "The note scopes the change to 'the vulnerability results details page' terminology; no API field names, exports, or report structures are described as changing."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "Renamed UI labels ('EPSS is now Exploit Probability (EPSS)') are trivially reversible; nothing one-way is described."
+    }
+  },
+  "024-git-operation-audit-events-for-all-actor-types": {
+    "R1": {
+      "stamp": "yes",
+      "evidence": "'audit logs began capturing the specific Git operation performed (clone, pull, fetch, or push)' and 'this extended to all actor types' - the content and coverage of stored audit data changes."
+    },
+    "R2": {
+      "stamp": "yes",
+      "evidence": "'all actor types, including runners using deploy tokens' and 'all Git activity across your repositories' - capturing every Git operation, including automated runner traffic, touches a high-volume event process."
+    },
+    "R3": {
+      "stamp": "yes",
+      "evidence": "'Audit logs now reflect a complete picture of all Git activity' - audit log content changes, which downstream audit/compliance consumers of those logs will see."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "The change is additive event capture ('this extended to all actor types'); no migration or one-way operation is described, and ceasing to capture is a clean reversal."
+    }
+  },
+  "025-gitlab-runner-19-1": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The changes are a config option ('Add configurable get_sources timeout to runner configuration') and executor bug fixes; no schema, stored data, calculation, or interpretation logic change is described."
+    },
+    "R2": {
+      "stamp": "yes",
+      "evidence": "'GitLab Runner is the highly-scalable build agent that runs your CI/CD jobs' - changes to execution behavior (e.g. 'Concrete execution (FF_CONCRETE) diverges from abstract shell', 'Kubernetes executor helper container memory usage causing OOM kills') touch the high-volume job-execution process."
+    },
+    "R3": {
+      "stamp": "no",
+      "evidence": "The listed changes are internal runner behavior and configuration fixes; no change to the runner-GitLab interface contract, APIs, or reports is described."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "The release is limited to an additive config setting and bug fixes ('Add configurable get_sources timeout', 'Bug Fixes'); no migration or one-way operation is described, making irreversibility implausible."
+    }
+  },
+  "026-inline-blame-in-the-blob-viewer": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "'You can now toggle blame information directly in the file view' - a display toggle for existing blame data; no schema, calculation, or interpretation change is described."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "An on-demand view toggle in the blob viewer ('toggle blame information directly in the file view') is not a batch job, high-volume process, or feed."
+    },
+    "R3": {
+      "stamp": "no",
+      "evidence": "The change is confined to the file-view UI ('Each line shows who last modified it'); no API, report, or downstream consumer is affected."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "A UI toggle ('toggle blame information') has no one-way component; nothing irreversible is described."
+    }
+  },
+  "027-redesigned-repository-commit-list": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The redesign adds filtering and presentation ('Filter and search commits by author, commit message, or date range', 'Commits grouped by day'); no change to stored data, schema, or calculations is described."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "An interactive browsing page ('the repository commit list') is not a batch job, high-volume automated process, or feed; 'Improved performance and pagination' is a page-serving optimisation."
+    },
+    "R3": {
+      "stamp": "no",
+      "evidence": "The note describes only the commit list UI; no API, export, report, or downstream consumer change is described."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "A page redesign ('The redesigned commit list includes' filters and grouping) involves no migration or one-way operation."
+    }
+  },
+  "028-stacked-merge-requests-in-the-ui": {
+    "R1": {
+      "stamp": "yes",
+      "evidence": "'GitLab now detects stacked merge requests automatically' - 'A merge request joins a stack when it targets another open merge requestʼs source branch' is new interpretation logic over merge request relationship data."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "Stack detection surfaces 'in the merge request header' as a UI indicator; no batch job, high-volume process, or feed is touched."
+    },
+    "R3": {
+      "stamp": "no",
+      "evidence": "The change is a UI signal ('shows them in the merge request header' with 'the stack control next to the source branch'); no API, report, or downstream consumer change is described."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "Automatic detection and display grouping ('shows the current position (for example, 1 of 2)') writes nothing irreversible; no migration or one-way operation is described."
+    }
+  },
+  "029-stream-ai-audit-events-to-external-destinations-beta": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The change forwards events ('GitLab forwards these events to any active instance streaming destination') through existing streaming infrastructure; no schema, stored data shape, or calculation change is described."
+    },
+    "R2": {
+      "stamp": "yes",
+      "evidence": "'stream AI audit events to external destinations through the GitLab audit event streaming infrastructure' with 'real-time visibility' - the change touches an event streaming feed."
+    },
+    "R3": {
+      "stamp": "yes",
+      "evidence": "'GitLab forwards these events to any active instance streaming destination, including your SIEM' - external destinations and SIEMs are downstream consumers receiving new event content."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "The feature is an opt-in stream ('With AI audit event streaming enabled') that can be disabled; no migration or one-way operation is described."
+    }
+  },
+  "001-gitlab-duo-cli-is-now-generally-available": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The release is a client tool ('GitLab Duo CLI brings the GitLab Duo Agent Platform directly to your terminal'); no schema, stored data, calculation, or interpretation-logic change is described."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "An opt-in installed tool ('Install the GitLab Duo CLI through the GitLab CLI (glab) or as a standalone tool') does not touch existing high-volume processes, batch jobs, or feeds; even 'headless mode for CI/CD' is additive usage a user must configure."
+    },
+    "R3": {
+      "stamp": "no",
+      "evidence": "The CLI is an additive standalone client with 'Administrator on/off control'; no existing API, interface, report, or downstream consumer is described as changing."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "Installing an opt-in CLI with 'Administrator on/off control' and 'Tool approvals' is cleanly reversible; no migration or one-way operation is described."
+    }
+  },
+  "002-gitlab-duo-custom-flows-are-now-generally-available": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "Custom flows are user-configured automation ('YAML-defined, reusable workflows for team-specific automation'); the note describes no change to schema, stored data shape, calculations, or interpretation logic."
+    },
+    "R2": {
+      "stamp": "unclear",
+      "evidence": "Flows 'run automatically in response to GitLab events' and 'run directly in GitLab CI/CD' with triggers including 'pipeline events, and merge request lifecycle events'; missing information: the expected trigger volume and whether flows attach to or alter existing high-volume pipeline processing rather than only running new opt-in pipelines."
+    },
+    "R3": {
+      "stamp": "no",
+      "evidence": "The feature is additive, opt-in automation created by users ('workflows you create and configure'); no existing API, interface, report, or downstream consumer contract is described as changing."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "Flows are user-defined and gated ('User-defined human-in-the-loop (HITL) checkpoints for approval', 'YAML validation to catch configuration issues before runtime'); enabling or creating a flow is reversible and no migration or one-way operation is described."
+    }
+  },
+  "003-scheduled-pipeline-execution-policies-are-ga": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The change schedules enforcement of CI jobs ('Define a schedule once in a security policy project'); no schema, stored data, calculation, or interpretation-logic change is described."
+    },
+    "R2": {
+      "stamp": "yes",
+      "evidence": "'run compliance scripts, security scans, or other custom CI/CD jobs on a daily, weekly, or monthly cadence' enforced 'across every project in scope' - scheduled batch pipeline execution across many projects."
+    },
+    "R3": {
+      "stamp": "yes",
+      "evidence": "'enforce it across every project in scope, without editing each projectʼs .gitlab-ci.yml' - centrally defined policy changes the pipeline behavior consumed by every in-scope project."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "Policy configuration is centrally editable ('update the policy in one place'); removing or changing the schedule reverses it, and no migration or one-way operation is described."
+    }
+  },
+  "004-start-foundational-flows-from-agentic-chat": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The change is a new entry point for existing flows ('Now you can start them from Agentic Chat in the GitLab UI'); no schema, stored data, calculation, or interpretation-logic change is described."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "Flow starts are conversational and individually approved ('You approve the handoff in chat'); no batch job, high-volume process, or feed is touched."
+    },
+    "R3": {
+      "stamp": "no",
+      "evidence": "The note describes an invocation path change only ('In previous versions of GitLab, you started foundational flows from specific UI actions, mentions, or assignments'); no API, interface, report, or downstream consumer change is described."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "Starting an existing flow from chat, with explicit approval ('You approve the handoff in chat'), adds no one-way operation; no migration is described."
+    }
+  },
+  "005-dependency-scanning-auto-remediation-beta": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The note describes workflow automation that 'opens merge requests to update vulnerable dependencies to their safeversions' and commits pipeline fixes; changes are delivered as code via MRs, and no schema, stored data shape, calculation, or interpretation-logic change is described, making the category implausible."
+    },
+    "R2": {
+      "stamp": "yes",
+      "evidence": "'Once turned on, GitLab monitors your projects for vulnerable dependencies and opens remediation MRs without manual intervention.' - a continuous automated process running across projects."
+    },
+    "R3": {
+      "stamp": "yes",
+      "evidence": "'When a merge request that bumps dependency versions has a pipeline fails on a breaking change' - the note itself anticipates that automated dependency version bumps (extended to 'include major versions') can break the interfaces the code consumes."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "All changes land inside merge requests ('GitLab Duo commits fixes to the same MR and re-runs the pipeline'), which must be reviewed/merged and can be closed or reverted; no one-way operation or forward-only migration is described, making the category implausible."
+    }
+  },
+  "006-non-default-branch-tracking-beta": {
+    "R1": {
+      "stamp": "yes",
+      "evidence": "'Keep vulnerability status metadata consistent when a branch merges into the default branch.' and 'Update vulnerability status on tracked branches.' - the change touches stored vulnerability data and its status metadata."
+    },
+    "R2": {
+      "stamp": "unclear",
+      "evidence": "Missing: whether tracking additional branches ('up to twice the number of projects in the namespace') materially increases scan or vulnerability-ingestion volume, i.e. how much extra processing tracked branches generate; the note does not state this either way."
+    },
+    "R3": {
+      "stamp": "yes",
+      "evidence": "'Filter by branch on the vulnerability report.' and 'Filter by branch on the project-level security dashboard.' - the vulnerability report and security dashboard are directly affected."
+    },
+    "R5": {
+      "stamp": "unclear",
+      "evidence": "Missing: what happens to vulnerability records and status metadata written for a tracked branch if the branch is untracked or the beta is disabled - whether that written data can be cleanly removed or reverted is not stated."
+    }
+  },
+  "007-selective-gitlab-duo-availability-for-subgroups": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The change is an administrative availability control ('make GitLab Duo and GitLab Duo Agent Platform unavailable for selectedsubgroups'); it toggles feature access and describes no schema, stored data, calculation, or interpretation change, making the category implausible."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "The note describes a per-subgroup enablement lock applied by administrators; no batch job, high-volume process, or critical feed appears anywhere in its description, making the category implausible."
+    },
+    "R3": {
+      "stamp": "no",
+      "evidence": "The described surface is an admin lock plus user-facing messaging ('affected Owners see clear messaging that GitLab Duo is locked by a parent group'); it changes feature availability for people in subgroups, not any API, report, or downstream consumer, making the category implausible."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "'Only administrators can apply or remove the lock' - the note explicitly states the lock is removable, so the change is cleanly reversible and the category is implausible."
+    }
+  },
+  "008-ai-audit-event-report-beta": {
+    "R1": {
+      "stamp": "yes",
+      "evidence": "'each agent session produces a comprehensive audit artifact capturing: Inputs. Model and configuration context. The chronological event timeline. Outputs.' - a new stored data artifact is created per session."
+    },
+    "R2": {
+      "stamp": "unclear",
+      "evidence": "Missing: the expected volume and frequency of agent sessions and whether audit-event capture runs as a high-volume event stream or batch job; the note says each session produces an artifact but gives no basis for judging process volume."
+    },
+    "R3": {
+      "stamp": "yes",
+      "evidence": "'giving security and compliance teams a unified, downloadable record of GitLab Duo agent activity' used for 'AI governance reporting.' - the change creates a new report surface on the Governance page."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "The described capability is additive read-oriented reporting ('browse AI audit events from the Governance page... and download the underlying session artifact'); no migration, data transformation, or one-way operation is described, making the category implausible."
+    }
+  },
+  "009-security-review-flow-beta": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The flow 'analyzes the diff and posts findings as threaded comments' - an on-request analysis feature producing comments; no schema, stored data shape, calculation, or interpretation-logic change is described, making the category implausible."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "Reviews are individually requested per merge request ('To request a review, assign the Duo Security Review service account as a reviewer on your merge request'); no batch job, high-volume process, or feed is described, making the category implausible."
+    },
+    "R3": {
+      "stamp": "unclear",
+      "evidence": "Missing: whether findings (each with 'a Common WeaknessEnumeration (CWE) classification, severity rating') are recorded in the vulnerability report or exposed via any API or downstream reporting beyond the merge request comments; the note only describes the comment surface."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "Outputs are comments and optional suggestions ('an inline suggested fix you can apply without leaving the merge request') that the user chooses to apply; nothing one-way or forward-only is described, making the category implausible."
+    }
+  },
+  "010-bulk-ai-catalog-items-enablement": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The change is a multi-select UI convenience ('select up to 100 projects in a single action, instead of selecting individual projects one at a time'); no schema, stored data, calculation, or interpretation change is described, making the category implausible."
+    },
+    "R2": {
+      "stamp": "yes",
+      "evidence": "'you can now select up to 100 projects in a single action' - a bulk enablement operation acting across up to 100 projects at once."
+    },
+    "R3": {
+      "stamp": "no",
+      "evidence": "The note describes only enabling catalog agents and flows for projects inside GitLab; no API, report, or downstream consumer change is described, making the category implausible."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "The change speeds up an existing enablement setting (previously done 'one at a time'); it is a settings action, and no migration or one-way operation is described, making the category implausible."
+    }
+  },
+  "011-configure-id-tokens-in-flows": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The change is authentication configuration ('update your agent configuration to include the id_tokens keyword'); no schema, stored data, calculation, or interpretation change is described, making the category implausible."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "The note describes per-flow token configuration for authentication; no batch job, high-volume process, or critical feed is described, making the category implausible."
+    },
+    "R3": {
+      "stamp": "yes",
+      "evidence": "'Use ID tokens to authenticate with third-party OpenID Connect (OIDC) services' and 'configure the service to trust tokens issued by GitLab Duo Agent Platform' - the change directly concerns interfaces with external services."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "The feature is opt-in configuration via 'the id_tokens keyword' that can be removed from the agent configuration; no migration or one-way operation is described, making the category implausible."
+    }
+  },
+  "012-custom-agent-validation": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The change adds save-time checking ('GitLab validates the prompt configuration'); it validates configuration rather than touching schema, stored data, calculations, or interpretation logic, making the category implausible."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "Validation runs 'when you create or update a custom agent' - a per-agent, per-save action; no batch job, high-volume process, or feed is described, making the category implausible."
+    },
+    "R3": {
+      "stamp": "no",
+      "evidence": "Errors are surfaced to the author in the save flow ('tells you about any errorsbefore you save that agent'); no downstream consumer, API, or report is described, making the category implausible."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "The change is preventive validation before save; nothing is migrated or executed irreversibly in the note's description, making the category implausible."
+    }
+  },
+  "013-automatic-rebase-before-merge": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The change is a merge-workflow setting ('select Enable automatic rebase prior to merge in your projectʼs merge request settings'); no schema, stored data, calculation, or interpretation change is described, making the category implausible."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "The setting acts per merge request at merge time for projects that opt in; no batch job, high-volume process, or critical feed is described, making the category implausible."
+    },
+    "R3": {
+      "stamp": "no",
+      "evidence": "The change collapses a two-step UI flow ('select Rebase, wait for it tocomplete, then return to the merge request to select Merge') into one action; no API, report, or downstream consumer change is described, making the category implausible."
+    },
+    "R5": {
+      "stamp": "yes",
+      "evidence": "'GitLab rebases the source branch onto the target branch at merge time' and 'If itʼs important to preserve GPG signatures on individual commits, you can leave the setting off.' - rebase rewrites commits and the note itself flags that GPG signatures on individual commits are not preserved, which cannot be restored after merge."
+    }
+  },
+  "014-code-review-flow-for-gitlab-duo-enterprise-seats": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The change is a group-level default selecting which review engine runs; no schema, stored data, calculation, or interpretation change is described, making the category implausible."
+    },
+    "R2": {
+      "stamp": "yes",
+      "evidence": "'top-level group Owners can change this default and configure all code reviews to use Code Review Flow instead,regardless of the userʼs seat. All reviews will consume GitLab Credits.' - the switch alters every code review across the group and its credit consumption."
+    },
+    "R3": {
+      "stamp": "no",
+      "evidence": "The change swaps which Duo reviewer handles reviews inside merge requests; no API, report, or downstream consumer change is described, making the category implausible."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "The change is a configuration default that 'top-level group Owners can change'; it is a reversible setting with no migration or one-way operation described, making the category implausible."
+    }
+  },
+  "015-exclude-merge-requests-from-automatic-code-reviews-beta": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The change adds exclusion rules in a yaml config file ('Define a .gitlab/duo/mr-review-automated-rules.yaml file'); no schema, stored data, calculation, or interpretation change is described, making the category implausible."
+    },
+    "R2": {
+      "stamp": "yes",
+      "evidence": "'when automatic reviews were turned on for a project or group, GitLab Duo reviewed every eligible merge request' - the change modifies the scope of this automatic every-MR review process at project or group level."
+    },
+    "R3": {
+      "stamp": "no",
+      "evidence": "The rules only govern which merge requests trigger automatic reviews; no API, report, or downstream consumer change is described, making the category implausible."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "Rules live in an editable yaml file, the feature is 'gated behind the duo_code_review_automated_rules feature flag', and 'You can still request a review manually for any excluded merge request' - reversible configuration with nothing one-way, making the category implausible."
+    }
+  },
+  "016-instance-level-custom-review-instructions": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The change adds a configuration layer of review instructions; no schema, stored data, calculation, or interpretation-logic change is described, making the category implausible."
+    },
+    "R2": {
+      "stamp": "yes",
+      "evidence": "'Now you can configure custom review instructions for an entire instance.' - the instructions are combined into every GitLab Duo code review instance-wide."
+    },
+    "R3": {
+      "stamp": "no",
+      "evidence": "The instructions shape review content delivered within merge requests ('it combines the instructions from the instance-level .gitlab/duo/mr-review-instructions.yaml file with any group-level and project-levelinstructions'); no API, report, or downstream consumer change is described, making the category implausible."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "Instructions are held in an editable template file ('.gitlab/duo/mr-review-instructions.yaml') selected by the administrator; reversible configuration with no migration or one-way operation described, making the category implausible."
+    }
+  },
+  "017-resolve-review-discussions-with-gitlab-duo-beta": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The change automates a per-discussion code fix ('GitLab Duo reads the review comment and the codearound it, implements the change the reviewer described'); no schema, stored data, calculation, or interpretation change is described, making the category implausible."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "The feature is user-initiated per discussion ('You can now select Resolve with GitLab Duo on any review discussion'); no batch job, high-volume process, or feed is described, making the category implausible."
+    },
+    "R3": {
+      "stamp": "no",
+      "evidence": "All activity stays within the merge request - a commit to the branch, a reply, and thread resolution; no API, report, or downstream consumer change is described, making the category implausible."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "'You can review the changes and reopen the thread if the fix doesnʼt address the comment correctly.' - the note explicitly describes reviewing and undoing the outcome, and the change is an ordinary branch commit, making the category implausible."
+    }
+  },
+  "018-usage-billing-checks-for-gitlab-duo-agent-platform-self-host": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The change adds a connectivity validation check to GitLab Duo Health; it is diagnostic only and describes no schema, stored data, calculation, or interpretation change, making the category implausible."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "The change is a read-only diagnostic administrators use 'to diagnose issues and review their firewall allowlist'; it does not itself run or alter any batch job, high-volume process, or feed, making the category implausible."
+    },
+    "R3": {
+      "stamp": "no",
+      "evidence": "The note describes an additive diagnostic: 'Administrators can now use this new validation check to diagnose issues'. The endpoints and their contracts are unchanged, so downstream consumers are unaffected."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "The change is a read-only health/validation check with no state modification described; nothing one-way or forward-only appears in the note, making the category implausible."
+    }
+  },
+  "019-ci-expert-agent-is-now-generally-available": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The agent 'helps you create, debug, and optimize GitLab CI/CD pipelines' and 'provides guidance through your pipeline configuration' - an advisory assistant; no schema, stored data, calculation, or interpretation change is described, making the category implausible."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "The note describes an on-demand assistant that provides guidance; it does not itself run pipelines, batch jobs, or feeds, making the category implausible."
+    },
+    "R3": {
+      "stamp": "yes",
+      "evidence": "'The agent integrates with Orbit: when Orbit and its Knowledge Graph are enabled, the agent draws on graph-based codeintelligence for more contextual pipeline recommendations.' - the GA release includes an integration with the Orbit Knowledge Graph."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "The change is the general availability of an advisory agent; no migration, data change, or one-way operation is described, making the category implausible."
+    }
+  },
+  "020-fix-ci-cd-pipeline-flow-suggests-targeted-fixes": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The change is an advisory AI flow that diagnoses failures and posts suggestions (\"you get fixes as code suggestions directly on that merge request\"); no schema, stored data shape, or calculation changes are described, so data-structure impact is implausible."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "The flow only analyzes failures and offers suggestions (\"The flow classifies pipeline failures before acting, so you get a more targeted diagnosis\"); it does not alter pipeline execution or any batch process, so blast-radius impact on high-volume processing is implausible."
+    },
+    "R3": {
+      "stamp": "yes",
+      "evidence": "\"you get fixes as code suggestions directly on that merge request\" and \"collapses AI reasoning by default to keep your merge request comments clean\" — the change alters what appears in the merge request interface."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "The note describes only advisory output — code suggestions and comments on merge requests — with no migrations or one-way operations; suggestions and comments are cleanly removable, making irreversibility implausible."
+    }
+  },
+  "021-disable-built-in-project-templates": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The change only controls template availability (\"Administrators can now disable built-in project templates globally\"); it governs visibility of templates at project creation, with no stored data shape, schema, or calculation changes described."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "The setting affects the \"template selection experience\" at project creation, an interactive one-off action; no high-volume processes, batch jobs, or feeds are involved per the note's description."
+    },
+    "R3": {
+      "stamp": "yes",
+      "evidence": "\"Both the instance and group settings are also manageable with the REST and GraphQL APIs.\""
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "This is a toggleable setting (\"Administrators can now disable built-in project templates... Administrators can enforce the value of the setting\"); a setting that can be enabled, disabled, or overridden is reversible by design, making a one-way operation implausible."
+    }
+  },
+  "022-fine-grained-pat-permissions-generally-available": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The change concerns access-token scoping (\"fine-grained PATs allow you to limit each token to specific resources and actions\"); it is an authorization feature with no schema, stored data shape, or calculation changes described."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "\"Your existing legacy PATs continue to work as before.\" — adoption of the new token type is opt-in for new tokens only, so disruption to existing high-volume automation or feeds is implausible per the note."
+    },
+    "R3": {
+      "stamp": "yes",
+      "evidence": "\"fine-grained PATs now have complete coverage for REST API endpoints, and coverage for the most commonly used GraphQL types and mutations\" — the change directly affects API access for automation and integrations."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "The change is additive and opt-in (\"For new tokens, GitLab recommends fine-grained PATs\" while \"existing legacy PATs continue to work as before\"); creating a new token type with legacy behavior preserved involves no forward-only migration or one-way operation."
+    }
+  },
+  "023-gitlab-flavored-markdown-references-in-personal-snippets": {
+    "R1": {
+      "stamp": "yes",
+      "evidence": "\"Because snippet IDs are unique across personal and project snippets, each ID resolves to a single snippet.\" — the change extends how the $<id> reference syntax is interpreted and resolved."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "The change extends markdown reference rendering to personal snippets, a display-time feature (\"GitLab processes GFM references inside personal snippet descriptions and comments\"); no batch jobs, feeds, or high-volume processing are described."
+    },
+    "R3": {
+      "stamp": "yes",
+      "evidence": "\"You can reference a personal snippet from anywhere GFM is supported, such as comments and issue or merge request descriptions\" — rendered output changes across many interfaces where GFM appears."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "The note describes a rendering/reference feature only; no migrations or one-way operations are described, and a markdown rendering behavior can be reverted without residual effect, making irreversibility implausible."
+    }
+  },
+  "024-recognize-contributors-with-gitlab-achievements": {
+    "R1": {
+      "stamp": "yes",
+      "evidence": "\"Each achievement includes a name, description, and avatar.\" — the feature introduces new stored objects (achievements and awards) with a defined data shape."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "The feature is manual recognition (\"create custom achievements at the group level and award them to users\"); awarding and displaying achievements involves no batch jobs, feeds, or high-volume processing per the note."
+    },
+    "R3": {
+      "stamp": "no",
+      "evidence": "The note describes a purely additive, self-contained feature (\"You can now create custom achievements... Awarded users can choose which achievements to display on their profile\"); no existing interfaces, APIs, reports, or downstream consumers are changed per its own description."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "Creating and awarding achievements are ordinary create/display operations, and users \"can choose which achievements to display\" — everything described is optional and removable, making one-way operations implausible."
+    }
+  },
+  "025-security-manager-can-configure-agentic-flows": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The change is a role-permission grant only (\"Users with the Security Manager role can now configure SAST VR, SAST FP, Secrets FP, and Dependency Scanning VR for projects\"); the flows themselves are unchanged, so schema, data, or calculation impact is implausible."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "Per the note, only who may configure the flows changes (\"Users with the Security Manager role can now configure...\"); no change to the scanning processes themselves is described, so blast-radius impact on high-volume processing is implausible."
+    },
+    "R3": {
+      "stamp": "no",
+      "evidence": "The note describes an authorization broadening for an existing configuration capability; no interfaces, APIs, reports, or downstream consumers are altered per its own description."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "A role-permission grant is reversible by revoking the permission; nothing in the note describes migrations or one-way operations."
+    }
+  },
+  "026-vulnerability-report-exports-correctly-apply-filters": {
+    "R1": {
+      "stamp": "yes",
+      "evidence": "\"the exported CSV file only includes the filtered data\" — the change alters the logic that determines which data is included in the export."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "The change applies to a user-initiated action (\"When exporting a vulnerability report with filters applied\"); an on-demand report export is not a high-volume process, batch job, or feed per the note."
+    },
+    "R3": {
+      "stamp": "yes",
+      "evidence": "\"the exported CSV file only includes the filtered data\" — the content of an exported report changes, directly affecting consumers of that CSV output."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "The change affects how each new on-demand CSV export is generated; the note describes no migrations or one-way operations, and export behavior can be re-run or reverted without residual effect."
+    }
+  },
+  "027-gitlab-runner-19-2": {
+    "R1": {
+      "stamp": "yes",
+      "evidence": "\"Secret resolution failures are misclassified as runner_system_failure\" — the release changes failure classification (interpretation logic), and \"GitLab Runner now emits the environment key during the job-complete PUT request\" changes the shape of emitted data."
+    },
+    "R2": {
+      "stamp": "yes",
+      "evidence": "\"GitLab Runner is the highly-scalable build agent that runs your CI/CD jobs\" and the release changes job-request handling (\"a circuit breaker that automatically falls back to Rails when KAS job requests fail consecutively\") — this touches high-volume CI/CD job processing directly."
+    },
+    "R3": {
+      "stamp": "yes",
+      "evidence": "\"GitLab Runner now emits the environment key during the job-complete PUT request\" — the payload sent back to the GitLab instance changes, affecting the downstream consumer of that request."
+    },
+    "R5": {
+      "stamp": "unclear",
+      "evidence": "Missing information: whether upgrading to Runner 19.2 involves any forward-only configuration or state migration, and whether a clean downgrade to 19.1 is supported; the note lists upgrade-triggered failures (e.g. after updating to 19.1.0) but says nothing about reversibility of this upgrade."
+    }
+  },
+  "028-gitlab-duo-reads-and-responds-to-reviews-in-merge-requests": {
+    "R1": {
+      "stamp": "no",
+      "evidence": "The change lets an assistant read and respond to review threads (\"read merge request review conversations... draft responses to feedback\"); no schema, stored data shape, or calculation changes are described, making data-structure impact implausible."
+    },
+    "R2": {
+      "stamp": "no",
+      "evidence": "This is an interactive assistant capability (\"ask your agent to summarize review comments, draft responses to feedback\"); no batch jobs, feeds, or high-volume processing are described."
+    },
+    "R3": {
+      "stamp": "yes",
+      "evidence": "\"use GitLab Duo and MCP-based agents to read merge request review conversations\" and \"post replies directly to merge request discussions\" — the change extends agent/MCP integration surface and writes into merge request discussions."
+    },
+    "R5": {
+      "stamp": "no",
+      "evidence": "The described actions are reading conversations and posting discussion replies — ordinary comment operations that can be deleted or edited; no one-way operations or migrations are described."
+    }
+  }
+}

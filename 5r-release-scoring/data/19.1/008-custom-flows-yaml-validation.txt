@@ -1,0 +1,11 @@
+Title: Custom flows YAML validation
+Release: 19.1
+Source: https://docs.gitlab.com/releases/19/gitlab-19-1-released/
+Tier: Premium, Ultimate
+Offering: GitLab.com, GitLab Self-Managed, GitLab Dedicated
+Links: Documentation · Related Issue
+
+The AI Catalog now validates your custom flow configuration before saving or triggering it.
+Previously, syntax errors and misconfigured parameters in a custom flow (for example, missing inputs or unknown toolparameters) only surfaced at runtime, after a CI job had already started. This made debugging slow and difficult.
+Now, when you save or update a custom flow in the AI Catalog, GitLab checks the configuration upfront and surfaces any errors
+directly in the UI. Valid flows are unaffected and continue to save and trigger as usual.

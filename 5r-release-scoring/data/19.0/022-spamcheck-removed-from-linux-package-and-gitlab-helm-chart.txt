@@ -1,0 +1,9 @@
+Title: Spamcheck removed from Linux package and GitLab Helm chart
+Release: 19.0
+Source: https://docs.gitlab.com/releases/19/gitlab-19-0-released/
+Tier: Free, Premium, Ultimate
+Offering: GitLab Self-Managed
+Links: Documentation, Related issue
+
+Spamcheck is removed from the Linux package and GitLab Helm chart in GitLab 19.0. Customers not currently using Spamcheck
+are not impacted. If you use the bundled Spamcheck, you can deploy it separately using Docker. No data migration is required.

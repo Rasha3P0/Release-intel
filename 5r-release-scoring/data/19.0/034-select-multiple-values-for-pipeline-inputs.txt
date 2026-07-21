@@ -1,0 +1,12 @@
+Title: Select multiple values for pipeline inputs
+Release: 19.0
+Source: https://docs.gitlab.com/releases/19/gitlab-19-0-released/
+Tier: Free, Premium, Ultimate
+Offering: GitLab.com, GitLab Self-Managed, GitLab Dedicated, GitLab Dedicated for Government
+Links: Documentation, Related issue
+
+Previously, you could only select a single value when selecting input options in the UI, limiting flexibility for pipelines with more
+complex options.
+Now when you run a pipeline with inputs from the UI, you can select multiple values from a dropdown list and the selected
+values are combined into an array, for example ["option1","option2"]. This makes it easy to restart services on multipleinstances, build multiple Docker images, run tests with multiple tag combinations, or perform any operation across multiple
+targets in a single pipeline run.

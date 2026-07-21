@@ -1,0 +1,10 @@
+Title: PostgreSQL 17 minimum requirement
+Release: 19.0
+Source: https://docs.gitlab.com/releases/19/gitlab-19-0-released/
+Category: Scale and Deployments
+Tier: Free, Premium, Ultimate
+Offering: GitLab Self-Managed
+Links: Documentation, Related issue
+
+The minimum supported version of PostgreSQL is now version 17. If you use the packaged PostgreSQL 16, upgrade the packaged
+PostgreSQL server before installing GitLab 19.0.

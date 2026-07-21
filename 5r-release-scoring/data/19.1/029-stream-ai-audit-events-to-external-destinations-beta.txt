@@ -1,0 +1,11 @@
+Title: Stream AI audit events to external destinations (beta)
+Release: 19.1
+Source: https://docs.gitlab.com/releases/19/gitlab-19-1-released/
+Tier: Ultimate
+Offering: GitLab Self-Managed, GitLab Dedicated
+Links: Documentation · Related Issue
+
+You can now stream AI audit events to external destinations through the GitLab audit event streaming infrastructure, giving
+security and compliance teams real-time visibility into LLM and AI interactions.
+With AI audit event streaming enabled, GitLab forwards these events to any active instance streaming destination, including your
+SIEM (Security Information and Event Management), alongside other audit events.

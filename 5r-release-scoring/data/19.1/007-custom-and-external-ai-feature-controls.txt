@@ -1,0 +1,12 @@
+Title: Custom and external AI feature controls
+Release: 19.1
+Source: https://docs.gitlab.com/releases/19/gitlab-19-1-released/
+Category: Agentic Core
+Tier: Premium, Ultimate
+Offering: GitLab.com, GitLab Self-Managed, GitLab Dedicated
+Links: Documentation · Related Issue
+
+Administrators and top-level group Owners can now control which AI agents and flows are available within their organization.They can:
+Prevent users from creating or enabling custom agents and flows. This ensures only centrally-approved AI automation is inuse.
+Restrict users from enabling agents and flows owned by projects outside the group hierarchy. This limits exposure to
+unapproved external content.

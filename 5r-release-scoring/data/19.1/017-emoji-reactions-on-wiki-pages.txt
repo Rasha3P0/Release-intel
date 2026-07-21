@@ -1,0 +1,10 @@
+Title: Emoji reactions on wiki pages
+Release: 19.1
+Source: https://docs.gitlab.com/releases/19/gitlab-19-1-released/
+Tier: Free, Premium, Ultimate
+Offering: GitLab.com, GitLab Self-Managed, GitLab Dedicated, GitLab Dedicated for Government
+Links: Documentation · Related Issue
+
+You can now add emoji reactions directly to wiki pages in both project and group wikis.
+Use the GitLab emoji picker to react to page content. Each page shows reaction counts and who reacted. Reactions persist
+across page edits and versions.

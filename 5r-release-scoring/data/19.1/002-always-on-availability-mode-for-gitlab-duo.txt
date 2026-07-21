@@ -1,0 +1,12 @@
+Title: Always on availability mode for GitLab Duo
+Release: 19.1
+Source: https://docs.gitlab.com/releases/19/gitlab-19-1-released/
+Tier: Premium, Ultimate
+Offering: GitLab.com, GitLab Self-Managed, GitLab Dedicated, GitLab Dedicated for Government
+Links: Documentation · Related Issue
+
+Administrators can now set GitLab Duo to be always on for all projects in an entire instance or top-level group. When GitLab Duo
+is set to always on, group, subgroup, and project owners cannot turn off GitLab Duo, giving enterprises centralized AIgovernance for compliance and regulated environments.
+This new setting is symmetrical to the existing always off setting, closing a gap where GitLab Duo could be locked off but could
+not be locked on. This new setting is especially valuable for organizations with autonomous divisions or subsidiaries that need toguarantee consistent AI tooling across the business.
+To set GitLab Duo to be always on, go the instance or top-level group GitLab Duo settings and set GitLab Duo availability toAlways on.

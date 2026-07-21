@@ -1,0 +1,9 @@
+Title: Reliable SCIM user deprovisioning for large groups
+Release: 19.0
+Source: https://docs.gitlab.com/releases/19/gitlab-19-0-released/
+Tier: Premium, Ultimate
+Offering: GitLab.com
+Links: Documentation, Related issue
+
+For organizations managing large numbers of users through SCIM, deprovisioning group members could time out and return 500
+errors. SCIM DELETE and PATCH requests now return a success response immediately. Membership removal is handledasynchronously, so identity providers and SCIM clients receive consistent success responses.

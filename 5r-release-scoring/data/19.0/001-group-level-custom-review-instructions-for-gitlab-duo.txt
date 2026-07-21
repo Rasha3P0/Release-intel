@@ -1,0 +1,15 @@
+Title: Group-level custom review instructions for GitLab Duo
+Release: 19.0
+Source: https://docs.gitlab.com/releases/19/gitlab-19-0-released/
+Category: Primary features
+Tier: Premium, Ultimate
+Offering: GitLab.com, GitLab Self-Managed, GitLab Dedicated
+Add-ons: GitLab Duo Enterprise
+Links: Documentation, Related issue
+
+In previous versions of GitLab, you could only define custom review instructions for GitLab Duo at the project level. Teams
+working across many projects in the same group had to duplicate the same instructions in every project.
+Now you can configure shared custom review instructions for an entire group and its subgroups.
+Select a project in your group to use as a template. When GitLab Duo performs a code review, it combines the group-level
+.gitlab/duo/mr-review-instructions.yaml file with any instructions defined in the individual project.
+Both Code Review Flow and GitLab Duo Code Review support group-level custom instructions.

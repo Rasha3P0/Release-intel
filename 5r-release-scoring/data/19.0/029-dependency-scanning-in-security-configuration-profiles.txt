@@ -1,0 +1,13 @@
+Title: Dependency scanning in security configuration profiles
+Release: 19.0
+Source: https://docs.gitlab.com/releases/19/gitlab-19-0-released/
+Tier: Ultimate
+Offering: GitLab.com, GitLab Self-Managed, GitLab Dedicated, GitLab Dedicated for Government
+Links: Documentation, Related issue
+
+GitLab 18.11 introduced security configuration profiles for SAST and secret detection. Now, dependency scanning is also
+available with the Dependency Scanning - Default profile. This profile gives you a unified control surface to apply standardized
+SCA coverage across all of your projects without editing a single CI/CD configuration file.
+The profile activates two scan triggers:
+Merge Request Pipelines: Automatically runs a dependency scanning scan each time new commits are pushed to a branchwith an open merge request. Results include only new vulnerabilities introduced by the merge request.
+Branch Pipelines (default only): Runs automatically when changes are merged or pushed to the default branch, providing acomplete view of your default branchʼs dependency posture.

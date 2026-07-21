@@ -1,0 +1,100 @@
+id,release,title,R1,R2,R3,R4,R5,stamps,action,r4_hard_gate
+001-group-level-custom-review-instructions-for-gitlab-duo,19.0,Group-level custom review instructions for GitLab Duo,no,no,no,no,no,0,proceed normally,False
+002-configure-work-item-types,19.0,Configure work item types,yes,unclear,yes,no,unclear,2,coordination sign-off before planning,False
+003-gitlab-secrets-manager-now-available-in-open-beta,19.0,GitLab Secrets Manager now available in open beta,no,no,no,no,no,0,proceed normally,False
+004-gitlab-duo-developer-enhancements-for-merge-request-workflow,19.0,GitLab Duo Developer enhancements for merge request workflows,no,no,no,yes,no,1,R4 testing protocol,True
+005-dependency-scanning-by-using-sbom-generally-available,19.0,Dependency scanning by using SBOM generally available,yes,yes,yes,no,unclear,3,coordination sign-off before planning,False
+006-gitlab-duo-core-moves-to-usage-based-billing,19.0,GitLab Duo Core moves to usage-based billing,yes,yes,yes,no,yes,4,coordination sign-off before planning,False
+007-filter-exact-code-search-results-by-repository,19.0,Filter exact code search results by repository,no,no,no,no,no,0,proceed normally,False
+008-merge-request-ready-event-trigger,19.0,Merge request ready event trigger,no,no,yes,no,no,1,R3 testing protocol,False
+009-claude-opus-4-7-now-available-in-gitlab-duo-agent-platform,19.0,Claude Opus 4.7 now available in GitLab Duo Agent Platform,no,no,no,yes,no,1,R4 testing protocol,True
+010-support-for-self-hosted-gemini-models,19.0,Support for self-hosted Gemini models,no,no,no,yes,no,1,R4 testing protocol,True
+011-expanded-open-source-model-support-in-gitlab-duo-agent-platf,19.0,Expanded open source model support in GitLab Duo Agent Platform,no,no,no,yes,no,1,R4 testing protocol,True
+012-per-session-tool-approvals-with-admin-controls,19.0,Per-session tool approvals with admin controls,no,no,no,no,no,0,proceed normally,False
+013-resolve-merge-conflicts-with-gitlab-duo-beta,19.0,Resolve merge conflicts with GitLab Duo (Beta),no,no,no,no,unclear,0,proceed normally,False
+014-restrict-the-ai-catalog-to-a-group-hierarchy,19.0,Restrict the AI Catalog to a group hierarchy,no,no,yes,yes,no,2,coordination sign-off before planning,True
+015-purchase-credits-on-the-free-tier-on-gitlab-self-managed,19.0,Purchase credits on the Free tier on GitLab Self-Managed,no,no,no,yes,no,1,R4 testing protocol,True
+016-admin-defined-network-access-controls-for-agent-platform-rem,19.0,Admin-defined network access controls for Agent Platform remote flows,no,yes,yes,no,no,2,coordination sign-off before planning,False
+017-postgresql-17-minimum-requirement,19.0,PostgreSQL 17 minimum requirement,yes,yes,unclear,yes,unclear,3,coordination sign-off before planning,True
+018-linux-package-support-for-ubuntu-20-04-discontinued,19.0,Linux package support for Ubuntu 20.04 discontinued,no,no,no,no,yes,1,R5 testing protocol,False
+019-redis-6-support-removed,19.0,Redis 6 support removed,no,yes,no,yes,yes,3,coordination sign-off before planning,True
+020-mattermost-removed-from-the-linux-package,19.0,Mattermost removed from the Linux package,no,no,no,yes,yes,2,coordination sign-off before planning,True
+021-linux-package-support-for-suse-distributions-discontinued,19.0,Linux package support for SUSE distributions discontinued,no,no,no,yes,yes,2,coordination sign-off before planning,True
+022-spamcheck-removed-from-linux-package-and-gitlab-helm-chart,19.0,Spamcheck removed from Linux package and GitLab Helm chart,no,no,no,no,no,0,proceed normally,False
+023-nginx-ingress-replaced-by-gateway-api-with-envoy-gateway,19.0,NGINX Ingress replaced by Gateway API with Envoy Gateway,no,yes,yes,yes,no,3,coordination sign-off before planning,True
+024-bundled-postgresql-redis-and-minio-removed-from-gitlab-helm,19.0,"Bundled PostgreSQL, Redis, and MinIO removed from GitLab Helm chart",no,no,no,yes,yes,2,coordination sign-off before planning,True
+025-reliable-scim-user-deprovisioning-for-large-groups,19.0,Reliable SCIM user deprovisioning for large groups,no,yes,yes,yes,no,3,coordination sign-off before planning,True
+026-filter-credits-dashboard-by-product-and-date-beta,19.0,Filter Credits dashboard by product and date (Beta),yes,no,yes,no,no,2,coordination sign-off before planning,False
+027-review-prior-months-of-credits-usage-beta,19.0,Review prior months of Credits usage (Beta),no,no,yes,yes,no,2,coordination sign-off before planning,True
+028-auto-remediation-for-vulnerable-dependencies-experiment,19.0,Auto remediation for vulnerable dependencies (Experiment),no,yes,no,yes,no,2,coordination sign-off before planning,True
+029-dependency-scanning-in-security-configuration-profiles,19.0,Dependency scanning in security configuration profiles,no,yes,yes,no,no,2,coordination sign-off before planning,False
+030-dependency-resolution-for-gradle-sbom-scanning,19.0,Dependency resolution for Gradle SBOM scanning,no,no,yes,yes,no,2,coordination sign-off before planning,True
+031-remediation-guidance-for-api-security-testing-findings,19.0,Remediation guidance for API security testing findings,yes,no,yes,no,no,2,coordination sign-off before planning,False
+032-security-data-in-merge-request-reports-tab,19.0,Security data in merge request Reports tab,no,no,yes,yes,no,2,coordination sign-off before planning,True
+033-improved-array-support-for-ci-cd-inputs,19.0,Improved array support for CI/CD inputs,yes,no,yes,yes,no,3,coordination sign-off before planning,True
+034-select-multiple-values-for-pipeline-inputs,19.0,Select multiple values for pipeline inputs,yes,no,yes,yes,no,3,coordination sign-off before planning,True
+035-detailed-ci-cd-catalog-component-usage-analytics,19.0,Detailed CI/CD Catalog component usage analytics,unclear,no,yes,no,no,1,R3 testing protocol,False
+036-configure-parallel-pipeline-limits-for-merge-trains,19.0,Configure parallel pipeline limits for merge trains,no,yes,no,no,no,1,R2 testing protocol,False
+037-customize-default-merge-request-titles,19.0,Customize default merge request titles,no,no,no,no,no,0,proceed normally,False
+038-secure-webhooks-with-hmac-signing-tokens,19.0,Secure webhooks with HMAC signing tokens,no,yes,yes,no,no,2,coordination sign-off before planning,False
+039-cross-project-pushes-using-ci-cd-job-tokens,19.0,Cross-project pushes using CI/CD job tokens,no,no,yes,no,no,1,R3 testing protocol,False
+040-mermaid-diagram-rendering-upgraded-to-version-11,19.0,Mermaid diagram rendering upgraded to version 11,yes,no,no,yes,no,2,coordination sign-off before planning,True
+041-rapid-diffs-for-merge-request-reviews-beta,19.0,Rapid Diffs for merge request reviews (Beta),no,no,no,no,no,0,proceed normally,False
+042-gitlab-runner-19-0,19.0,GitLab Runner 19.0,yes,yes,yes,no,unclear,3,coordination sign-off before planning,False
+001-secret-false-positive-detection-with-gitlab-duo,19.1,Secret false positive detection with GitLab Duo,yes,yes,yes,no,no,3,coordination sign-off before planning,False
+002-always-on-availability-mode-for-gitlab-duo,19.1,Always on availability mode for GitLab Duo,no,no,no,no,no,0,proceed normally,False
+003-automatically-assign-code-owners-as-reviewers,19.1,Automatically assign Code Owners as reviewers,no,no,no,no,no,0,proceed normally,False
+004-compliance-framework-templates-beta,19.1,Compliance framework templates (beta),no,no,no,no,no,0,proceed normally,False
+005-improved-secret-detection-coverage-for-feature-branch-pipeli,19.1,Improved secret detection coverage for feature branch pipelines,yes,yes,unclear,no,no,2,coordination sign-off before planning,False
+006-tool-approval-guardrails-for-gitlab-duo-agents-beta,19.1,Tool approval guardrails for GitLab Duo agents (beta),no,no,yes,no,no,1,R3 testing protocol,False
+007-custom-and-external-ai-feature-controls,19.1,Custom and external AI feature controls,no,no,no,no,no,0,proceed normally,False
+008-custom-flows-yaml-validation,19.1,Custom flows YAML validation,no,no,no,no,no,0,proceed normally,False
+009-pattern-based-tool-approval-for-agentic-chat,19.1,Pattern-based tool approval for Agentic Chat,no,no,no,no,no,0,proceed normally,False
+010-automatic-code-review-for-new-gitlab-customers,19.1,Automatic code review for new GitLab customers,unclear,no,no,yes,no,1,R4 testing protocol,True
+011-foundational-flows-readiness-checks,19.1,Foundational flows readiness checks,no,no,no,yes,no,1,R4 testing protocol,True
+012-gpt-models-for-code-review-flow,19.1,GPT models for Code Review Flow,no,no,no,no,no,0,proceed normally,False
+013-model-selection-allowlist,19.1,Model selection allowlist,no,no,no,yes,no,1,R4 testing protocol,True
+014-new-event-triggers-for-flows-and-external-agents,19.1,New event triggers for flows and external agents,no,no,yes,no,no,1,R3 testing protocol,False
+015-close-coverage-gaps-with-the-scanner-enablement-wizard,19.1,Close coverage gaps with the Scanner Enablement Wizard,no,yes,unclear,no,unclear,1,R2 testing protocol,False
+016-custom-lifetime-for-oauth-access-tokens,19.1,Custom lifetime for OAuth access tokens,no,no,yes,no,no,1,R3 testing protocol,False
+017-emoji-reactions-on-wiki-pages,19.1,Emoji reactions on wiki pages,no,no,no,no,no,0,proceed normally,False
+018-scheduled-pipeline-execution-policies-beta,19.1,Scheduled pipeline execution policies (beta),yes,yes,unclear,no,yes,3,coordination sign-off before planning,False
+019-security-manager-role-generally-available,19.1,Security Manager role generally available,no,no,no,no,no,0,proceed normally,False
+020-use-third-party-scanner-results-with-gitlab,19.1,Use third-party scanner results with GitLab,yes,yes,yes,no,unclear,3,coordination sign-off before planning,False
+021-wiki-pages-in-recently-viewed-items,19.1,Wiki pages in recently viewed items,no,no,no,yes,no,1,R4 testing protocol,True
+022-ci-cd-analytics-now-shows-accurate-pipeline-rates,19.1,CI/CD analytics now shows accurate pipeline rates,yes,no,yes,no,no,2,coordination sign-off before planning,False
+023-clearer-security-industry-standard-labels-in-vulnerability-d,19.1,"Clearer, security industry-standard labels in vulnerability details",no,no,no,yes,no,1,R4 testing protocol,True
+024-git-operation-audit-events-for-all-actor-types,19.1,Git operation audit events for all actor types,yes,yes,yes,yes,no,4,coordination sign-off before planning,True
+025-gitlab-runner-19-1,19.1,GitLab Runner 19.1,no,yes,no,no,no,1,R2 testing protocol,False
+026-inline-blame-in-the-blob-viewer,19.1,Inline blame in the blob viewer,no,no,no,no,no,0,proceed normally,False
+027-redesigned-repository-commit-list,19.1,Redesigned repository commit list,no,no,no,yes,no,1,R4 testing protocol,True
+028-stacked-merge-requests-in-the-ui,19.1,Stacked merge requests in the UI,yes,no,no,no,no,1,R1 testing protocol,False
+029-stream-ai-audit-events-to-external-destinations-beta,19.1,Stream AI audit events to external destinations (beta),no,yes,yes,yes,no,3,coordination sign-off before planning,True
+001-gitlab-duo-cli-is-now-generally-available,19.2,GitLab Duo CLI is now generally available,no,no,no,no,no,0,proceed normally,False
+002-gitlab-duo-custom-flows-are-now-generally-available,19.2,GitLab Duo custom flows are now generally available,no,unclear,no,no,no,0,proceed normally,False
+003-scheduled-pipeline-execution-policies-are-ga,19.2,Scheduled pipeline execution policies are GA,no,yes,yes,no,no,2,coordination sign-off before planning,False
+004-start-foundational-flows-from-agentic-chat,19.2,Start foundational flows from Agentic Chat,no,no,no,yes,no,1,R4 testing protocol,True
+005-dependency-scanning-auto-remediation-beta,19.2,Dependency scanning auto-remediation (Beta),no,yes,yes,yes,no,3,coordination sign-off before planning,True
+006-non-default-branch-tracking-beta,19.2,Non default branch tracking (beta),yes,unclear,yes,no,unclear,2,coordination sign-off before planning,False
+007-selective-gitlab-duo-availability-for-subgroups,19.2,Selective GitLab Duo availability for subgroups,no,no,no,no,no,0,proceed normally,False
+008-ai-audit-event-report-beta,19.2,AI audit event report (beta),yes,unclear,yes,no,no,2,coordination sign-off before planning,False
+009-security-review-flow-beta,19.2,Security Review Flow (beta),no,no,unclear,no,no,0,proceed normally,False
+010-bulk-ai-catalog-items-enablement,19.2,Bulk AI Catalog items enablement,no,yes,no,yes,no,2,coordination sign-off before planning,True
+011-configure-id-tokens-in-flows,19.2,Configure ID tokens in flows,no,no,yes,yes,no,2,coordination sign-off before planning,True
+012-custom-agent-validation,19.2,Custom Agent validation,no,no,no,yes,no,1,R4 testing protocol,True
+013-automatic-rebase-before-merge,19.2,Automatic rebase before merge,no,no,no,no,yes,1,R5 testing protocol,False
+014-code-review-flow-for-gitlab-duo-enterprise-seats,19.2,Code Review Flow for GitLab Duo Enterprise seats,no,yes,no,no,no,1,R2 testing protocol,False
+015-exclude-merge-requests-from-automatic-code-reviews-beta,19.2,Exclude merge requests from automatic code reviews (Beta),no,yes,no,no,no,1,R2 testing protocol,False
+016-instance-level-custom-review-instructions,19.2,Instance-level custom review instructions,no,yes,no,no,no,1,R2 testing protocol,False
+017-resolve-review-discussions-with-gitlab-duo-beta,19.2,Resolve review discussions with GitLab Duo (Beta),no,no,no,no,no,0,proceed normally,False
+018-usage-billing-checks-for-gitlab-duo-agent-platform-self-host,19.2,Usage billing checks for GitLab Duo Agent Platform Self-Hosted,no,no,no,yes,no,1,R4 testing protocol,True
+019-ci-expert-agent-is-now-generally-available,19.2,CI Expert Agent is now generally available,no,no,yes,no,no,1,R3 testing protocol,False
+020-fix-ci-cd-pipeline-flow-suggests-targeted-fixes,19.2,Fix CI/CD Pipeline Flow suggests targeted fixes,no,no,yes,no,no,1,R3 testing protocol,False
+021-disable-built-in-project-templates,19.2,Disable built-in project templates,no,no,yes,no,no,1,R3 testing protocol,False
+022-fine-grained-pat-permissions-generally-available,19.2,Fine-grained PAT permissions generally available,no,no,yes,no,no,1,R3 testing protocol,False
+023-gitlab-flavored-markdown-references-in-personal-snippets,19.2,GitLab Flavored Markdown references in personal snippets,yes,no,yes,yes,no,3,coordination sign-off before planning,True
+024-recognize-contributors-with-gitlab-achievements,19.2,Recognize contributors with GitLab Achievements,yes,no,no,no,no,1,R1 testing protocol,False
+025-security-manager-can-configure-agentic-flows,19.2,Security manager can configure agentic flows,no,no,no,yes,no,1,R4 testing protocol,True
+026-vulnerability-report-exports-correctly-apply-filters,19.2,Vulnerability report exports correctly apply filters,yes,no,yes,yes,no,3,coordination sign-off before planning,True
+027-gitlab-runner-19-2,19.2,GitLab Runner 19.2,yes,yes,yes,no,unclear,3,coordination sign-off before planning,False
+028-gitlab-duo-reads-and-responds-to-reviews-in-merge-requests,19.2,GitLab Duo reads and responds to reviews in merge requests,no,no,yes,yes,no,2,coordination sign-off before planning,True

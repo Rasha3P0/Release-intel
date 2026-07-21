@@ -1,0 +1,16 @@
+Title: Per-session tool approvals with admin controls
+Release: 19.0
+Source: https://docs.gitlab.com/releases/19/gitlab-19-0-released/
+Tier: Free, Premium, Ultimate
+Offering: GitLab.com, GitLab Self-Managed, GitLab Dedicated
+Links: Documentation, Related issue
+
+Before GitLab Duo Agentic Chat can use a tool on your behalf, it requires your approval. Each tool invocation requires a separateapproval.
+Now, you can approve a trusted tool once for an entire session and streamline your workflows.
+Administrators control whether tool approval for sessions is available. The following settings cascade from instance to group to
+project:
+On by default
+Off by default
+Always off
+Groups and subgroups can modify the setting unless an administrator sets it to Always off.
+The default setting is Off by default, ensuring each tool invocation requires explicit approval unless an administrator changes it.

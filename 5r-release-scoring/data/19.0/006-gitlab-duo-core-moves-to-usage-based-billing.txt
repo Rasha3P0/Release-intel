@@ -1,0 +1,12 @@
+Title: GitLab Duo Core moves to usage-based billing
+Release: 19.0
+Source: https://docs.gitlab.com/releases/19/gitlab-19-0-released/
+Category: Agentic Core
+Tier: Premium, Ultimate
+Offering: GitLab.com, GitLab Self-Managed, GitLab Dedicated
+Links: Documentation, Related issue
+
+Starting in GitLab 19.0, GitLab Duo Core moves to usage-based billing. Code Suggestions in the Web IDE and desktop IDEs now
+consume GitLab Credits.
+GitLab Duo Chat is also changing. For GitLab Duo Core users, Chat is now agentic and runs on GitLab Duo Agent Platform. To
+use GitLab Duo Chat in the GitLab UI or desktop IDEs, enable GitLab Duo Agent Platform for your instance or top-level group.

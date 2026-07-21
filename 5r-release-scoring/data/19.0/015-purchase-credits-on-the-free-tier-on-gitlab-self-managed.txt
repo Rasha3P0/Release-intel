@@ -1,0 +1,9 @@
+Title: Purchase credits on the Free tier on GitLab Self-Managed
+Release: 19.0
+Source: https://docs.gitlab.com/releases/19/gitlab-19-0-released/
+Tier: Free
+Offering: GitLab Self-Managed
+Links: Documentation, Related issue
+
+Free tier users on GitLab Self-Managed can now unlock the full power of GitLab Duo Agent Platform, no Premium or Ultimate
+subscription required. Choose your monthly credit amount, commit to an annual term, and get instant access to AI-powereddevelopment tools. Credits refresh automatically each month, so your team always has what it needs to build faster and smarter.

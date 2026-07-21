@@ -1,0 +1,14 @@
+Title: Use third-party scanner results with GitLab
+Release: 19.1
+Source: https://docs.gitlab.com/releases/19/gitlab-19-1-released/
+Tier: Ultimate
+Offering: GitLab.com, GitLab Self-Managed, GitLab Dedicated
+Links: Documentation · Related Issue
+
+You can now use security findings from any SARIF 2.1.0-compliant scanner with GitLab vulnerability management.
+Define a CI/CD job that runs your scanner and outputs a SARIF artifact. GitLab parses, validates, and imports those findings into
+your security workflows. Results appear alongside GitLab native scanner output in the pipeline security tab, the vulnerability
+report, the security dashboard, the merge request security widget, and security policies. This feature gives security teams asingle, consolidated view of vulnerabilities regardless of which tool produced them.
+GitLab assigns each finding a report type based on its identifiers, mapping results into categories such as SAST, dependency
+scanning, and secret detection. Supported scanners include Semgrep and Checkmarx for SAST, Trivy and Snyk for
+dependency and container scanning, and Gitleaks for secret detection.

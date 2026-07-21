@@ -1,0 +1,15 @@
+Title: Auto remediation for vulnerable dependencies (Experiment)
+Release: 19.0
+Source: https://docs.gitlab.com/releases/19/gitlab-19-0-released/
+Category: Unified DevOps and Security
+Tier: Ultimate
+Offering: GitLab.com
+Links: Documentation, Related epic
+
+Auto remediation for dependencies is now available as an experiment in GitLab 19.0. When dependency scanning detects a
+vulnerable Ruby dependency with a known fix, GitLab automatically opens a merge request to update it to a safe version withouthuman input. Only Ruby projects are supported in the experiment.
+After each pipeline, GitLab identifies the highest-severity vulnerability with an available patch or minor version upgrade. GitLab
+generates the manifest file change and opens a merge request through a service account. The merge request then goes throughyour projectʼs standard review and approval workflow.
+During the experiment, up to three auto-remediation merge requests can be open per project at a time.
+To share feedback or request to try out the experiment make a comment on epic 600511. To enable the experiment on your
+project, a GitLab team member must enable the dependency_management_auto_remediation feature flag for your project.

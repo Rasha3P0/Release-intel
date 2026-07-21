@@ -1,0 +1,13 @@
+Title: Selective GitLab Duo availability for subgroups
+Release: 19.2
+Source: https://docs.gitlab.com/releases/19/gitlab-19-2-released/
+Tier: Ultimate
+Offering: GitLab Dedicated, GitLab Dedicated for Government
+Links: Documentation · Related Issue
+
+Administrators of GitLab Dedicated instances can make GitLab Duo and GitLab Duo Agent Platform unavailable for selectedsubgroups while other subgroups still have the option to turn them on.
+Previously, you could either disable GitLab Duo and Agent Platform for an entire instance, or make them potentially available forall.
+Now you can enforce a default-deny, per-subgroup allowlist. Mark specific subgroups as Always off (locked) so their
+descendant groups and projects can never enable GitLab Duo and Agent Platform, while leaving other subgroups up to thediscretion of users with the Owner role. Only administrators can apply or remove the lock, and affected Owners see clear
+messaging that GitLab Duo is locked by a parent group.
+This feature helps compliance and platform governance teams meet strict data-classification requirements.

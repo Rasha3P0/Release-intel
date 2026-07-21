@@ -1,0 +1,9 @@
+Title: Linux package support for SUSE distributions discontinued
+Release: 19.0
+Source: https://docs.gitlab.com/releases/19/gitlab-19-0-released/
+Tier: Free, Premium, Ultimate
+Offering: GitLab Self-Managed
+Links: Documentation, Related issue
+
+Linux package support for SUSE distributions ends in GitLab 19.0, which affects openSUSE Leap 15.6, SUSE Linux Enterprise
+Server 12.5, and SUSE Linux Enterprise Server 15.6. GitLab 18.11 is the last version with Linux packages for these distributions. Tocontinue to use SUSE distributions, migrate to a Docker deployment of GitLab.

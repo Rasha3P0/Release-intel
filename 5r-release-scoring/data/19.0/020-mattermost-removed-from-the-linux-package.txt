@@ -1,0 +1,9 @@
+Title: Mattermost removed from the Linux package
+Release: 19.0
+Source: https://docs.gitlab.com/releases/19/gitlab-19-0-released/
+Tier: Free, Premium, Ultimate
+Offering: GitLab Self-Managed
+Links: Documentation, Related issue
+
+Bundled Mattermost is removed from the Linux package in GitLab 19.0. If you currently use the bundled Mattermost, refer to
+Migrating from the Linux package to Mattermost Standalone for migration instructions. Customers not using the bundledMattermost are not impacted.

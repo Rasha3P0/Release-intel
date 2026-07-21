@@ -1,0 +1,20 @@
+Title: GitLab Runner 19.2
+Release: 19.2
+Source: https://docs.gitlab.com/releases/19/gitlab-19-2-released/
+Tier: Free, Premium, Ultimate
+Offering: GitLab.com, GitLab Self-Managed, GitLab Dedicated, GitLab Dedicated for Government
+Links: Documentation · Related Issue
+
+Weʼre also releasing GitLab Runner 19.2 today! GitLab Runner is the highly-scalable build agent that runs your CI/CD jobs andsends the results back to a GitLab instance. GitLab Runner works in conjunction with GitLab CI/CD, the open-source continuous
+integration service included with GitLab.
+Whatʼs New
+GitLab Runner now emits the environment key during the job-complete PUT request
+GitLab Runner now includes a circuit breaker that automatically falls back to Rails when KAS job requests fail consecutively
+Bug Fixes
+Secret resolution failures are misclassified as runner_system_failure
+Jobs fail with context deadline exceeded when you update GitLab Runner to 19.1.0
+Jobs fail intermittently with context deadline exceeded in the Docker executor
+Artifact downloads fail when FF_CONCRETE is enabled
+KAS Job Router GetJob latency histogram doesnʼt show any data in staging
+Automatic runner token rotation causes Docker Autoscaler executor to prune active instances and fail running jobs
+The list of all changes is in the GitLab Runner CHANGELOG.

@@ -1,0 +1,9 @@
+Title: Restrict the AI Catalog to a group hierarchy
+Release: 19.0
+Source: https://docs.gitlab.com/releases/19/gitlab-19-0-released/
+Tier: Premium, Ultimate
+Offering: GitLab.com, GitLab Self-Managed, GitLab Dedicated
+Links: Documentation, Related issue
+
+Top-level group Owners can now restrict the AI Catalog to show only agents and flows owned by projects within their group
+hierarchy. This blocks agents, external agents, or flows not in this hierarchy from being visible or enabled by any user in thatgroup.

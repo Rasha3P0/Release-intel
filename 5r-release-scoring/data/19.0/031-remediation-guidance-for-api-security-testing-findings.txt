@@ -1,0 +1,32 @@
+Title: Remediation guidance for API security testing findings
+Release: 19.0
+Source: https://docs.gitlab.com/releases/19/gitlab-19-0-released/
+Tier: Ultimate
+Offering: GitLab.com, GitLab Self-Managed, GitLab Dedicated, GitLab Dedicated for Government
+Links: Documentation, Related issue
+
+API security vulnerability reports now include remediation guidance for each finding. Previously, API security testing identifiedvulnerabilities but provided no guidance on how to fix them. Developers had to research remediation steps independently. Now,
+each finding includes vulnerability-specific remediation steps and references to relevant OWASP and CWE identifiers directly in
+the vulnerability report.
+Remediation guidance is now included for the following checks:
+Application information
+Cleartext authentication
+CORS
+DNS rebinding
+Framework debug mode
+Heartbleed OpenSSL vulnerability
+HTML injection
+Insecure HTTP methods
+JSON hijacking
+JSON injection
+Open redirect
+OS command injection
+Path traversal
+Sensitive file
+Sensitive information
+Session cookie
+Shellshock
+SQL injection
+TLS configuration
+Authentication token
+XML injection

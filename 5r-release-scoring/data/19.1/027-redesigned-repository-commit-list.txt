@@ -1,0 +1,13 @@
+Title: Redesigned repository commit list
+Release: 19.1
+Source: https://docs.gitlab.com/releases/19/gitlab-19-1-released/
+Tier: Free, Premium, Ultimate
+Offering: GitLab.com, GitLab Self-Managed, GitLab Dedicated
+Links: Documentation · Related Issue
+
+Previously, the repository commit list had limited filtering, making it harder to find specific commits in long histories.
+The redesigned commit list includes:
+Filter and search commits by author, commit message, or date range.
+Filter the list by Git revision, such as a branch, tag, or commit SHA.
+Commits grouped by day for easier scanning.
+Improved performance and pagination for large repositories.

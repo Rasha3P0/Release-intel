@@ -1,0 +1,10 @@
+Title: Inline blame in the blob viewer
+Release: 19.1
+Source: https://docs.gitlab.com/releases/19/gitlab-19-1-released/
+Tier: Free, Premium, Ultimate
+Offering: GitLab.com, GitLab Self-Managed, GitLab Dedicated
+Links: Documentation · Related Issue
+
+Previously, viewing blame information required navigating to a separate page, breaking your flow when reviewing code.
+You can now toggle blame information directly in the file view. Each line shows who last modified it, and you can hover for a
+commit popover with additional details. Select View blame prior to this change to trace history further, or select Ignore specificrevisions to exclude specific commits from the blame view.

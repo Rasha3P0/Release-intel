@@ -1,0 +1,11 @@
+Title: Foundational flows readiness checks
+Release: 19.1
+Source: https://docs.gitlab.com/releases/19/gitlab-19-1-released/
+Tier: Premium, Ultimate
+Offering: GitLab Self-Managed, GitLab Dedicated for Government
+Links: Documentation · Related Issue
+
+GitLab Duo health checks now include foundational flows readiness checks, which verify:
+The instance-level flow execution setting is enabled.
+The instance-level foundational flows setting is enabled.
+At least one active instance runner with the gitlab--duo tag is registered and connected, and uses a Docker-compatibleexecutor.

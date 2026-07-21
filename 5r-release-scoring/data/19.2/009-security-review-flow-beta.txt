@@ -1,0 +1,13 @@
+Title: Security Review Flow (beta)
+Release: 19.2
+Source: https://docs.gitlab.com/releases/19/gitlab-19-2-released/
+Tier: Ultimate
+Offering: GitLab.com, GitLab Self-Managed, GitLab Dedicated
+Links: Documentation · Related Issue
+
+Security Review Flow detects business logic vulnerabilities directly in merge requests. Unlike static analysis tools that scan for
+known patterns, Security Review Flow reasons about the intent of your code and identifies authorization bypasses, dataexposure, and logic errors that pattern-based scanners routinely miss.
+To request a review, assign the Duo Security Review service account as a reviewer on your merge request. The flow analyzes
+the diff and posts findings as threaded comments at the exact lines where vulnerabilities occur, each with a Common WeaknessEnumeration (CWE) classification, severity rating, and where possible, an inline suggested fix you can apply without leaving the
+merge request.
+Each review consumes GitLab Credits based on the complexity of the merge request diff.

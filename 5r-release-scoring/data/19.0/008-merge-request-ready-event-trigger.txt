@@ -1,0 +1,11 @@
+Title: Merge request ready event trigger
+Release: 19.0
+Source: https://docs.gitlab.com/releases/19/gitlab-19-0-released/
+Tier: Premium, Ultimate
+Offering: GitLab.com, GitLab Self-Managed
+Links: Documentation, Related issue
+
+You can now configure flows and external agents to run on the Merge request ready event.
+When a draft merge request is marked as ready for review, GitLab Duo automatically runs the flow or external agent.
+To configure a trigger, go to AI > Triggers in your project.
+This feature is behind the merge_request_ready_flow_trigger feature flag, disabled by default.

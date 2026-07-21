@@ -1,0 +1,13 @@
+Title: Pattern-based tool approval for Agentic Chat
+Release: 19.1
+Source: https://docs.gitlab.com/releases/19/gitlab-19-1-released/
+Tier: Premium, Ultimate
+Offering: GitLab.com, GitLab Self-Managed, GitLab Dedicated
+Links: Documentation · Related Issue
+
+Previously, when Agentic Chat asked you to approve a tool invocation, you could approve it once or approve the tool call withthese arguments for the remainder of the session. Different arguments would require additional approval.
+Workflows that repeated similar commands, such as a series of git operations, forced you through a stream of nearly identicalprompts.
+You can now choose a third approval option, Approve all uses of this tool for session. This option approves invocations of the
+tool for the remainder of the session whenever the arguments match the approved pattern.
+Pattern-based approvals are available for Agentic Chat in the GitLab UI, GitLab Duo CLI, GitLab for VS Code, and the GitLab Duo
+plugin for JetBrains IDEs.

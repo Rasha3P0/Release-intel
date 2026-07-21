@@ -1,0 +1,11 @@
+Title: Code Review Flow for GitLab Duo Enterprise seats
+Release: 19.2
+Source: https://docs.gitlab.com/releases/19/gitlab-19-2-released/
+Tier: Premium, Ultimate
+Offering: GitLab.com, GitLab Self-Managed, GitLab Dedicated
+Links: Documentation · Related Issue
+
+In previous versions of GitLab, when users with GitLab Duo Enterprise seats requested a code review from GitLab Duo, GitLabDuo Code Review would complete the review. This would occur even if Code Review Flow was turned on for the group. There
+was no way to turn on the agentic flow for all users.
+Now, top-level group Owners can change this default and configure all code reviews to use Code Review Flow instead,regardless of the userʼs seat. All reviews will consume GitLab Credits.
+This change gives users with GitLab Duo Enterprise seats the same repository-wide context awareness, multi-step reasoning,and review sessions as everyone else.

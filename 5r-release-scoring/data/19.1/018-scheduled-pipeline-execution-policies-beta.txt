@@ -1,0 +1,13 @@
+Title: Scheduled pipeline execution policies (beta)
+Release: 19.1
+Source: https://docs.gitlab.com/releases/19/gitlab-19-1-released/
+Tier: Ultimate
+Offering: GitLab.com, GitLab Self-Managed, GitLab Dedicated
+Links: Documentation · Related Issue
+
+Scheduled pipeline execution policies are now available as a beta feature and no longer require an experiment flag to enable.
+You can enforce custom CI/CD jobs on a daily, weekly, or monthly cadence across your projects, independent of commit activity.
+Use scheduled policies to run compliance scripts, security scans, or dependency checks on repositories that may not haveregular code changes.
+Scheduled policies now enforce variable precedence consistently with regular pipeline execution policies. Each security policyproject supports up to five scheduled policies, and GitLab automatically cancels running pipelines when a policy is disabled or
+deleted. Configure schedules in YAML or the UI, with time zone support, time window distribution, branch targeting, and snooze
+functionality.

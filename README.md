@@ -12,9 +12,9 @@ from [`docs/`](docs/) via GitHub Pages.
 
 - [`5r-release-scoring/`](5r-release-scoring/): Workstream 1, 5R scoring
   applied to GitLab's public release notes 19.0 to 19.2. Contains the
-  framework specification, the fetch and scoring scripts, the committed
-  LLM scoring prompt, and scorer validation fixtures. Findings pending the
-  data run; see its README.
+  framework specification, the ingestion and scoring scripts, the
+  committed LLM scoring prompt, the 99-note corpus, and the scored
+  output with findings in its README.
 - [`BUILD_BRIEF.md`](BUILD_BRIEF.md): the specification and decision log for
   this repository, including the complete generic 5R framework and the two
   planned workstreams (5R scoring on public release notes; incident

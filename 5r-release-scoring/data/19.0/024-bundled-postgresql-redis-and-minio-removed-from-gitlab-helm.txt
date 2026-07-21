@@ -1,0 +1,10 @@
+Title: Bundled PostgreSQL, Redis, and MinIO removed from GitLab Helm chart
+Release: 19.0
+Source: https://docs.gitlab.com/releases/19/gitlab-19-0-released/
+Tier: Free, Premium, Ultimate
+Offering: GitLab Self-Managed
+Links: Documentation, Related issue
+
+The bundled Bitnami PostgreSQL, Bitnami Redis, and MinIO charts are removed from the GitLab Helm chart and GitLab Operator
+in GitLab 19.0 with no replacement. These components were intended only for proof-of-concept and test environments and are
+not recommended for production use. If you run an instance with any of these bundled services, follow the migration guide toconfigure external services before upgrading to GitLab 19.0.

@@ -1,0 +1,12 @@
+Title: Model selection allowlist
+Release: 19.1
+Source: https://docs.gitlab.com/releases/19/gitlab-19-1-released/
+Tier: Premium, Ultimate
+Offering: GitLab.com, GitLab Self-Managed, GitLab Dedicated
+Links: Documentation · Related Issue
+
+For GitLab Duo Agentic Chat, you can now configure an allowlist of approved models, and set an organization-wide default, if
+you are:
+On GitLab.com, a top-level group Owner.
+On GitLab Self-Managed, an instance administrator.
+This gives organizations control over which models users can select when using Agentic Chat.

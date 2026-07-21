@@ -1,0 +1,15 @@
+Title: Usage billing checks for GitLab Duo Agent Platform Self-Hosted
+Release: 19.2
+Source: https://docs.gitlab.com/releases/19/gitlab-19-2-released/
+Tier: Premium, Ultimate
+Offering: GitLab Self-Managed, GitLab Dedicated for Government
+Links: Documentation · Related Issue
+
+For GitLab Self-Managed customers using self-hosted models with an online license, the GitLab Duo Health now checks that the
+GitLab instance can reach the following endpoints:
+Customers Portal
+The AI Gateway
+Duo Workflow Service
+Connection to these endpoints is necessary for usage billing.
+Previously, if a firewall blocked any of these components, administrators had no indication of connectivity issues until users wereunable to use a feature. Administrators can now use this new validation check to diagnose issues and review their firewall
+allowlist before any disruption to users.

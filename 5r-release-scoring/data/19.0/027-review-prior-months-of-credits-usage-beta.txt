@@ -1,0 +1,10 @@
+Title: Review prior months of Credits usage (Beta)
+Release: 19.0
+Source: https://docs.gitlab.com/releases/19/gitlab-19-0-released/
+Tier: Premium, Ultimate
+Offering: GitLab.com, GitLab Self-Managed
+Links: Documentation
+
+In previous versions of GitLab, the Credits dashboard showed only the current billing month, so you couldnʼt compare trends,
+audit a usage spike after the fact, or build a budget conversation around prior consumption. Now you can navigate to prior billing
+months in the Credits dashboard.

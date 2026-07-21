@@ -1,0 +1,9 @@
+Title: Improved array support for CI/CD inputs
+Release: 19.0
+Source: https://docs.gitlab.com/releases/19/gitlab-19-0-released/
+Tier: Free, Premium, Ultimate
+Offering: GitLab.com, GitLab Self-Managed, GitLab Dedicated, GitLab Dedicated for Government
+Links: Documentation, Related issue
+
+CI/CD inputs now have improved support for working with arrays. Use the array index operator [] to access specific elements
+within array inputs. This enhancement provides more flexible and powerful input interpolation capabilities in your pipelineconfigurations, enabling you to reference individual array items directly without additional processing steps.

@@ -1,0 +1,18 @@
+Title: GitLab Runner 19.1
+Release: 19.1
+Source: https://docs.gitlab.com/releases/19/gitlab-19-1-released/
+Tier: Free, Premium, Ultimate
+Offering: GitLab.com, GitLab Self-Managed, GitLab Dedicated, GitLab Dedicated for Government
+Links: Documentation · Related Issue
+
+Weʼre also releasing GitLab Runner 19.1 today! GitLab Runner is the highly-scalable build agent that runs your CI/CD jobs and
+sends the results back to a GitLab instance. GitLab Runner works in conjunction with GitLab CI/CD, the open-source continuousintegration service included with GitLab.
+Whatʼs New
+Add configurable get_sources timeout to runner configuration
+Bug Fixes
+Concrete execution (FF_CONCRETE) diverges from abstract shell in multiple behavior areas
+Bundle URI downloads fail with insufficient capabilities when FF_USE_GIT_PROACTIVE_AUTH and FF_USE_GIT_BUNDLE_URIS are
+enabled
+Prevent script dump on job cancellation through UI due to race condition
+Fix Kubernetes executor helper container memory usage causing OOM kills
+The list of all changes is in the GitLab Runner CHANGELOG.

@@ -1,0 +1,9 @@
+Title: Custom Agent validation
+Release: 19.2
+Source: https://docs.gitlab.com/releases/19/gitlab-19-2-released/
+Tier: Free, Premium, Ultimate
+Offering: GitLab.com, GitLab Self-Managed, GitLab Dedicated
+Links: Documentation · Related Issue
+
+Previously, you could save a custom agent in AI Catalog whose prompt would fail when run. For example, prompts that trippedsecurity rules caused the agent to silently do nothing when being used.
+Now, when you create or update a custom agent, GitLab validates the prompt configuration, and tells you about any errorsbefore you save that agent.

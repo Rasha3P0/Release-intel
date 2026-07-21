@@ -1,0 +1,11 @@
+Title: Disable built-in project templates
+Release: 19.2
+Source: https://docs.gitlab.com/releases/19/gitlab-19-2-released/
+Tier: Premium, Ultimate
+Offering: GitLab.com, GitLab Self-Managed, GitLab Dedicated
+Links: Documentation · Related Issue
+
+When organizations rely on custom project templates, built-in vendor templates can add noise to the template selectionexperience and, in some cases, bypass server-side hooks or other repository controls.
+Administrators can now disable built-in project templates globally from the Admin area, or at the group level for subgroups. The
+setting cascades automatically so you do not need to configure it for every group individually. Administrators can enforce thevalue of the setting to ensure groups or subgroups cannot override it. Both the instance and group settings are also manageable
+with the REST and GraphQL APIs. On GitLab.com, only the group-level setting is available.

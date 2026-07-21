@@ -1,0 +1,20 @@
+Title: GitLab Runner 19.0
+Release: 19.0
+Source: https://docs.gitlab.com/releases/19/gitlab-19-0-released/
+Tier: Free, Premium, Ultimate
+Offering: GitLab.com, GitLab Self-Managed, GitLab Dedicated, GitLab Dedicated for Government
+Links: Documentation
+
+Weʼre also releasing GitLab Runner 19.0 today! GitLab Runner is the highly-scalable build agent that runs your CI/CD jobs and
+sends the results back to a GitLab instance. GitLab Runner works in conjunction with GitLab CI/CD, the open-source continuousintegration service included with GitLab.
+Whatʼs New
+Runner instrumentation: Feature negotiation, OTLP export client, and first job_execution span
+Add configurable prepare stage timeout to runner configuration
+Bug Fixes
+Comprehensive fixes for FF_SCRIPTS_TO_STEPS feature flag implementation
+SignatureDoesNotMatch error when downloading S3 cache
+Runtime error when GitLab Runner runs in AWS with S3 cache
+Broken RPM S3 download links for amd64, arm64, arm, and armhf in GitLab Runner 18.9.0 and later
+Negative exit codes are reported incorrectly on Windows
+Incorrect Kubernetes executor service container naming documentation
+The list of all changes is in the GitLab Runner CHANGELOG.

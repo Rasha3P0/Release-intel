@@ -1,0 +1,9 @@
+Title: Claude Opus 4.7 now available in GitLab Duo Agent Platform
+Release: 19.0
+Source: https://docs.gitlab.com/releases/19/gitlab-19-0-released/
+Tier: Premium, Ultimate
+Offering: GitLab.com, GitLab Self-Managed, GitLab Dedicated
+Links: Documentation, Related issue
+
+Claude Opus 4.7 is now available in GitLab Duo Agent Platform. Opus 4.7 delivers meaningful improvements to complex,multistep tasks that require sustained reasoning, precise instruction following, and self-verification before surfacing results. This
+includes flows supporting CI/CD pipelines, code review, vulnerability resolution, and more.

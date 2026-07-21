@@ -1,0 +1,9 @@
+Title: Expanded open source model support in GitLab Duo Agent Platform
+Release: 19.0
+Source: https://docs.gitlab.com/releases/19/gitlab-19-0-released/
+Tier: Premium, Ultimate
+Offering: GitLab Self-Managed
+Links: Documentation, Related issue
+
+GitLab Duo Agent Platform now supports additional open source models for self-hosted deployments, including Devstral 2 123B,GLM-5.1-FP8, and others. This helps customers power agentic workflows across a variety of environments, including offline and
+network-restricted deployments.

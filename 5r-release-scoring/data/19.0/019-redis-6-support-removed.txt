@@ -1,0 +1,9 @@
+Title: Redis 6 support removed
+Release: 19.0
+Source: https://docs.gitlab.com/releases/19/gitlab-19-0-released/
+Tier: Free, Premium, Ultimate
+Offering: GitLab Self-Managed
+Links: Documentation, Related issue
+
+Support for Redis 6 is removed in GitLab 19.0. If you use an external Redis 6 deployment, migrate to Redis 7.2 or Valkey 7.2
+before upgrading. The bundled Redis included with the Linux package has used Redis 7 since GitLab 16.2 and is not affected.

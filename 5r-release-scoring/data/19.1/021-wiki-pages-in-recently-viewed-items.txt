@@ -1,0 +1,10 @@
+Title: Wiki pages in recently viewed items
+Release: 19.1
+Source: https://docs.gitlab.com/releases/19/gitlab-19-1-released/
+Tier: Free, Premium, Ultimate
+Offering: GitLab.com, GitLab Self-Managed, GitLab Dedicated, GitLab Dedicated for Government
+Links: Documentation · Related Issue
+
+Wiki pages now appear in your recently viewed items, so you can return to pages you visit often.
+On the GitLab homepage, the Quick access widget lists recently viewed project and group wiki pages, alongside issues, merge
+requests, and epics. GitLab automatically removes pages that are deleted or that you can no longer access.

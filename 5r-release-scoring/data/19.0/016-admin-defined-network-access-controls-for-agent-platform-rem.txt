@@ -1,0 +1,10 @@
+Title: Admin-defined network access controls for Agent Platform remote flows
+Release: 19.0
+Source: https://docs.gitlab.com/releases/19/gitlab-19-0-released/
+Tier: Ultimate
+Offering: GitLab.com, GitLab Self-Managed, GitLab Dedicated
+Links: Documentation, Related issue
+
+Administrators can now define centralized network policies for GitLab Duo Agent Platform remote flows directly in Settings. Top-
+level group administrators on GitLab.com, and instance administrators on GitLab Self-Managed and Dedicated, can configureorganization-wide domain denylists and allowlists that projects inherit automatically. An additional setting controls whether
+projects can extend the approved domain list with custom entries. Policies are enforced at runtime across all remote flows,giving security and platform teams a consistent governance layer for agent network egress.

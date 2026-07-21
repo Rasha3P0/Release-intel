@@ -1,0 +1,12 @@
+Title: Rapid Diffs for merge request reviews (Beta)
+Release: 19.0
+Source: https://docs.gitlab.com/releases/19/gitlab-19-0-released/
+Tier: Free, Premium, Ultimate
+Offering: GitLab.com, GitLab Self-Managed
+Links: Documentation, Related issue
+
+In previous versions of GitLab, you would have to wait for the Changes tab to load all files before you could begin reviewing,which slowed down large reviews.
+Now you can use Rapid Diffs to review merge requests with faster initial load, smoother scrolling, and more responsive
+interactions across files. Rapid Diffs uses the same technology that already powers the commits page.
+Rapid Diffs is in beta. Some features from the classic diff experience arenʼt yet available. You can switch back at any time.
+Watch the overview video and share your experience in the feedback issue.

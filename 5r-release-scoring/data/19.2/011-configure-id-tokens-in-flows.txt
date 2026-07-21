@@ -1,0 +1,11 @@
+Title: Configure ID tokens in flows
+Release: 19.2
+Source: https://docs.gitlab.com/releases/19/gitlab-19-2-released/
+Tier: Free, Premium, Ultimate
+Offering: GitLab.com, GitLab Self-Managed, GitLab Dedicated, GitLab Dedicated for Government
+Links: Documentation · Related Issue
+
+Use ID tokens to authenticate with third-party OpenID Connect (OIDC) services without storing long-lived credentials. For
+example, use ID tokens for keyless signing of binaries and commits, or to retrieve secrets from a secrets manager.
+To use this feature, update your agent configuration to include the id_tokens keyword, then configure the service to trust
+tokens issued by GitLab Duo Agent Platform.

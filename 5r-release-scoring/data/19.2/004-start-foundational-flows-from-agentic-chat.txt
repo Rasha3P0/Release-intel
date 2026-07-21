@@ -1,0 +1,14 @@
+Title: Start foundational flows from Agentic Chat
+Release: 19.2
+Source: https://docs.gitlab.com/releases/19/gitlab-19-2-released/
+Tier: Free, Premium, Ultimate
+Offering: GitLab.com, GitLab Self-Managed, GitLab Dedicated
+Links: Documentation · Related Issue
+
+In previous versions of GitLab, you started foundational flows from specific UI actions, mentions, or assignments. Now you can
+start them from Agentic Chat in the GitLab UI as part of your conversation.
+When your request matches a specialist workflow, Agentic Chat hands off to one of these flows:
+Developer Flow: Implements changes or opens a merge request
+Code Review Flow: Reviews a merge request
+Fix CI/CD Pipeline Flow: Diagnoses and repairs a failed pipeline
+You approve the handoff in chat, then follow progress in the conversation or from AI > Sessions.

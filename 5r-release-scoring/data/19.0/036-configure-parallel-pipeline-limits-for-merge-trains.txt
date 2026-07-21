@@ -1,0 +1,11 @@
+Title: Configure parallel pipeline limits for merge trains
+Release: 19.0
+Source: https://docs.gitlab.com/releases/19/gitlab-19-0-released/
+Tier: Premium, Ultimate
+Offering: GitLab Self-Managed, GitLab Dedicated
+Links: Documentation, Related issue
+
+In previous versions of GitLab, you couldnʼt change the maximum of 20 parallel pipelines in a merge train, which forced you to
+either overwhelm your runners or skip merge trains entirely. Now you can configure the parallel pipeline limit per merge train tobalance runner load and merge throughput. You can set the limit per project or instance-wide. Setting the limit to 1 means each
+merge request runs one at a time, against a clean target branch.
+Thanks to Norman Debald (@Modjo85) for this community contribution.

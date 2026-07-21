@@ -1,0 +1,11 @@
+Title: GitLab Duo Developer enhancements for merge request workflows
+Release: 19.0
+Source: https://docs.gitlab.com/releases/19/gitlab-19-0-released/
+Tier: Free, Premium, Ultimate
+Offering: GitLab.com, GitLab Self-Managed, GitLab Dedicated
+Links: Documentation, Related issue
+
+GitLab Duo Developer now supports multiple trigger methods: assign it to an issue, select Generate MR, or @mention it in any
+issue or MR discussion thread to turn feedback, To-do items, and design questions into code changes, follow-up MRs, orresearch summaries.
+With AGENTS.md and agent-config.yml configured, GitLab Duo Developer runs your tests and checks before committing. After a
+top-level group or instance administrator enables the Developer Flow, GitLab automatically adds mention and assign triggers toeligible projects.

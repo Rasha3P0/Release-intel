@@ -1,0 +1,13 @@
+Title: Cross-project pushes using CI/CD job tokens
+Release: 19.0
+Source: https://docs.gitlab.com/releases/19/gitlab-19-0-released/
+Tier: Free, Premium, Ultimate
+Offering: GitLab.com, GitLab Self-Managed, GitLab Dedicated, GitLab Dedicated for Government
+Links: Documentation, Related issue
+
+In previous versions of GitLab, you could only use a CI/CD job token (CI_JOB_TOKEN) to push to the same repository where the
+pipeline runs. Cross-project pushes required a personal access token or deploy token.
+You can now use a job token to push to another project when:
+ The target project opts in.
+ The user who starts the pipeline has at least the Developer role in the target project.
+This feature is behind the allow_push_to_allowlisted_projects feature flag, disabled by default in GitLab 19.0. Ask youradministrator to enable it.

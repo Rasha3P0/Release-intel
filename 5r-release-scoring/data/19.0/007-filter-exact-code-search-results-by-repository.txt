@@ -1,0 +1,9 @@
+Title: Filter exact code search results by repository
+Release: 19.0
+Source: https://docs.gitlab.com/releases/19/gitlab-19-0-released/
+Tier: Premium, Ultimate
+Offering: GitLab.com, GitLab Self-Managed
+Links: Documentation, Related issue
+
+You can now filter exact code search results by repository. With the repo: syntax, you can directly scope your search query tospecific repositories or repository patterns without having to go to individual projects.
+For example, searching for def authenticate repo:my-group/my-project returns results only from that repository. You can alsouse partial paths or patterns to match multiple repositories.

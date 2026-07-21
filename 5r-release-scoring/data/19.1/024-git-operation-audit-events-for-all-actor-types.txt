@@ -1,0 +1,9 @@
+Title: Git operation audit events for all actor types
+Release: 19.1
+Source: https://docs.gitlab.com/releases/19/gitlab-19-1-released/
+Tier: Ultimate
+Offering: GitLab.com, GitLab Self-Managed, GitLab Dedicated
+Links: Documentation · Related Issue
+
+In GitLab 18.10, audit logs began capturing the specific Git operation performed (clone, pull, fetch, or push) for human users.
+In GitLab 19.1, this extended to all actor types, including runners using deploy tokens and SSH certificate users. Audit logs nowreflect a complete picture of all Git activity across your repositories, regardless of who or what initiated it.

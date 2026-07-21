@@ -1,0 +1,14 @@
+Title: GPT models for Code Review Flow
+Release: 19.1
+Source: https://docs.gitlab.com/releases/19/gitlab-19-1-released/
+Tier: Premium, Ultimate
+Offering: GitLab.com, GitLab Self-Managed, GitLab Dedicated
+Links: Documentation · Related Issue
+
+In previous versions of GitLab, Code Review Flow supported only Anthropic Claude models. Teams that could not use Anthropic
+models due to contractual, policy, or procurement constraints had no way to run Code Review Flow.
+You can now select GPT-5.2 or GPT-5.3 Codex as the model for Code Review Flow. Top-level group Owners can switch the
+model for Agentic Code Review in Settings > GitLab Duo > Configure features, under GitLab Duo Agent Platform. The GPTmodels are hosted through the GitLab AI Gateway, so no additional configuration is required.
+Both models passed benchmark evaluation against the GitLab Duo code review dataset, with review quality comparable to the
+default Claude Sonnet 4.6 Vertex model. See the code review benchmark for results.
+This feature was removed on July 10, 2026.

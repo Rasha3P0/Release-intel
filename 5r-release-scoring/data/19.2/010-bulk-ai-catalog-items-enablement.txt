@@ -1,0 +1,10 @@
+Title: Bulk AI Catalog items enablement
+Release: 19.2
+Source: https://docs.gitlab.com/releases/19/gitlab-19-2-released/
+Category: Agentic Core
+Tier: Premium, Ultimate
+Offering: GitLab.com, GitLab Self-Managed, GitLab Dedicated, GitLab Dedicated for Government
+Links: Documentation · Related Issue
+
+When enabling public custom and external agents and public custom flows in the AI Catalog, you can now select up to 100
+projects in a single action, instead of selecting individual projects one at a time.

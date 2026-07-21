@@ -1,0 +1,20 @@
+Title: GitLab Duo CLI is now generally available
+Release: 19.2
+Source: https://docs.gitlab.com/releases/19/gitlab-19-2-released/
+Category: Primary features
+Tier: Premium, Ultimate
+Offering: GitLab.com, GitLab Self-Managed, GitLab Dedicated
+Links: Documentation · Related Issue
+
+GitLab Duo CLI brings the GitLab Duo Agent Platform directly to your terminal.
+Use the CLI to ask complex questions about your codebase and to autonomously perform actions on your behalf. Unlike external
+tools, the CLI has context about your GitLab project, pipelines, and agent configurations.
+Key features include:
+Two modes: interactive chat mode and headless mode for CI/CD
+Administrator on/off control for GitLab Self-Managed and GitLab Dedicated
+Model selection and shared sessions
+Tool approvals
+Model Context Protocol (MCP) connections
+Slash commands, including commands for context usage and context compaction
+Support for skills and AGENTS.md customization files
+Install the GitLab Duo CLI through the GitLab CLI (glab) or as a standalone tool.

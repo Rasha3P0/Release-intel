@@ -1,0 +1,9 @@
+Title: Security data in merge request Reports tab
+Release: 19.0
+Source: https://docs.gitlab.com/releases/19/gitlab-19-0-released/
+Tier: Ultimate
+Offering: GitLab.com, GitLab Self-Managed, GitLab Dedicated, GitLab Dedicated for Government
+Links: Documentation, Related epic
+
+Merge requests include a new Reports tab that shows all findings from security scans, license compliance results, and codequality reports for the pipeline.
+GitLab bot comments in the activity feed are still available to view any policy violations that prevent the merge request frombeing merged.

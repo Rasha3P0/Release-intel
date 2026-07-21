@@ -1,0 +1,12 @@
+Title: Recognize contributors with GitLab Achievements
+Release: 19.2
+Source: https://docs.gitlab.com/releases/19/gitlab-19-2-released/
+Tier: Free, Premium, Ultimate
+Offering: GitLab.com, GitLab Self-Managed, GitLab Dedicated
+Links: Documentation · Related Issue
+
+Previously GitLab had no built-in way to formally recognize team members, customers, and contributors for their work. Efforts
+often went unacknowledged, and communities lacked a consistent way to celebrate the people who make their projectssuccessful.
+You can now create custom achievements at the group level and award them to users for their contributions. Each achievementincludes a name, description, and avatar. Awarded users can choose which achievements to display on their profile.
+Achievements give maintainers a visible way to reward participation and help build stronger, more motivated communities.
+Thank you to Niklas van Schrick for your contributions to this feature!

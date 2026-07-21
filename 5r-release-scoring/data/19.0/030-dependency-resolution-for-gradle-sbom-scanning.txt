@@ -1,0 +1,10 @@
+Title: Dependency resolution for Gradle SBOM scanning
+Release: 19.0
+Source: https://docs.gitlab.com/releases/19/gitlab-19-0-released/
+Tier: Ultimate
+Offering: GitLab.com, GitLab Self-Managed, GitLab Dedicated, GitLab Dedicated for Government
+Links: Documentation, Related epic
+
+GitLab dependency scanning using SBOM now automatically generates a dependency graph (gradle.graph.txt) for Gradle
+projects. Previously, Gradle dependency scanning required you to generate a dependency graph manually as part of your build.Now, when a graph file is not available, the analyzer generates one automatically, removing this manual step for Java and Kotlin
+projects using Gradle.

@@ -1,0 +1,10 @@
+Title: Mermaid diagram rendering upgraded to version 11
+Release: 19.0
+Source: https://docs.gitlab.com/releases/19/gitlab-19-0-released/
+Tier: Free, Premium, Ultimate
+Offering: GitLab.com, GitLab Self-Managed, GitLab Dedicated
+Links: Documentation, Related issue
+
+GitLab now uses Mermaid version 11 for rendering diagrams in Markdown.
+Previously, GitLab supported Mermaid version 10. With this upgrade, you get access to all the new diagram types, syntaximprovements, and bug fixes introduced in Mermaid 11, including enhanced rendering for flowcharts, sequence diagrams, and
+more.

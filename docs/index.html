@@ -156,15 +156,18 @@
   <h2>Workstreams</h2>
   <div class="cards">
     <div class="card">
-      <h3>5R scoring on public release notes<span class="status">scorer built</span></h3>
-      <p>GitLab's monthly release notes, versions 19.0 to 19.2, fetched
-      and split into individual items, then scored note by note against
-      the five categories. The scorer, the fetch script, and the committed
-      LLM scoring prompt are in
-      <a href="https://github.com/Rasha3P0/Release-intel/tree/main/5r-release-scoring">5r-release-scoring</a>.
-      Findings will report base rates per category, co-occurrence, the
-      proportion of notes tripping the R4 hard gate, and worked
-      examples.</p>
+      <h3>5R scoring on public release notes<span class="status">99 notes scored</span></h3>
+      <p>GitLab's monthly release notes, versions 19.0 to 19.2, split into
+      99 individual items and scored note by note against the five
+      categories, with quoted evidence per stamp. Integration risk (R3)
+      is the most common surface at 41% of notes; 41% of notes carry two
+      or more stamps and would need a coordination sign-off; 38% trip the
+      R4 hard gate, almost always on brevity. The widest-impact change in
+      the corpus, a mandatory PostgreSQL major-version upgrade, arrived
+      as a two-sentence note: the brevity gate caught what a severity
+      scale would have had to guess at. Method, scored data, and worked
+      examples are in
+      <a href="https://github.com/Rasha3P0/Release-intel/tree/main/5r-release-scoring">5r-release-scoring</a>.</p>
     </div>
     <div class="card">
       <h3>Incident intelligence on public data<span class="status">planned</span></h3>

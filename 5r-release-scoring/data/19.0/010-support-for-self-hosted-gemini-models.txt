@@ -1,0 +1,9 @@
+Title: Support for self-hosted Gemini models
+Release: 19.0
+Source: https://docs.gitlab.com/releases/19/gitlab-19-0-released/
+Tier: Premium, Ultimate
+Offering: GitLab Self-Managed
+Links: Documentation, Related issue
+
+GitLab Duo Agent Platform Self-Hosted is now compatible with Gemini models. Gemini models support multiple flows, including
+the Code Review Flow, SAST Vulnerability Resolution Flow, Fix CI/CD Pipeline Flow, and more.

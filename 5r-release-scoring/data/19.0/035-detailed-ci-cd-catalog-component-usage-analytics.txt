@@ -1,0 +1,13 @@
+Title: Detailed CI/CD Catalog component usage analytics
+Release: 19.0
+Source: https://docs.gitlab.com/releases/19/gitlab-19-0-released/
+Tier: Ultimate
+Offering: GitLab.com, GitLab Self-Managed, GitLab Dedicated
+Links: Documentation, Related issue
+
+When you manage a CI/CD component in the GitLab Catalog, usage details are critical for managing upgrades, enforcing
+compliance, and communicating breaking changes. You need to know which projects use your components, and which versions
+they are using. Previously, this information was not available, making it difficult to notify the right maintainers, plan deprecationssafely, or ensure projects stay current with the latest security patches.
+The component usage details view in the catalog resource page now shows exactly which projects use each component, theversion they are running, and whether they are on the latest version or an outdated one. Projects using older versions are
+surfaced at the top, so you can prioritize outreach, drive adoption of security fixes, and ensure a smooth upgrade path across
+your organization.

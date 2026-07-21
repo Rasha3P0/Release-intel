@@ -1,0 +1,20 @@
+Title: Dependency scanning auto-remediation (Beta)
+Release: 19.2
+Source: https://docs.gitlab.com/releases/19/gitlab-19-2-released/
+Tier: Ultimate
+Offering: GitLab.com, GitLab Self-Managed, GitLab Dedicated
+Links: Documentation · Related Issue
+
+GitLab 19.2 introduces Dependency scanning auto-remediation in Beta. The feature brings automated vulnerability remediationdirectly into your dependency scanning workflow, with two capabilities:
+Automated dependency version bumps, available on GitLab.com, GitLab Self-Managed, and GitLab Dedicated.
+Agentic Breaking Change Resolution, available on GitLab.com, GitLab Self-Managed, and GitLab Dedicated, and consumes
+GitLab Credits.
+Automated dependency version bumps automatically opens merge requests to update vulnerable dependencies to their safeversions. Once turned on, GitLab monitors your projects for vulnerable dependencies and opens remediation MRs without
+manual intervention. By default, updates target patch and minor versions.
+Agentic Breaking Change Resolution extends the remediation flow to handle complex updates. When a merge request that
+bumps dependency versions has a pipeline fails on a breaking change, GitLab Duo analyzes the pipeline errors, thedependencyʼs changelog, and how your code uses the dependency.
+GitLab Duo commits fixes to the same MR and re-runs the pipeline until the pipeline passes. When you enable Agentic BreakingChange Resolution, version bumps extend to include major versions.
+Together, the two capabilities form a complete remediation loop: GitLab opens the MR, and when the update is complex, GitLab
+Duo resolves it.
+For setup instructions, see Dependency scanning auto-remediation.
+Share feedback in the beta feedback issue.

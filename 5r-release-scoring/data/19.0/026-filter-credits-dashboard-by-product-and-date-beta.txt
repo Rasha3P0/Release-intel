@@ -1,0 +1,14 @@
+Title: Filter Credits dashboard by product and date (Beta)
+Release: 19.0
+Source: https://docs.gitlab.com/releases/19/gitlab-19-0-released/
+Tier: Premium, Ultimate
+Offering: GitLab.com, GitLab Self-Managed
+Links: Documentation
+
+The in-product GitLab Credits dashboard now supports product filtering, date range selection, and Secrets Manager usage
+visibility.
+You can filter usage by product (including GitLab Duo and Secrets Manager) and date range, see a daily usage chart across
+selected products, and review per-user attribution with a Usage control status column.
+The dashboard also includes usage from service accounts so automated activity is reflected in per-user attribution, and surfaces
+non-billable and beta events such as Secrets Manager Open Beta activity. This gives you a complete view of credit consumption
+in your organization.

@@ -1,0 +1,10 @@
+Title: Automatic code review for new GitLab customers
+Release: 19.1
+Source: https://docs.gitlab.com/releases/19/gitlab-19-1-released/
+Tier: Free, Premium, Ultimate
+Offering: GitLab.com
+Links: Documentation · Related Issue
+
+Automatic reviews in Code Review Flow are now turned on by default for new GitLab Duo trial customers on GitLab.com, so you
+can start getting AI-powered feedback on your merge requests from day one — without any manual setup.
+With a new flat pricing model, you get immediate value from smarter, faster code reviews right out of the box. If needed, you canopt out in your group settings.

@@ -1,0 +1,9 @@
+Title: Security manager can configure agentic flows
+Release: 19.2
+Source: https://docs.gitlab.com/releases/19/gitlab-19-2-released/
+Tier: Ultimate
+Offering: GitLab.com, GitLab Self-Managed, GitLab Dedicated, GitLab Dedicated for Government
+Links: Documentation · Related Issue
+
+Users with the Security Manager role can now configure SAST VR, SAST FP, Secrets FP, and Dependency Scanning VR for
+projects.

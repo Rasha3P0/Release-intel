@@ -1,0 +1,12 @@
+Title: Scheduled pipeline execution policies are GA
+Release: 19.2
+Source: https://docs.gitlab.com/releases/19/gitlab-19-2-released/
+Tier: Ultimate
+Offering: GitLab.com, GitLab Self-Managed, GitLab Dedicated
+Links: Documentation · Related Issue
+
+Scheduled pipeline execution policies are now generally available. Define a schedule once in a security policy project and
+enforce it across every project in scope, without editing each projectʼs .gitlab-ci.yml. If requirements change, update thepolicy in one place instead of coordinating changes across many CI/CD configuration files.
+Use scheduled policies to run compliance scripts, security scans, or other custom CI/CD jobs on a daily, weekly, or monthlycadence, independent of commit activity. This is useful for repositories without regular code changes, such as running
+dependency scans to detect newly discovered vulnerabilities. Each policy runs as a separate pipeline, with time zone support,
+time window distribution, and branch targeting.

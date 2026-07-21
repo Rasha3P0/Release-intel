@@ -1,0 +1,11 @@
+Title: CI/CD analytics now shows accurate pipeline rates
+Release: 19.1
+Source: https://docs.gitlab.com/releases/19/gitlab-19-1-released/
+Tier: Premium, Ultimate
+Offering: GitLab.com, GitLab Self-Managed, GitLab Dedicated
+Links: Documentation · Related Issue
+
+In previous versions of GitLab, the failure rate and success rate metrics on the CI/CD analytics page(<project>/-/pipelines/charts) included canceled and skipped pipelines in their calculations. This caused both rates to
+appear lower than expected. For example, on gitlab-org/gitlab the two rates summed to only 98% instead of approximately100%.
+Now, GitLab calculates the failure rate and success rate using only completed pipelines, so the results accurately reflect your
+pipeline health.

@@ -1,0 +1,12 @@
+Title: CI Expert Agent is now generally available
+Release: 19.2
+Source: https://docs.gitlab.com/releases/19/gitlab-19-2-released/
+Category: Unified DevOps and Security
+Tier: Free, Premium, Ultimate
+Offering: GitLab.com, GitLab Self-Managed, GitLab Dedicated
+Links: Documentation · Related Issue
+
+The CI Expert Agent is now generally available. This AI-powered assistant helps you create, debug, and optimize GitLab CI/CD
+pipelines. It analyzes your repository and provides guidance through your pipeline configuration.
+The generally available (GA) release builds on the Beta and design-partner program, and brings the agent to production use withreal customer workloads to reduce the barrier to CI/CD adoption in your projects.
+The agent integrates with Orbit: when Orbit and its Knowledge Graph are enabled, the agent draws on graph-based codeintelligence for more contextual pipeline recommendations. Orbit and the Knowledge Graph are in Beta.

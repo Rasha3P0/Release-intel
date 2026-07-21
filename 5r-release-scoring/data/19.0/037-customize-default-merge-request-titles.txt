@@ -1,0 +1,11 @@
+Title: Customize default merge request titles
+Release: 19.0
+Source: https://docs.gitlab.com/releases/19/gitlab-19-0-released/
+Tier: Free, Premium, Ultimate
+Offering: GitLab.com, GitLab Self-Managed
+Links: Documentation, Related issue
+
+In previous versions of GitLab, the default title for a new merge request came from the source branch or first commit, and you
+couldnʼt enforce a consistent naming convention across your project.
+Now you can configure a default merge request title template per project. Templates support variables for the source branch,target branch, first commit subject, linked issue ID, issue title, and a human-readable version of the source branch name. For
+example, the template Resolve %{issue_id} "%{issue_title}" produces titles like Resolve 123 "Fix login bug". You can stilledit the title before creating the merge request.
