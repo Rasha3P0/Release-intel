@@ -27,7 +27,13 @@ GitLab monthly release notes, versions 19.0 to 19.2, published at
 - 19.2: <https://docs.gitlab.com/releases/19/gitlab-19-2-released/>
 
 GitLab is credited as the source. Notes are quoted for analysis under
-fair-dealing review purposes, with links back to the source pages.
+fair-dealing review purposes, with links back to the source pages. GitLab's
+own documentation licence is Creative Commons Attribution-ShareAlike 4.0:
+all content under the `doc/` directory of the `gitlab-org/gitlab`
+repository, which is what generates the pages at docs.gitlab.com
+including the release notes, is licensed CC BY-SA 4.0. That licence
+independently permits this quotation and reuse; it is cited here
+alongside the fair-dealing basis rather than instead of it.
 `fetch_notes.py` fetches the pages and splits them into individual
 release-note items in `data/`.
 
@@ -103,6 +109,17 @@ and 35 on brevity (three sentences or fewer). Per release: 19.0 48%,
 to their authors for a joint re-score with a technical lead; on a public
 corpus the gate reads as a measure of how often release notes give a
 tester too little to plan from.
+
+Public release notes are written in a marketing register: GitLab is
+writing for customers deciding whether to upgrade, not for a tester
+planning coverage, so innocuous internal labels such as "minor" or
+"cleanup" are rare here, and short notes are simply house style rather
+than a sign of anything being hidden. On this corpus the gate is
+functioning almost entirely through its brevity arm, not its
+label-detection arm. Internal change records, written by engineers
+describing their own work to other engineers, are where the label
+trigger is expected to carry more of the weight; testing it against
+public release notes tests one arm of the gate more than the other.
 
 ### Worked examples
 

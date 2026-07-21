@@ -107,9 +107,30 @@ the systems it affected is not cleanly reversible.
 Five stamps of five. Under the threshold rule, two or more stamps add a
 coordination sign-off before planning begins, and the R4 hard gate holds
 the change for a joint re-score regardless. Scored categorically from
-its own description, this change does not proceed as routine: it is the
-strongest possible 5R case, a maximal-stamp change travelling under a
-minimal-register label.
+its own description, this change does not proceed as routine: all five
+categories stamp, a change travelling under a minimal-register label.
+
+### Why these stamps do not depend on hindsight
+
+A fair objection to this analysis is that it scores detail only the
+post-incident RCA supplies. No pre-release change description would
+ever have contained an RCA's level of forensic detail, so the stamps
+can look retrospective by construction. Two of the five do not depend
+on that detail at all. R2 and R5 are properties of the delivery
+mechanism itself, knowable before release regardless of what any
+change note said. The update ships fleet-wide to a component loaded at
+boot, which is R2 on its own. The distribution point's own reversal
+cannot reach a host that has already received the content before it
+crashes, which is R5 on its own. Neither depends on knowing anything
+about Channel File 291's specific defect. R4 fires on the language
+CrowdStrike actually published: a "content configuration update",
+released "as part of regular operations". R4 is a hard gate by itself;
+it holds the change for a joint re-score independent of any other
+stamp. R1 and R3 are the two stamps that do draw on RCA-level detail,
+the specific parameter mismatch and the specific interpreter contract.
+They show what that joint re-score, once triggered by R4 alone, had
+available to find. The gate does not need all five stamps to function.
+It needed R4, and R4 fires on the label CrowdStrike itself published.
 
 ## What the RCA's remediations share with the gate's protocols
 

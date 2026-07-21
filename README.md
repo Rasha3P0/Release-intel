@@ -37,7 +37,8 @@ dataset used is publicly available and credited with a link.
 
 - GitLab release notes, versions 19.0 to 19.2:
   <https://docs.gitlab.com/releases/>. Quoted for analysis under
-  fair-dealing review purposes, with links back.
+  fair-dealing review purposes, with links back. GitLab's documentation
+  content is separately licensed CC BY-SA 4.0.
 - CrowdStrike, Preliminary Post Incident Review (24 July 2024) and
   External Technical Root Cause Analysis: Channel File 291
   (6 August 2024), both published at <https://www.crowdstrike.com>.

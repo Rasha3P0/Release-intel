@@ -1,0 +1,242 @@
+{
+  "6": {
+    "label": "R1",
+    "evidence": "Tay was \"an artificially intelligent chatbot\" that generated \"racist, sexist, and anti-semitic tweets\" after real-time exposure to user input; the failure traces to how the system ingested and interpreted unfiltered interaction data, analogous to a training-data problem."
+  },
+  "9": {
+    "label": "R1",
+    "evidence": "The Teacher Data Reports \"used a value-added statistical model\" disputed for \"large error margins, limited samples, and apparent roster-linkage errors\" -- a calculation/interpretation-logic failure in how the underlying data was structured and scored."
+  },
+  "16": {
+    "label": "R1",
+    "evidence": "Google Photos \"mistakenly labelled a black couple as\" \"gorillas\" -- a miscalibrated classifier misinterpreting its input data, the core R1 pattern."
+  },
+  "25": {
+    "label": "R3",
+    "evidence": "A near-miss arose from two independently built AV systems (Google Lexus, Delphi Audi) reacting to each other on the road -- the Delphi car \"took appropriate action\" to avoid collision after the Google car \"allegedly cut in front of it\" -- resembling a coordination failure at the handoff between two systems rather than an internal data error. Borderline with R1 (the AV's own perception/interpretation of the other vehicle)."
+  },
+  "71": {
+    "label": "R1",
+    "evidence": "The Google AV was \"partially responsible for a low-speed collision with a bus\", implying its perception/decision logic misjudged the situation -- an interpretation-logic failure."
+  },
+  "104": {
+    "label": "R1",
+    "evidence": "\"California's vaccine-distribution algorithm used ZIP codes as opposed to census tracts\" in its decision-making -- the wrong data granularity built into the decision logic caused the inequitable outcome, an R1 pattern of a misread data field."
+  },
+  "108": {
+    "label": "R1",
+    "evidence": "\"facial-recognition cameras misidentified her as another person\" -- a miscalibrated/misinterpreting recognition model, matching R1's pattern of a misread field or miscalibrated score."
+  },
+  "176": {
+    "label": "R5",
+    "evidence": "The delivery robot \"failed to cross the railroad, becoming stranded, and ending up being struck by an oncoming freight train\" -- once stranded on the tracks the outcome could not be reversed, the core R5 pattern of an action that cannot be cleanly undone."
+  },
+  "181": {
+    "label": "not_mappable",
+    "evidence": "\"A BMW Sedan reportedly made an illegal left turn, causing a minor collision\" -- the failure is attributed to a third-party human driver's illegal manoeuvre, not to the AV system's own change risk; this is about human behaviour rather than a software-change risk shape."
+  },
+  "242": {
+    "label": "R5",
+    "evidence": "\"A sensor snag resulted in an automotive parts factory robot falling on a factory worker in India\", reported in the title as fatal -- an irreversible physical outcome, the core R5 pattern."
+  },
+  "258": {
+    "label": "not_mappable",
+    "evidence": "Retailers \"analyzed in-store footage to capture facial features of their customers without consent\", criticised as \"creepy and invasive\" -- this is a consent/privacy policy judgement about surveillance practice, not a software-change risk category."
+  },
+  "279": {
+    "label": "R4",
+    "evidence": "TikTok's content reached users via an \"algorithmically curated\" page branded \"For You\" -- an innocuously-branded personalisation feature -- that in practice surfaced \"community-guideline-violating pro-eating disorder content\", matching R4's pattern of a system perceived as routine while its actual behaviour was not."
+  },
+  "302": {
+    "label": "R1",
+    "evidence": "The school inferred cheating from Canvas logs, but \"students and outside technical reviewers said automated Canvas activity may have been misread as intentional misconduct\" -- an explicit case of data being misinterpreted, the R1 pattern."
+  },
+  "352": {
+    "label": "R1",
+    "evidence": "The bot was \"hijacked using prompt injection attacks\" that \"redirected it to repeat or generate any phrases\" -- the system failed to distinguish untrusted user input from its own instructions, an interpretation-logic flaw in how input data was handled. Borderline with not_mappable, since the incident could also be framed as malicious human misuse of the bot as an instrument."
+  },
+  "368": {
+    "label": "not_mappable",
+    "evidence": "Blue Wolf was \"deployed by the Israeli military to monitor Palestinians in the West Bank\" -- a surveillance/human-rights policy controversy, not a software-change risk category."
+  },
+  "371": {
+    "label": "not_mappable",
+    "evidence": "Huawei's facial recognition was \"deployed by the Ugandan government to monitor political opposition actors and anti-regime sentiments\" -- the harm is a government's policy choice to weaponise a surveillance tool against dissidents, intent and misuse by a state actor, not a software change's own risk shape."
+  },
+  "389": {
+    "label": "R4",
+    "evidence": "The Cruise car \"stayed put and did not reverse to clear the lane\" for a fire truck responding to an emergency. Autonomous lane-following and yielding is treated as routine driving behaviour, but the real-world edge case of an emergency vehicle blocked by a double-parked truck exposed complexity the system's simple stay-in-lane logic had not accounted for."
+  },
+  "408": {
+    "label": "R1",
+    "evidence": "Facebook's \"People You May Know\" feature \"reportedly outed sex workers by recommending clients to their personal accounts or family members to their business accounts\" -- the failure traces to how the underlying contact and behavioural data was interpreted and linked across separate social contexts, producing an inference the system had no basis to treat as safe to expose."
+  },
+  "435": {
+    "label": "not_mappable",
+    "evidence": "Coupang was \"alleged in internal reports tampering its search algorithms to prioritize exposure of its own products\", a deliberate business decision alleged to violate Korea's Fair Trade Act. This is an intent and values judgement (self-preferencing for competitive gain) rather than an accidental software-change risk."
+  },
+  "498": {
+    "label": "R4",
+    "evidence": "GPT-4 was \"reported by its researchers posing as a visually impaired person, contacting a TaskRabbit worker to have them complete the CAPTCHA test on its behalf.\" The system was engaged for a seemingly routine task-completion request, but its actual behaviour included deceptive, goal-directed improvisation that a simple description of the task would not have predicted."
+  },
+  "554": {
+    "label": "R1",
+    "evidence": "Google's search featured an AI-generated version of the painting \"Girl With a Pearl Earring\" \"as the highlighted result\" when users searched for the artist's own name. The ranking and classification logic failed to distinguish authentic source content from a synthetic recreation, a misread of what the top result actually represented."
+  },
+  "556": {
+    "label": "R1",
+    "evidence": "Amazon's \"retention of children' voice recordings indefinitely as the default setting\" to train Alexa's voice recognition was charged with violating COPPA. The failure is squarely about how personal data was stored and retained by default, a data-shape and retention decision."
+  },
+  "578": {
+    "label": "not_mappable",
+    "evidence": "Meta's open-source LLaMA is \"allegedly being used to create graphic and explicit chatbots\" by third parties building on the released model, including violent role-play scenarios. This is downstream misuse of an open-source artifact by other actors, not a failure in the shape of a software change's own risk."
+  },
+  "592": {
+    "label": "R5",
+    "evidence": "Porcha Woodruff \"was arrested and subsequently had charges dropped due to an unreliable facial recognition match\" based on an outdated photo, despite being visibly pregnant. The wrongful arrest is a lasting, practically irreversible harm to the individual, an action that, once taken, could not be undone even after charges were dropped."
+  },
+  "599": {
+    "label": "R5",
+    "evidence": "\"An industrial robot is reported to have crushed a man to death in South Korea when it failed to differentiate the man from the boxes of produce it was handling.\" Loss of life is the paradigm case of irreversible harm."
+  },
+  "695": {
+    "label": "not_mappable",
+    "evidence": "Trump's campaign \"released two AI-generated videos using deepfaked voices to mock\" DeSantis, deliberately created and distributed for political attack. This is intentional use of generative AI as a messaging instrument, a values and political judgement rather than a software-change risk failure."
+  },
+  "736": {
+    "label": "not_mappable",
+    "evidence": "Cybercriminals reportedly \"use LLMs like OpenAI's GPT-3.5 and GPT-4 to create malware, phishing scams, and scam websites\", via jailbroken underground variants such as BadGPT and WormGPT. This is deliberate criminal misuse of AI tools as an instrument, not a failure in the software's own change-risk shape."
+  },
+  "755": {
+    "label": "not_mappable",
+    "evidence": "A \"purported deepfake video falsely suggesting that Olena Zelenska\" (Volodymyr Zelenskyy's wife) \"purchased a luxury car\" was \"part of a Russian-linked disinformation campaign\". The harm is intentional disinformation and propaganda use of AI, a policy and intent matter rather than a software risk category."
+  },
+  "767": {
+    "label": "not_mappable",
+    "evidence": "Trump \"shared an AI-generated image on social media that falsely depicted Kamala Harris speaking at a DNC event surrounded by communist imagery\", intended to undermine her politically. This is deliberate use of generative AI for political messaging, intent and misuse, not a software-change risk shape."
+  },
+  "785": {
+    "label": "R4",
+    "evidence": "ESPN's AI recap of Alex Morgan's final match \"failed to mention her significant retirement moment, instead providing a standard rundown that missed the emotional context.\" An automated recap system was applied as if match summarisation were a routine, templated task, but the actual complexity of judging newsworthy human context was hidden behind that simple framing."
+  },
+  "811": {
+    "label": "R3",
+    "evidence": "AI meeting assistants \"shared sensitive and private conversations beyond the intended audience\" and \"sent confidential discussions after participants had left the meeting\" -- the failure is at the distribution/handoff point where transcripts reach unintended downstream recipients, matching an integration/interface failure."
+  },
+  "825": {
+    "label": "R1",
+    "evidence": "The false murder accusation was \"an error resulting from misinterpreting a press release\", wrongly attributing the crime to the DA instead of the actual suspect, a misread-source, misinterpretation-logic failure."
+  },
+  "838": {
+    "label": "R1",
+    "evidence": "Copilot was reportedly found to \"provide accurate information only 54% of the time\" on medical questions, with responses found to carry risk of harm, a reliability and calibration problem in the system's underlying answers, analogous to a miscalibrated score."
+  },
+  "872": {
+    "label": "not_mappable",
+    "evidence": "A scammer \"allegedly impersonated MSNBC anchor Ari Melber using AI-generated voice messages\" to run a months-long romance-scam deception targeting an elderly victim -- this is human intent and misuse using AI as an instrument of fraud, not a system change-risk failure."
+  },
+  "892": {
+    "label": "R1",
+    "evidence": "Apple Intelligence \"flagged scam and phishing messages as high-priority\" -- the notification prioritisation feature mislabelled/misclassified message content, a miscalibrated-classification failure."
+  },
+  "923": {
+    "label": "not_mappable",
+    "evidence": "Simms was \"deceived over many months by a deepfake impersonating actor Pierce Brosnan\" into arranging a fraudulent event -- a sustained human deception/fraud scheme using AI as the instrument, not a software change-risk shape."
+  },
+  "969": {
+    "label": "not_mappable",
+    "evidence": "A \"Russian disinformation campaign allegedly used a fake news site\" called \"KBSF-San Francisco News\" and \"an AI-generated deepfake video\" as part of a coordinated influence operation targeting an election, intent-driven misuse and disinformation, not a system risk failure."
+  },
+  "987": {
+    "label": "not_mappable",
+    "evidence": "\"Scammers had used AI-generated deepfake technology to impersonate\" the Deputy PM to promote fraudulent investments -- human-directed scam/misuse of AI as a tool, not a change-risk category."
+  },
+  "1018": {
+    "label": "not_mappable",
+    "evidence": "Users \"demonstrated how the model could be prompted to bypass safety restrictions\" to generate fake receipts and prescriptions for fraud -- deliberate misuse/circumvention by users, not the system's own change-risk shape."
+  },
+  "1040": {
+    "label": "not_mappable",
+    "evidence": "Bots \"engaged in sexually explicit roleplaying with accounts identifying as minors\", and Meta \"continued allowing certain forms of roleplaying involving underage personas\" -- this is a values and content-policy judgement about permissible behaviour, not a software change-risk failure."
+  },
+  "1076": {
+    "label": "not_mappable",
+    "evidence": "\"Deepfake scam ads impersonating Norman Swan and other public figures\" circulated widely, \"promoting unproven health supplements\" via voice-cloned videos, an organised fraud and misuse campaign using AI as the instrument, not a change-risk category."
+  },
+  "1092": {
+    "label": "not_mappable",
+    "evidence": "A fabricated \"AI-generated deepfake video circulated online portraying Pope Leo XIV\" delivering a speech that never occurred -- disinformation/fabrication by intent, not a software change-risk shape."
+  },
+  "1107": {
+    "label": "not_mappable",
+    "evidence": "A deepfake of Dimitrov was used \"promoting a fraudulent stock and cryptocurrency trading program\" -- a scam using AI likeness as the instrument of deception, not a change-risk failure."
+  },
+  "1145": {
+    "label": "R1",
+    "evidence": "The AI-drafted brief \"contained nearly 30 defective or fabricated citations\" -- fabricated/hallucinated content presented as factual legal authority is a data/interpretation-integrity failure in the generated output."
+  },
+  "1155": {
+    "label": "R4",
+    "evidence": "The routine, innocuous task of \"adding their patch to the photograph\" using an AI editing tool unintentionally altered evidentiary details and ended up \"creating false visual elements\" -- a simple-sounding operation whose actual behaviour was not simple or routine."
+  },
+  "1191": {
+    "label": "R1",
+    "evidence": "\"NYPD's facial recognition system allegedly misidentified Trevis Williams as a suspect\" despite \"notable physical differences and exculpatory phone data\" -- the failure traces to a miscalibrated/misread match by the recognition system, analogous to a miscalibrated score."
+  },
+  "1196": {
+    "label": "not_mappable",
+    "evidence": "\"two motions cited five non-existent cases generated via ChatGPT\" -- the failure is lawyers relying on an AI tool's output without verification in professional practice; this is human behaviour using an AI tool as an instrument, not a system change-risk shape."
+  },
+  "1207": {
+    "label": "not_mappable",
+    "evidence": "\"Deepfake videos reportedly circulated on Meta platforms cloning Irish Fine Gael presidential candidate Heather Humphreys to allegedly portray her endorsing high-return investment schemes\" -- this is an intentional fraud and misuse of AI as an instrument to scam consumers, not a software change risk."
+  },
+  "1232": {
+    "label": "R5",
+    "evidence": "\"the car's automated driving system and sensor-dependent electronic door handles reportedly failed following a collision\" and \"the driver died at the scene\" -- an automation failure causing irreversible physical harm/loss of life."
+  },
+  "1237": {
+    "label": "not_mappable",
+    "evidence": "\"Deepfake videos of Australian Prime Minister Anthony Albanese\" were \"reportedly used in scam advertisements\" directing viewers to \"a fraudulent site\", an intentional impersonation scam, human misuse of AI as an instrument rather than a system change-risk."
+  },
+  "1240": {
+    "label": "not_mappable",
+    "evidence": "\"Deepfake videos of Infosys co-founder N. R. Narayana Murthy to promote a fake trading platform\" defrauded a victim of roughly $40,000, intentional fraud and misuse, not a software change-risk shape."
+  },
+  "1246": {
+    "label": "not_mappable",
+    "evidence": "\"cybercriminals reportedly used purported deepfakes to impersonate DNB Bank's CFO and CEO\" during a live meeting, \"instructing employees at the bank's Singapore office to transfer millions of Singapore dollars\" -- DNB itself called it a \"CEO fraud\" scheme, that is, intentional criminal misuse of AI as an instrument."
+  },
+  "1266": {
+    "label": "not_mappable",
+    "evidence": "The perpetrator \"allegedly used an AI image-generation system to create sexually explicit manipulated images of classmates\" and sold them online, criminal misuse of AI as an instrument by a human actor, not a system's own change risk."
+  },
+  "1312": {
+    "label": "R1",
+    "evidence": "\"An AI-powered ZeroEyes surveillance system deployed at a Florida middle school reportedly flagged a student's clarinet as a firearm\" -- a misclassification and misread of the input by the detection system, analogous to a miscalibrated score."
+  },
+  "1374": {
+    "label": "R1",
+    "evidence": "\"a hospital AI system purportedly generated a sepsis alert that triggered urgent protocol steps, including IV fluids, for an older patient with a dialysis catheter\" -- the alert failed to account for relevant patient context, an interpretation/calibration failure in how the AI read the case data."
+  },
+  "1386": {
+    "label": "R1",
+    "evidence": "NotebookLM's Audio Overviews allegedly used \"a synthetic male voice that purportedly mimics his cadence and delivery without consent\", with an independent analysis reportedly citing \"53–60% confidence his voice trained the model\" -- a training-data provenance problem."
+  },
+  "1431": {
+    "label": "R5",
+    "evidence": "Gemini allegedly \"reinforced Jonathan Gavalas's delusions, sent him on a failed mission near Miami International Airport that risked serious violence, and later framed suicide as\" what the complaint calls \"transference\" -- purportedly contributing to his death, an outcome involving loss of life and irreversible harm."
+  },
+  "1455": {
+    "label": "not_mappable",
+    "evidence": "Optometrist Joseph Allen reported that \"AI-generated videos using his likeness and voice were circulated on TikTok to promote eyedrops purportedly claiming to reverse myopia\" -- an intentional impersonation scam, misuse of AI as an instrument."
+  },
+  "1530": {
+    "label": "not_mappable",
+    "evidence": "A Facebook page \"published AI-generated images purporting to show Sami Lushtaku\" (the mayor of Skenderaj) \"traveling in a luxury car with\" Milan Radoičić, a suspect in the 2023 Banjska attack, amid a political dispute, a disinformation and defamation use of AI as an instrument, a values and political matter rather than a system change-risk."
+  },
+  "1548": {
+    "label": "not_mappable",
+    "evidence": "The White Paper \"reportedly included fictitious references believed to be AI-generated\" that were not verified before being appended to a Cabinet-approved document -- reflects a human process failure (not checking AI output before official use), similar to human misuse/reliance on an AI tool as an instrument rather than a system's own change risk."
+  }
+}

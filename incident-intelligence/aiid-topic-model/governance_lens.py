@@ -28,6 +28,26 @@ def norm(s):
     return re.sub(r"\s+", " ", s).lower()
 
 
+# Double quotes are unambiguous. Single quotes are only treated as
+# quotation marks when the opening/closing mark is not directly attached
+# to a letter, which excludes contractions and possessives ("driver's",
+# "workers'") from being misread as quote delimiters.
+QUOTE_RE = re.compile(r'"([^"]{6,})"|(?<!\w)\'([^\']{6,})\'(?!\w)')
+
+
+def unverified_quotes(evidence, source_text):
+    """Return quoted fragments in evidence (len >= 6) not found verbatim
+    (after norm()) in source_text. Analyst reasoning outside quote marks
+    is not checked; only what the evidence field itself puts in quotes."""
+    source_norm = norm(source_text)
+    bad = []
+    for m in QUOTE_RE.finditer(evidence):
+        fragment = m.group(1) or m.group(2)
+        if norm(fragment) not in source_norm:
+            bad.append(fragment)
+    return bad
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("sample_csv")
@@ -48,7 +68,7 @@ def main():
     if extra:
         print(f"warning: unknown ids in scores, ignoring: {sorted(extra)}", file=sys.stderr)
 
-    rows, bad = [], []
+    rows, bad, unquoted = [], [], []
     for incident_id, r in sample.items():
         j = scores[incident_id]
         label = j.get("label")
@@ -56,11 +76,23 @@ def main():
         if label not in LABELS or not evidence:
             bad.append((incident_id, label))
             continue
+        source_text = f"{r['title']} {r['description']}"
+        bad_quotes = unverified_quotes(evidence, source_text)
+        if bad_quotes:
+            unquoted.append((incident_id, bad_quotes))
+            continue
         rows.append({"incident_id": incident_id, "title": r["title"],
                      "label": label, "evidence": evidence})
 
     if bad:
         print(f"error: invalid judgements: {bad}", file=sys.stderr)
+        sys.exit(1)
+
+    if unquoted:
+        print("error: quoted evidence not found verbatim in source text:",
+              file=sys.stderr)
+        for incident_id, fragments in unquoted:
+            print(f"  {incident_id}: {fragments}", file=sys.stderr)
         sys.exit(1)
 
     out_dir = pathlib.Path(args.out)

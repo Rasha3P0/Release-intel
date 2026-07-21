@@ -1,5 +1,9 @@
 # Release Intelligence — build brief
 
+> Note: this repository is published as `Rasha3P0/Release-intel`. The
+> brief below is committed verbatim as the specification and decision
+> log; `release-intelligence` was its working title.
+
 You are building a public GitHub repository called `release-intelligence`. It demonstrates predictive release governance and incident intelligence methods on fully public data. The author directs; you build. Treat this brief as the specification and decision log.
 
 ## Hard constraints — read before anything else

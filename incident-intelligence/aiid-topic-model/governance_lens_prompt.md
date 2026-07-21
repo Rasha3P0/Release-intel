@@ -65,8 +65,23 @@ Guidance on the analogy, not rules to apply mechanically:
 Rules:
 
 1. Choose exactly one label.
-2. The evidence field must quote or closely paraphrase the incident's own
-   title or description text.
+2. The evidence field may quote the incident's own title or description
+   text, or paraphrase it in your own words, or both. These are not
+   interchangeable: anything inside quotation marks must be copied
+   verbatim from the title or description, character for character
+   (aside from surrounding whitespace). Never put your own wording, a
+   paraphrase, or a phrase from the 5R category definitions themselves
+   inside quotation marks. Use double quotes only for verbatim
+   quotation; do not use single quotation marks to mark a quote (this
+   avoids confusion with contractions and possessives such as
+   "driver's"). Do not use an ellipsis or bracketed insertions to
+   splice together non-adjacent parts of the source text into one
+   quotation; quote a single contiguous run of the source text, or use
+   two separate double-quoted fragments joined by your own words.
+   `governance_lens.py` mechanically checks every double-quoted
+   fragment against the source text and rejects the batch if any
+   fragment is not found verbatim, so treat this as a hard requirement,
+   not a style preference.
 3. If the description does not give enough basis to choose confidently
    between two categories, prefer not_mappable and say why in the
    evidence field, rather than guessing.
