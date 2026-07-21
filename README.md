@@ -15,6 +15,11 @@ from [`docs/`](docs/) via GitHub Pages.
   framework specification, the ingestion and scoring scripts, the
   committed LLM scoring prompt, the 99-note corpus, and the scored
   output with findings in its README.
+- [`incident-intelligence/`](incident-intelligence/): Workstream 2,
+  incident intelligence on public data. Contains the retrospective 5R
+  scoring of the CrowdStrike Falcon outage of 19 July 2024, worked from
+  CrowdStrike's published post-incident documents. The AI Incident
+  Database analysis is not yet started.
 - [`BUILD_BRIEF.md`](BUILD_BRIEF.md): the specification and decision log for
   this repository, including the complete generic 5R framework and the two
   planned workstreams (5R scoring on public release notes; incident
@@ -25,14 +30,21 @@ from [`docs/`](docs/) via GitHub Pages.
   obligation on the spec.
 
 The workstreams described in the brief are built here incrementally. Every
-dataset used is publicly available and credited with a link. Workstream 2
-(incident intelligence on public data) is not yet started.
+dataset used is publicly available and credited with a link.
 
 ## Data sources
 
 - GitLab release notes, versions 19.0 to 19.2:
   <https://docs.gitlab.com/releases/>. Quoted for analysis under
   fair-dealing review purposes, with links back.
+- CrowdStrike, Preliminary Post Incident Review (24 July 2024) and
+  External Technical Root Cause Analysis: Channel File 291
+  (6 August 2024), both published at <https://www.crowdstrike.com>.
+  Quoted sparingly with credit; full citations in
+  [`incident-intelligence/crowdstrike-5r-retro/sources.md`](incident-intelligence/crowdstrike-5r-retro/sources.md).
+- Microsoft, Helping our customers through the CrowdStrike outage
+  (20 July 2024), used for a single impact figure:
+  <https://blogs.microsoft.com/blog/2024/07/20/helping-our-customers-through-the-crowdstrike-outage/>.
 
 ## Provenance
 
