@@ -1,0 +1,1572 @@
+incident_id,title,cluster
+23,Las Vegas Self-Driving Bus Involved in Accident,9
+4,Uber AV Killed Pedestrian in Arizona,9
+1,Google’s YouTube Kids App Presents Inappropriate Content,6
+18,Gender Biases of Google Image Search,11
+12,Common Biases of Vector Embeddings,11
+15,Amazon Censors Gay Books,0
+7,Wikipedia Vandalism Prevention Bot Loop,10
+5,Collection of Robotic Surgery Malfunctions,10
+6,"Microsoft's TayBot Allegedly Posts Racist, Sexist, and Anti-Semitic Content to Twitter",6
+10,Kronos Scheduling Algorithm Allegedly Caused Financial Issues for Starbucks Employees,10
+11,Northpointe Risk Models,10
+20,A Collection of Tesla Autopilot-Involved Crashes,5
+24,Robot kills worker at German Volkswagen plant,9
+14,Biased Sentiment Analysis,11
+16,Images of Black People Labeled as Gorillas,11
+3,Crashes with Maneuvering Characteristics Augmentation System (MCAS),10
+2,Warehouse robot ruptures can of bear spray and injures workers,9
+19,Sexist and Racist Google Adsense Advertisements,11
+9,New York City Reportedly Released Disputed Value-Added Teacher Ratings for Thousands of Teachers,10
+8,Uber Autonomous Cars Running Red Lights,9
+13,High-Toxicity Assessed on Text Involving Women and Minority Groups,11
+21,Tougher Turing Test Exposes Chatbots’ Stupidity (migrated to Issue),11
+17,Inappropriate Gmail Smart Reply Suggestions,11
+22,Waze Navigates Motorists into Wildfires,10
+25,"Google and Delphi Self-Driving Prototypes Allegedly Involved in Near-Miss on San Antonio Road, Palo Alto",9
+37,Amazon’s Experimental Hiring Tool Allegedly Displayed Gender Bias in Candidate Rankings,0
+31,Driverless Train in Delhi Crashes due to Braking Failure,10
+34,Amazon Alexa Responding to Environmental Inputs,0
+27,Nuclear False Alarm,10
+29,Image Classification of Battle Tanks,11
+32,Identical Twins Can Open Apple FaceID Protected Devices,10
+44,Machine Personal Assistants Failed to Maintain Social Norms,10
+35,Employee Automatically Terminated by Computer Program,10
+47,LinkedIn Search Prefers Male Names,11
+48,Passport checker Detects Asian man's Eyes as Closed,10
+28,2010 Market Flash Crash,10
+43,St George's Hospital Medical School allegedly Automated Admissions with Discriminatory Results,10
+26,Hackers Break Apple Face ID,10
+33,Amazon Alexa Plays Loud Music when Owner is Away,0
+46,Nest Smoke Alarm Erroneously Stops Alarming,11
+39,Deepfake Obama Introduction of Deepfakes,4
+30,Poor Performance of Tesla Factory Robots,5
+36,Picture of Woman on Side of Bus Shamed for Jaywalking,7
+41,All Image Captions Produced are Violent,11
+42,Inefficiencies in the United States Resident Matching Program,10
+45,Defamation via AutoComplete,11
+38,Game AI System Produces Imbalanced Game,10
+40,COMPAS Algorithm Reportedly Performs Poorly in Crime Recidivism Prediction,10
+64,Customer Service Robot Scares Away Customers,10
+67,Sleeping Driver on Tesla AutoPilot,5
+60,FaceApp Racial Filters,10
+54,Predictive Policing Biases of PredPol,10
+68,Security Robot Drowns Itself in a Fountain,9
+58,Russian Chatbot Supports Stalin and Violence,11
+61,Overfit Kaggle Models Discouraged Data Science Competitors,11
+52,Tesla on AutoPilot Killed Driver in Crash in Florida while Watching Movie,5
+70,Self-driving cars in winter,9
+59,Gender Biases in Google Translate,11
+62,Bad AI-Written Christmas Carols,1
+51,Security Robot Rolls Over Child in Mall,9
+53,Biased Google Image Results,11
+63,Google Photo Merge Decapitates Subject,11
+56,AI-Designed Phone Cases Are Unexpected,0
+57,Australian Automated Debt Assessment System Issued False Notices to Thousands,10
+65,Reinforcement Learning Reward Functions in Video Games,11
+50,The DAO Hack,9
+71,Google Waymo Vehicle and Bus Allegedly Collide in California,9
+55,Alexa Plays Pornography Instead of Kids Song,0
+69,Worker killed by robot in welding accident at car parts factory in India,10
+66,Chinese Chatbots Question Communist Party,11
+49,AI Beauty Judge Did Not Like Dark Skin,11
+72,"Facebook translates 'good morning' into 'attack them', leading to arrest",6
+82,#LekkiMassacre: Why Facebook labelled content from October 20 incident ‘false’,6
+93,HUD charges Facebook with enabling housing discrimination,6
+85,"AI attempts to ease fear of robots, blurts out it can’t ‘avoid destroying humankind’",11
+84,"Tiny Changes Let False Claims About COVID-19, Voting Evade Facebook Fact Checks",6
+77,Knightscope's Park Patrol Robot Ignored Bystander Pressing Emergency Button to Alert Police about Fight,9
+78,International Baccalaureate’s 2020 Calculated-Grades Model Reportedly Lowered Students' Scores and College Prospects,3
+96,Houston ISD's EVAAS Teacher-Evaluation System Reportedly Put Teachers' Jobs at Risk Through Unverifiable Scores,10
+88,"""Jewish Baby Strollers"" Provided Anti-Semitic Google Images, Allegedly Resulting from Hate Speech Campaign",6
+73,Is Pokémon Go racist? How the app may be redlining communities of color,10
+75,Google Instant's Allegedly 'Anti-Semitic' Results Lead To Lawsuit In France,11
+81,"Researchers find evidence of racial, gender, and socioeconomic bias in chest X-ray classifiers",10
+86,Ireland's 2020 Leaving Certificate Calculated-Grades Model Reportedly Issued Incorrect Scores to Thousands of Students,11
+74,Detroit Police Wrongfully Arrested Black Man Due To Faulty FRT,7
+95,Job Screening Service Halts Facial Analysis of Applicants,10
+80,AI mistakes referee’s bald head for football — hilarity ensued,1
+83,AI Spam Filters Allegedly Block Legitimate Emails Based on Biased Keyword Detection,10
+97,Tesla Autopilot Mistakes Red Letters on Flag for Red Traffic Lights,5
+98,N.Y.P.D. Robot Dog’s Run Is Cut Short After Fierce Backlash,10
+79,Kidney Testing Method Allegedly Underestimated Risk of Black Patients,10
+87,UK passport photo checker shows bias against dark-skinned women,10
+91,Frontline workers protest at Stanford after hospital distributed vaccine to administrators,10
+76,Live facial recognition is tracking kids suspected of being criminals,7
+92,Apple Card's Credit Assessment Algorithm Allegedly Discriminated against Women,10
+89,The Christchurch shooter and YouTube’s radicalization trap,10
+94,Court Rules Deliveroo Used 'Discriminatory' Algorithm,10
+110,Arkansas's Opaque Algorithm to Allocate Health Care Excessively Cut Down Hours for Beneficiaries,10
+111,Amazon Flex Drivers Allegedly Fired via Automated Employee Evaluations,0
+104,"California's Algorithm Considered ZIP Codes in Vaccine Distribution, Allegedly Excluding Low-Income Neighborhoods and Communities of Color",10
+106,Korean Chatbot Luda Reportedly Made Offensive Remarks Towards Minority Groups in South Korea,11
+108,Skating Rink’s Facial Recognition Cameras Misidentified Black Teenager as Banned Troublemaker,7
+115,Genderify’s AI to Predict a Person’s Gender Revealed by Free API Users to Exhibit Bias,11
+114,Amazon's Rekognition Falsely Matched Members of Congress to Mugshots,10
+107,"Chinese Tech Firms Allegedly Developed Facial Recognition to Identify People by Race, Targeting Uyghur Muslims",7
+119,Xsolla Employees Fired by CEO Allegedly via Big Data Analytics of Work Activities,10
+105,"Tesla Model 3 on Autopilot Crashed into a Ford Explorer Pickup, Killing a Fifteen-Year-Old in California",5
+99,Major Universities Are Reportedly Using Race as a 'High Impact Predictor' of Student Success,10
+121,Autonomous Kargu-2 Drone Allegedly Remotely Used to Hunt down Libyan Soldiers,10
+109,PimEyes's Facial Recognition AI Allegedly Lacked Safeguards to Prevent Itself from Being Abused,7
+101,Dutch Families Wrongfully Accused of Tax Fraud Due to Discriminatory Algorithm,10
+103,Twitter’s Image Cropping Tool Allegedly Showed Gender and Racial Bias,10
+113,"Facebook's AI Put ""Primates"" Label on Video Featuring Black Men",4
+122,"Facebook’s ""Tag Suggestions"" Allegedly Stored Biometric Data without User Consent",11
+102,"Personal voice assistants struggle with black voices, new study shows",0
+112,Police Departments Reported ShotSpotter as Unreliable and Wasteful,10
+100,How French welfare services are creating ‘robo-debt’,10
+116,Amazon's AI Cameras Incorrectly Penalized Delivery Drivers for Mistakes They Did Not Make,0
+118,OpenAI's GPT-3 Associated Muslims with Violence,11
+120,Philosophy AI Allegedly Used To Generate Mixture of Innocent and Harmful Reddit Posts,11
+117,"TikTok's ""Suggested Accounts"" Algorithm Allegedly Reinforced Racial Bias through Feedback Loops",10
+129,"Facebook's Automated Tools Failed to Adequately Remove Hate Speech, Violence, and Incitement",6
+140,University of Toronto's ProctorU Deployment Reportedly Disadvantaged BIPOC Students During Exam Check-Ins,3
+146,"Research Prototype AI, Delphi, Reportedly Gave Racially Biased Answers on Ethics",11
+137,"Israeli Tax Authority Reportedly Used an Opaque Automated System to Issue a Fine, Declining to Explain or Disclose the Underlying Calculation",11
+144,YouTube's AI Mistakenly Banned Chess Channel over Chess Language Misinterpretation,6
+148,Web Accessibility Vendors Allegedly Falsely Claimed to Provide Compliance Using AI,10
+160,Alexa Recommended Dangerous TikTok Challenge to Ten-Year-Old Girl,0
+152,"SoftBank's Humanoid Robot, Pepper, Reportedly Frequently Made Errors, Prompting Dismissal",9
+161,Facebook's Ad Delivery Reportedly Excluded Audience along Racial and Gender Lines,10
+164,"Facebook ""News Feed"" Allegedly Boosted Misinformation and Violating Content Following Use of MSI Metric",6
+168,"Collaborative Filtering Prone to Popularity Bias, Resulting in Overrepresentation of Popular Items in the Recommendation Outputs",10
+133,Online Trolls Allegedly Abused TikTok’s Automated Content Reporting System to Discriminate against Marginalized Creators,6
+131,Proctoring Algorithm in Online California Bar Exam Flagged an Unusually High Number of Alleged Cheaters,10
+153,"Tesla Driver on Autopilot Ran a Red Light, Crashing into a Car and Killing Two People in Los Angeles",5
+145,Tesla's Autopilot Misidentified the Moon as Yellow Stop Light,5
+141,California Police Turned on Music to Allegedly Trigger Instagram’s DCMA to Avoid Being Live-Streamed,10
+134,"Robot in Chinese Shopping Mall Fell off the Escalator, Knocking down Passengers",9
+125,Amazon’s Robotic Fulfillment Centers Have Higher Serious Injury Rates,0
+136,"Brand Safety Tech Firms Falsely Claimed Use of AI, Blocking Ads Using Simple Keyword Lists",1
+138,University of Illinois' Proctorio Remote-Proctoring Deployment Reportedly Raised Student Rights Concerns,3
+132,TikTok’s Content Moderation Allegedly Failed to Adequately Take down Videos Promoting Eating Disorders,6
+135,UT Austin's GRADE Algorithm Reportedly Reduced Review of Lower-Scored PhD Applicants Amid Bias Concerns,10
+155,Google Maps Allegedly Directed Sierra Nevada Travelers to Dangerous Roads amid Winter Storm,11
+162,"ETS Used Allegedly Flawed Voice Recognition Evidence to Accuse and Assess Scale of Cheating, Causing Thousands to be Deported from the UK",10
+171,"Traffic Camera Misread Text on Pedestrian's Shirt as License Plate, Causing UK Officials to Issue Fine to an Unrelated Person",10
+151,California Regulator Suspended Pony.ai's Driverless Testing Permit Following a Non-Fatal Collision,9
+123,Epic Systems’s Sepsis Prediction Algorithms Revealed to Have High Error Rates on Seriously Ill Patients,10
+156,Amazon Reportedly Sold Products and Recommended Frequently Bought Together Items That Aid Suicide Attempts,0
+143,Facebook’s and Twitter's Automated Content Moderation Reportedly Failed to Effectively Enforce Violation Rules for Small Language Groups,6
+157,"Amazon's Monitoring System Allegedly Pushed Delivery Drivers to Prioritize Speed over Safety, Leading to Crash",0
+170,"Target Suggested Maternity-Related Advertisements to a Teenage Girl's Home, Allegedly Correctly Predicting Her Pregnancy via Algorithm",10
+139,Amazon’s Search and Recommendation Algorithms Found by Auditors to Have Boosted Products That Contained Vaccine Misinformation,0
+142,Facebook's Advertisement Moderation System Allegedly Routinely Misidentified Adaptive Fashion Products as Medical Equipment and Blocked Their Sellers,6
+150,"Swedish Contraceptive App, Natural Cycles, Allegedly Failed to Correctly Map Menstrual Cycle",10
+169,Facebook Allegedly Failed to Police Anti-Rohingya Hate Speech Content That Contributed to Violence in Myanmar,6
+147,Reported AI-Cloned Voice Used to Deceive Hong Kong Bank Manager in Purported $35 Million Fraud Scheme,2
+126,"Three Robots Collided, Sparking Fire in a Grocer's Warehouse in UK ",10
+128,"Tesla Sedan on Autopilot Reportedly Drove Over Dividing Curb in Washington, Resulting in Minor Vehicle Damage",5
+154,Justice Department’s Recidivism Risk Algorithm PATTERN Allegedly Caused Persistent Disparities Along Racial Lines,10
+165,Image Upscaling Algorithm PULSE Allegedly Produced Facial Images with Caucasian Features More Often,11
+158,Remote Proctoring Facial-Detection Software Reportedly Failed to Detect Black Student During Lab Quiz,10
+149,Zillow Shut Down Zillow Offers Division Allegedly Due to Predictive Pricing Tool's Insufficient Accuracy,10
+124,Optum Algorithmic Health Risk Scores Reportedly Underestimated Black Patients' Needs,10
+159,Tesla Autopilot’s Lane Recognition Allegedly Vulnerable to Adversarial Attacks,5
+167,Researchers' Homosexual-Men Detection Model Denounced as a Threat to LGBTQ People’s Safety and Privacy,10
+127,Microsoft’s Algorithm Allegedly Selected Photo of the Wrong Mixed-Race Person Featured in a News Story,10
+163,Facebook’s Hate Speech Detection Algorithms Allegedly Disproportionately Failed to Remove Racist Content towards Minority Groups,6
+166,"Networking Platform Giggle Employs AI to Determine Users’ Gender, Allegedly Excluding Transgender Women",7
+176,"Starship’s Autonomous Food Delivery Robot Allegedly Stranded at Railroad Crossing in Oregon, Run over by Freight Train",9
+182,Two Cruise Autonomous Vehicles Collided with Each Other in California ,9
+173,"AI Tools Failed to Sufficiently Predict COVID Patients, Some Potentially Harmful",1
+203,Uber Launched Opaque Algorithm That Changes Drivers' Payments in the US,10
+184,Facial Recognition Program in São Paulo Metro Stations Suspended for Illegal and Disproportionate Violation of Citizens’ Right to Privacy,7
+195,Predictive Policing Program by Florida Sheriff’s Office Allegedly Violated Residents’ Rights and Targeted Children of Vulnerable Groups,10
+213,Facebook’s Political Ad Detection Reportedly Showed High and Geographically Uneven Error Rates,10
+174,Fake LinkedIn Profiles Created Using GAN Photos,11
+198,Deepfake Video of Ukrainian President Yielding to Russia Posted on Ukrainian Websites and Social Media,4
+175,Cruise Autonomous Taxi Allegedly Bolted off from Police After Being Pulled over in San Francisco,9
+178,"Tesla Owner Activated ""Smart Summon"" Feature, Causing a Collision with an Aircraft in a Washington Airport",5
+180,Algorithm Used by the Malaysian Judiciary Reportedly Recommended Unusually High Sentencing to a Drug Possession Case,10
+183,"Airbnb's Trustworthiness Algorithm Allegedly Banned Users without Explanation, and Discriminated against Sex Workers",10
+220,Facebook Mistakenly Blocked Small Business Ads,6
+194,"Australian Telco’s Incident Management Bot Excessively Sent Technicians in the Field by Mistake, Allegedly Costing Millions",10
+200,Fraudsters Used AI to Mimic Voice of a UK-Based Firm's CEO's Boss,2
+206,Tinder's Personalized Pricing Algorithm Found to Offer Higher Prices for Older Users,10
+186,"Algorithm Assessing Risk Faced by Victims of Gender Violence Misclassified Low-Risk Cases, Allegedly Leading to Homicide of Women and Children in Spain",10
+202,Korean Politician Employed Deepfake as Campaign Representative,1
+216,WeChat’s Machine Translation Gave a Racist English Translation for the Chinese Term for “Black Foreigner”,0
+221,A Road Engineer Killed Following a Collision Involving a Tesla on Autopilot,5
+179,DALL-E 2 Reported for Gender and Racially Biased Outputs,11
+172,NarxCare’s Risk Score Model Allegedly Lacked Validation and Trained on Data with High Risk of Bias,10
+181,"BMW Sedan Made a Prohibited Left Turn, Colliding with a Cruise Autonomous Vehicle",9
+190,"ByteDance Allegedly Trained ""For You"" Algorithm Using Content Scraped without Consent from Other Social Platforms",10
+177,Google’s Assistive Writing Feature Provided Allegedly Unnecessary and Clumsy Suggestions,11
+188,Argentinian City Government Deployed Teenage-Pregnancy Predictive Algorithm Using Invasive Demographic Data,10
+191,Korean Internet Portal Giant Naver Manipulated Shopping and Video Search Algorithms to Favor In-House Services,0
+201,Climate Action Group Posted Deepfake of Belgian Prime Minister Urging Climate Crisis Action,4
+204,A Chinese Tech Worker at Zhihu Fired Allegedly via a Resignation Risk Prediction Algorithm,10
+209,Tesla Disabled “Rolling Stop” Functionality Associated with the “Aggressive” Driving Mode,5
+219,Poachers Evaded AI Cameras and Killed Four Rhinos,10
+189,Opaque Fraud Detection Algorithm by the UK’s Department of Work and Pensions Allegedly Discriminated against People with Disabilities,10
+214,SN Technologies Reportedly Lied to a New York State School District about Its Facial and Weapon Detection Systems’ Performance,10
+215,Facebook Content Moderators Demand Better Working Conditions Due to Allegedly Inadequate AI Content Moderation,6
+192,Three Make-Up Artists Lost Jobs Following Black-Box Automated Decision by HireVue,10
+217,"Robot at a Chinese Tech Fair Smashed a Glass Booth, Injuring a Visitor",9
+208,"Tesla Phantom Braking Complaints Surged, Allegedly Linked to Tesla Vision Rollout",5
+212,XPeng Motors Fined For Illegal Collection of Consumers’ Faces Using Facial Recognition Cameras,7
+193,"Excessive Automated Monitoring Alerts Ignored by Staff, Resulting in Private Data Theft of Seventy Million Target Customers",11
+196,Compromise of National Biometric ID Card System Leads to Reverification and Change of Status,10
+207,Hawaii Police Deployed Robot Dog to Patrol a Homeless Encampment,9
+211,A Tesla Taxi Cab Involved in an Accident in Paris with Twenty Injuries,5
+187,"YouTuber Tested Tesla on Self Driving Mode, Colliding with Street Pylons",5
+185,"TikTok's ""For You"" Algorithm Directed New Users towards Disinformation about the War in Ukraine",6
+205,AI-Generated Profiles Used in Disinformation Campaign Targeting Ukrainians,8
+218,Tesla on Autopilot Crashed into Flipped Truck on Taiwan Highway,5
+197,"Facebook Internally Reported Failure of Ranking Algorithm, Exposing Harmful Content to Viewers over Months",6
+199,Ever AI Reportedly Deceived Customers about FRT Use in App,7
+210,Indian Political App Tek Fog Allegedly Hijacked Trends and Manipulated Public Opinion on Other Social Media Platforms,8
+235,"Chinese Insurer Ping An Employed Facial Recognition to Determine Customers’ Untrustworthiness, Which Critics Alleged to Likely Make Errors and Discriminate",7
+227,"Waze App Allegedly Caused Tourists’ Car to End up in Lake Champlain, Vermont",10
+222,Thoughts App Allegedly Created Toxic Tweets,11
+223,Hive Box Facial-Recognition Locks Hacked by Fourth Graders Using Intended Recipient’s Facial Photo,7
+229,Content Using Bestiality Thumbnails Allegedly Evaded YouTube’s Thumbnail Monitoring System,6
+224,WeChat Pay's Facial Recognition Security Evaded by Scammers Using Victims’ Social Media Content,7
+239,Algorithmic Teacher Evaluation Program Reportedly Failed to Improve Student Outcomes and Was Alleged to Have Harmed Teachers,10
+225,IBM Watson for Oncology Criticized by Customers for Allegedly Unsafe and Inaccurate Cancer Treatment Recommendations,10
+232,"Tesla Model X on Autopilot Missed Parked Vehicles and Pedestrians, Killing Motorcyclist in Japan",5
+242,Manufacturing Robot Failure Caused Factory Worker's Death in India,10
+244,"Colorado Police’s Automated License Plate Reader (ALPR) Matched a Family’s Minivan’s Plate to That of a Stolen Vehicle Allegedly, Resulting in Detainment at Gunpoint",10
+233,Tumblr Automated Pornography-Detecting Algorithms Erroneously Flagged Inoffensive Images as Explicit,6
+230,"Model 3 Tesla on Autopilot Crashed into a Truck in Florida, Killing Driver",5
+246,"Misreading of an Automated License Plate Reader (ALPR) Unverified by Police, Resulting in Traffic Stop in Missouri",10
+228,Apple Maps Allegedly Directed Ski Trip Couple Onto Unpaved Road in the Mountains,10
+231,A Tesla Crashed into and Killed a Road Sweeper on a Highway in China,5
+245,Unverified Misreading by Automated Plate Reader Led to Traffic Stop and Restraint of an Innocent Person at Gunpoint in California,10
+248,Reported Automated License Plate Reader Alert on Previously Stolen Rental Car Leads to Alleged Wrongful Detainment in California,10
+236,AI-Generated Faces Used by Scammers to Pose as a Law Firm in Boston,2
+234,"Waze Allegedly Frequently Routed Drivers through the Town of Los Gatos, Blocking Its Single Wildfire Escape Route",10
+238,Oregon’s Screening Tool for Child Abuse Cases Discontinued Following Concerns of Racial Bias,10
+226,Waze Allegedly Clogged Streets and Directed Drivers to Make Unsafe Traffic Decisions,10
+241,Chess-Playing Robot Broke Child's Finger in Russia,9
+240,"GitHub Copilot, Copyright Infringement and Open Source Licensing",11
+243,Bots Allegedly Made up Roughly Half of Twitter Accounts in Discussions Surrounding COVID-19 Related Issues,10
+270,"Apple Tweaked App Store Ranking Algorithms, Allegedly Resulted in Demotion of Local Apps in China",10
+271,Tesla Model 3 Sedan on Autopilot Killed Motorcyclist in a Rear-End Collision in Utah,5
+268,Permanent Removal of Social Media Content via Automated Tools Allegedly Prevented Investigative Efforts,6
+251,Amazon Allegedly Tweaked Search Algorithm to Boost Its Own Products,0
+273,FaceApp Predicted Different Genders for Similar User Photos with Slight Variations,11
+259,"YouTuber Built, Made Publicly Available, and Released Model Trained on Toxic 4chan Posts as Prank",11
+255,Unreliable ShotSpotter Audio Previously Used to Convict Chicago Man in Murder Case,10
+266,"Replika's ""AI Companions"" Reportedly Abused by Its Users",10
+253,"Cruise's Self-Driving Cars Allegedly Lost Connection to Their Server, Causing Traffic Blockages in San Francisco",9
+249,Government Deployed Extreme Surveillance Technologies to Monitor and Target Muslim Minorities in Xinjiang,7
+254,"Google’s Face Grouping Allegedly Collected and Analyzed Users’ Facial Structure without Consent, Violated BIPA",11
+256,DUI Arrest Case Allegedly Based Only on ShotSpotter's Alert,10
+250,Dutch City Court Defended Home Value Generated by Black-Box Algorithm,10
+258,Australian Retailers Reportedly Captured Face Prints of Their Customers without Consent,10
+274,Virginia Courts’ Algorithmic Recidivism Risk Assessment Failed to Lower Incarceration Rates,10
+267,Clearview AI Algorithm Built on Photos Scraped from Social Media Profiles without Consent,10
+257,Police Reportedly Deployed ShotSpotter Sensors Disproportionately in Neighborhoods of Color,10
+264,AI-Based Vehicle Speed Estimation App Denounced by UK Drivers as Surveillance Technology,10
+252,Remotely Operated Taser-Armed Drones Proposed by Taser Manufacturer as Defense for School Shootings in the US,1
+272,"Grab Tweaked Matchmaking Algorithm, Providing Preferential Treatment to Drivers Registered with Affiliated Car Rental Service",10
+260,US DHS’s Opaque Vetting Software Allegedly Relied on Poor-Quality Data and Discriminated against Immigrants,10
+261,"Robot Deployed by Animal Shelter to Patrol Sidewalks outside Its Office, Warding off Homeless People in San Francisco",9
+262,DALL-E Mini Reportedly Reinforced or Exacerbated Societal Biases in Its Outputs as Gender and Racial Stereotypes,11
+263,YouTube Recommendations Implicated in Political Radicalization of User,10
+265,Black Uber Eats Driver Allegedly Subjected to Excessive Photo Checks and Dismissed via FRT Results,10
+278,Meta’s BlenderBot 3 Chatbot Demo Made Offensive Antisemitic Comments,11
+275,Facebook’s Moderation Algorithm Banned Users for Historical Evidence of Slavery,6
+285,Google Lens’s Camera-Based Translation Feature Provided an Offensive Mistranslation of a Book Title in Korean,11
+330,“Amazon’s Choice” Algorithm Failed to Recommend Functional Products and Prone to Review Manipulation,0
+299,Japanese Porn Depixelated by Man using Deepfake,1
+323,Tesla on Autopilot Crashed into Parked Police Car in California,5
+293,Cruise’s Self-Driving Car Involved in a Multiple-Injury Collision at an San Francisco Intersection,9
+325,Offensive Instagram User Content Displayed as Facebook Ad,6
+328,Fake Accounts Using GAN Faces Deployed by Propaganda Campaign on Social Platforms,6
+347,"Waymo Self-Driving Taxi Reportedly Behaved Unexpectedly, Driving away from Support Crew",9
+350,Delivery Robot Rolled Through Crime Scene,9
+291,Tesla Allegedly Misled Customers about Autopilot and FSD Capabilities,5
+294,Tesla Autopilot Allegedly Malfunctioned in a Non-Fatal Collision in Greece,5
+280,Coffee Meets Bagel’s Algorithm Reported by Users Disproportionately Showing Them Matches of Their Own Ethnicities Despite Selecting “No Preference”,10
+287,OpenAI’s GPT-3 Reported as Unviable in Medical Tasks by Healthcare Firm,11
+295,Wrongful Attempted Arrest for Apple Store Thefts Due to NYPD’s Facial Misidentification,7
+320,Tesla on Autopilot Collided with Parked Fire Truck on California Freeway,5
+326,Facebook Automated Year-in-Review Highlights Showed Users Painful Memories,6
+335,UK Visa Streamline Algorithm Allegedly Discriminated Based on Nationality,10
+292,Apple’s AVs Reportedly Struggled to Navigate Streets in Silicon Valley Test Drives,9
+300,"TikTok's ""For You"" Algorithm Allegedly Abused by Online Personality to Promote Anti-Women Hate",6
+318,Facebook Recommended Military Gear Ads Despite Pause on Weapons Accessories Ads,6
+319,Tesla on Autopilot Fatally Crashed into Parked Fire Truck in Indiana,5
+332,Google Image Showed Racially Biased Results for “Professional” Hairstyles,11
+340,Honda's CMBS False Positives Allegedly Caused Accidents to Customers,10
+341,"Nissan's ""Automatic Emergency Braking"" False Positives Posed Traffic Risks to Drivers",10
+334,Uber Deployed Secret Program To Deny Local Authorities Rides,10
+305,YouTube’s Recommendation Algorithm Allegedly Promoted Climate Misinformation Content,6
+297,"EasyMile Self-Driving Shuttle Unexpectedly Stopped Mid-Route, Injuring a Passenger",9
+282,Facebook’s Algorithm Mistook an Advertisement of Onions as Sexual Suggestive Content,6
+276,"Local South Korean Government’s Use of CCTV Footage Analysis via Facial Recognition to Track COVID Cases Raised Concerns about Privacy, Retention, and Potential Misuse",7
+290,False Negatives for Water Quality-Associated Beach Closures,10
+296,Twitter Recommender System Amplified Right-Leaning Tweets,10
+313,BlenderBot 3 Cited Dutch Politician as a Terrorist,11
+333,Tesla on Autopilot Crashed Parked Michigan Police Car on Interstate,5
+304,Tesla on FSD Reportedly Drove into the Wrong Lane in California,5
+331,Bug in Instagram’s “Related Hashtags” Algorithm Allegedly Caused Disproportionate Treatment of Political Hashtags,10
+337,"Tesla Model S on ACC Crashed into Tree in Texas, Killing Two People",5
+346,Robots in Japanese Hotel Annoyed Guests and Failed to Handle Simple Tasks,10
+283,Facebook’s Automated Content Moderation Tool Flagged a Post Containing Parts of the Declaration of Independence as Hate Speech by Mistake,6
+286,"TikTok’s ""For You"" Allegedly Pushed Fatal “Blackout” Challenge Videos to Two Young Girls",10
+307,iPhone Face ID Failed to Recognize Users’ Morning Faces,7
+309,Facial Recognition Trial Performed Poorly at Notting Hill Carnival,7
+327,Facebook’s On-This-Day Feature Mistakenly Showed Painful Memories to Users,6
+344,Hiring Algorithms Provided Invalid Positive Results for Interview Responses in German,11
+348,YouTube Recommendation Reportedly Pushed Election Fraud Content to Skeptics Disproportionately,6
+349,"Evolv AI Weapons Detection System Allegedly Misrepresents Accuracy, Leading to School Security Gaps",10
+277,Voices Created Using Publicly Available App Stolen and Resold as NFT without Attribution,1
+311,YouTube Auto-Moderation Mistakenly Banned Women of Sex Tech Conference,6
+317,Bug in Facebook’s Anti-Spam Filter Allegedly Blocked Legitimate Posts about COVID-19,6
+324,GAN Faces Deployed by The BL's Fake Account Network to Push Pro-Trump Content on Meta Platforms,6
+303,Google’s Automated Child Abuse Detection Wrongfully Flagged a Parent’s Naked Photo of His Child,10
+339,Students Reportedly Used Generative Text Tools to Complete School Assignments and Exams,3
+343,"Facebook, Instagram, and Twitter Failed to Proactively Remove Targeted Racist Remarks via Automated Systems",6
+302,Dartmouth's Geisel School of Medicine Reportedly Used Canvas Activity Logs to Accuse Students of Cheating,3
+308,Atlas Robot Fell off Stage at Conference,9
+310,High False Positive Rate by SWP's Facial Recognition Use at Champion's League Final,7
+315,Facial Recognition Service Abused to Target Russian Porn Actresses,7
+321,"Tesla Model X on Autopilot Crashed into California Highway Barrier, Killing Driver",5
+329,Amazon Reportedly Recommends Explosive-Producing Ingredients as 'Frequently Bought Together' Items for Chemicals,0
+284,Facebook’s Automated Removal of Content Featuring Nudity-Containing Artworks Denounced as Censorship,6
+298,Student-Developed Facial Recognition App Raised Ethical Concerns,7
+279,TikTok’s “For You” Algorithm Exposed Young Users to Pro-Eating Disorder Content,6
+281,YouTube's Algorithms Failed to Remove Violating Content Related to Suicide and Self-Harm,6
+312,Startup's Accent Translation AI Denounced as Reinforcing Racial Bias,1
+316,Facebook Ad-Approval Algorithm Allegedly Missed Fraudulent Ads via Simple URL Checks,6
+288,New Jersey Police Wrongful Arrested Innocent Black Man via FRT,7
+289,"Starship Delivery Robot Scuffed Bumper of a Resident’s Car in Texas, Allegedly Refusing to Release Footage of the Accident",9
+306,Tesla on Autopilot TACC Crashed into Van on European Highway,5
+345,Auto-Insurance Photo-Based Estimation Allegedly Gave Inaccurate Repair Prices Frequently,10
+301,Honorlock's AI Proctoring System Reportedly Led Broward College to Accuse a Teenager of Cheating,10
+314,Stable Diffusion Abused by 4chan Users to Deepfake Celebrity Porn,11
+322,Tesla Model 3 Crashed into Police Patrol Car on Connecticut Highway,5
+336,UK Home Office's Sham Marriage Detection Algorithm Reportedly Flagged Certain Nationalities Disproportionately,10
+351,"""The Little Mermaid"" Clip Doctored Using Generative AI to Replace Black Actress with White Character",1
+364,Walmart's Bagging-Detection False Positives Exposed Workers to Health Risk,10
+367,"iGPT, SimCLR Learned Biased Associations from Internet Training Data",11
+355,Uber Allegedly Wrongfully Accused Drivers of Fraud via Automated Systems,10
+356,Philosophy AI Tentatively Produced Offensive Results for Certain Prompts,11
+368,"Facial Recognition Smart Phone App ""Blue Wolf"" Monitored Palestinians in West Bank",7
+370,Google Fined for Changing Shopping Algorithms in EU to Favor Own Service,11
+378,TuSimple Truck Steered into Interstate Freeway Divide,9
+391,Facial Recognition Trial by UK Southern Co-op Alleged as Unlawful,7
+371,Uganda Deployed Huawei's Facial Recognition to Monitor Political Opposition and Protests,7
+393,Facebook AI-Supported Moderation for Ads Failed to Detect Violating Content,6
+358,Calgary Malls Deployed Facial Recognition without Customer Consent,7
+363,Facebook's Automated Moderation Mistakenly Flagged Landmark's Name as Offensive,6
+369,GAN Artwork Won First Place at State Fair Competition,1
+400,Google Search Returned Fewer Results for Abortion Services in Rural Areas,11
+373,Michigan's Unemployment Benefits Algorithm MiDAS Issued False Fraud Claims to Thousands of People,10
+376,RealPage Algorithm Allegedly Inflates Rents and Reduces Competition in Housing Market,10
+395,Amazon Forced Deployment of AI-Powered Cameras on Delivery Drivers,0
+361,Amazon Echo Mistakenly Recorded and Sent Private Conversation to Random Contact,0
+377,Weibo Model Had Difficulty Detecting Shifts in Censored Speech,11
+354,Uber Allegedly Violated GDPR by Failing to Provide Sufficient Notice on Automated Profiling for Drivers,10
+381,Autonomous Roborace Car Drove Directly into a Wall,9
+353,"Tesla on Autopilot Crashed into Trailer Truck in Florida, Killing Driver",5
+374,UK Ofqual's Algorithm Disproportionately Provided Lower Grades Than Teachers' Assessments,10
+380,Facebook's Auto-Generated Targeting Ad Categories Contained Anti-Semitic Options,6
+357,GPT-2 Reportedly Reproduced Personal Data from Its Training Data,11
+385,Canadian Police's Release of Suspect's AI-Generated Facial Photo Reportedly Reinforced Racial Profiling,7
+388,Facial Recognition Pilot in Bahia Reportedly Targeted Black and Poor People,7
+383,Google Home Mini Speaker Reportedly Read N-Word in Song Title Aloud,11
+390,Deepfakes Reportedly Deployed in Online Interviews for Remote Work Positions,1
+387,Oracle's Algorithmic Data Processing System Alleged as Unlawful and Violating Privacy Rights,11
+394,Social Media's Automated Word-Flagging without Context Shifted Content Creators' Language Use,6
+362,Facebook's Automated Moderation Flagged Gardening Group's Language Use by Mistake,6
+384,Glovo Driver in Italy Fired via Automated Email after Being Killed in Accident,10
+359,"Facebook, Instagram, and Twitter Cited Errors in Automated Systems as Cause for Blocking pro-Palestinian Content on Israeli-Palestinian Conflict",6
+396,Transgender Uber Drivers Mistakenly Kicked off App for Appearance Change during Gender Transitions,10
+352,GPT-3-Based Twitter Bot Hijacked Using Prompt Injection Attacks,10
+372,Users Reported Security Issues with Google Pixel 6a's Fingerprint Unlocking,11
+375,Thai Wallet App's Facial Recognition Errors Created Registration Issues for Government Programs,7
+379,Error in Pepsi's Number Generation System Led to Decades-Long Damages in the Philippines,10
+382,Instagram's Exposure of Harmful Content Contributed to Teenage Girl’s Suicide,6
+386,"Amazon’s ""Time Off Task"" System Made False Assumptions about Workers' Time Management",0
+389,Cruise Autonomous Car Blocked Fire Truck Responding to Emergency,9
+397,Misinformation Reported in TikTok's Search Results Despite Moderation by AI and Human,6
+398,Tesla Autopilot Misidentified On-Road Horse-Drawn Carriage,5
+399,Meta AI's Scientific Paper Generator Reportedly Produced Inaccurate and Harmful Content,11
+401,"Kannada Insulted by Google's Featured Answer as ""Ugliest Language in India""",11
+402,Players Manipulated GPT-3-Powered Game to Generate Sexually Explicit Material Involving Children,10
+360,"McDonald's AI Drive-Thru Allegedly Collected Biometric Customer Data without Consent, Violating BIPA",11
+366,Suicide Clips Evaded TikTok's Automated Moderation in Coordinated Attack,6
+392,Facebook's AI-Supported Moderation Failed to Classify Terrorist Content in East African Languages,6
+407,Uber's Surge Pricing Reportedly Offered Disproportionate Service Quality along Racial Lines,10
+404,Sound Intelligence's Aggression Detector Misidentified Innocuous Sounds,10
+406,Facebook's Friend Suggestion Feature Recommends Patients of Psychiatrist to Each Other,6
+408,Facebook Reportedly Outed Sex Workers through Friend Recommendations,6
+409,Facial Recognition Researchers Used YouTube Videos of Transgender People without Consent,7
+405,Schufa Credit Scoring in Germany Reported for Unreliable and Imbalanced Scores,10
+403,Gmail’s Inbox Sorting System Reportedly Reduced Visibility of Political Emails and Campaign Calls-to-Action,10
+410,KFC Sent Insensitive Kristallnacht Promotion via Holiday Detection System,10
+411,Chinese Accounts Spammed Twitter Feed Allegedly to Obscure News of Protests,6
+412,Finnish Police Were Reportedly Reprimanded After National Bureau of Investigation Unit Allegedly Used Clearview AI to Identify Potential Abuse Victims,11
+413,Thousands of Incorrect ChatGPT-Produced Answers Posted on Stack Overflow,11
+414,Facebook Gave Vulgar English Translation of Chinese President's Name,0
+415,Facebook Provided Offensive Translation for King of Thailand's Birthday Ceremony,0
+416,Facebook's Job Ad Algorithm Allegedly Biased against Older and Female Workers,6
+417,Facebook Feed Algorithms Exposed Low Digitally Skilled Users to More Disturbing Content,6
+418,Uber Locked Indian Drivers out of Accounts Allegedly Due to Facial Recognition Fails,7
+419,Facebook's Automated Moderation Allowed Ads Threatening Election Workers to be Posted,6
+420,Users Bypassed ChatGPT's Content Filters with Ease,6
+421,Stable Diffusion Allegedly Used Artists' Works without Permission for AI Training,11
+422,Deepfake of FTX's Former CEO Posted on Twitter Aiming to Scam FTX Collapse Victims,2
+423,"Lensa AI's Produced Unintended Sexually Explicit or Suggestive ""Magic Avatars"" for Women",10
+424,Canadian Universities' AI Proctoring Tools Reportedly Collected Student Biometric Data Without Adequate Consent,1
+425,State Farm Allegedly Discriminated against Black Customers in Claim Payout,10
+426,XPeng P7 Crashed into Truck in Shangdong While on Automatic Navigation Assisted Driving,5
+427,Cruise Taxis' Sudden Braking Allegedly Put People at Risk,9
+428,BBC Reporter's Twin Brother Cracked HSBC's Voice ID Authentication,1
+429,Unreliable ShotSpotter Audio Convicted Black Rochester Man of Shooting Police,10
+430,Lawyers Denied Entry to Performance Venue by Facial Recognition,7
+431,Robbers Accessed Drugged Gay Men's Bank Accounts Using Their Phones' Facial Recognition,7
+432,Southwest Airlines Crew Scheduling Solver Degenerates Flight Network,10
+433,Chicago Police's Strategic Subject List Reportedly Biased Along Racial Lines,10
+434,Sudden Braking by Tesla Allegedly on Self-Driving Mode Caused Multi-Car Pileup in Tunnel,5
+435,Coupang Allegedly Tweaked Search Algorithms to Boost Own Products,0
+436,Tesla Driver Put Car on Autopilot Before Falling Asleep in Germany,5
+437,Amazon India Allegedly Rigged Search Results to Promote Own Products,0
+438,Henan Authorities Reportedly Commissioned Facial Recognition System to Track Journalists and International Students,7
+439,Detroit Police Wrongfully Arrested Black Man Due To Faulty Facial Recognition,7
+440,Louisiana Police Wrongfully Arrested Black Man Using False Face Match,7
+441,South Korean Agencies Reportedly Shared Airport Travelers' Face Images with Companies to Train Immigration Facial Recognition System,11
+443,ChatGPT Abused to Develop Malicious Softwares,11
+444,"US Air Force's Patriot Missile Mistakenly Launched at Ally Fighter Jet, Killing Two",10
+445,"Patriot Missile System Misclassified US Navy Aircraft, Killing Pilot Upon Approval to Fire",10
+446,ShotSpotter Failed to Alert Authorities of Mass Shooting in North Carolina,10
+447,"Footballer's ""X-Rated"" Comment Created by Instagram's Mistranslation",0
+448,AI-Powered VTuber and Virtual Streamer Made Toxic Remarks on Twitch,10
+449,Startup Misled Research Participants about GPT-3 Use in Mental Healthcare Support,11
+450,Kenyan Data Annotators Allegedly Exposed to Graphic Content for OpenAI's AI,11
+451,Stable Diffusion's Training Data Contained Copyrighted Images,11
+452,"ChatGPT-Written Bug Reports Deemed ""Nonsense"" by White Hat Platform, Prompted Bans",11
+453,Twitter's AI Moderation Tool Misidentified Rockets as Pornography,6
+454,Emotion Detection Models Showed Disparate Performance along Racial Lines,10
+455,CNET's Published AI-Written Articles Ran into Quality and Accuracy Issues,1
+456,Replika's AI Partners Reportedly Sexually Harassed Users,10
+457,Article-Writing AI by CNET Allegedly Committed Plagiarism,1
+458,Robot Destroyed while Hitchhiking through the United States,10
+459,Firefighters Smashed Cruise AV's Front Window to Stop It from Running over Fire Hoses,9
+460,Cruise AV Ran Over Fire Hose in Active Fire Scene,9
+461,IRS Audited Black Taxpayers More Frequently Reportedly Due to Algorithm,10
+462,AI-Produced Livestream Sitcom Received Temporary Twitch Ban for Transphobic Segment,1
+463,"Apple Devices Mistook Skiing Activities, Dialed False Distress Emergency Calls ",10
+464,ChatGPT Provided Non-Existent Citations and Links when Prompted by Users,11
+465,Private Medical Photos Were Reportedly Found in LAION-5B AI Training Dataset,11
+466,AI-Generated Text Detectors Reportedly Misclassified Human and AI-Written Text,1
+467,Google's Bard Shared Factually Inaccurate Info in Promo Video,11
+468,ChatGPT-Powered Bing Reportedly Had Problems with Factual Accuracy on Some Controversial Topics,11
+469,Automated Adult Content Detection Tools Showed Bias against Women Bodies,6
+470,Bing Chat Response Cited ChatGPT Disinformation Example,11
+471,Facebook Allegedly Failed to Police Hate Speech Content That Contributed to Ethnic Violence in Ethiopia,6
+472,NYPD's Deployment of Facial Recognition Cameras Reportedly Reinforced Biased Policing,7
+473,Bing Chat's Initial Prompts Revealed by Early Testers Through Prompt Injection,10
+474,Users Reported Abrupt Behavior Changes of Their AI Replika Companions,10
+475,McDonald's Reportedly Ends IBM Partnership After AI Drive-Thru Ordering Errors at U.S. Locations,1
+476,YouTube Recommendations Allegedly Promoted Radicalizing Material Contributing to Terrorist Acts,10
+477,Bing Chat Tentatively Hallucinated in Extended Conversations with Users,10
+478,"Tesla FSD Reportedly Increased Crash Risk, Prompting Recall",5
+479,Instagram Video Featured Deepfake Audio of US President Making Transphobic Remarks,4
+480,Non-Consensual Deepfake Porn Targeted Female Content Creators,3
+481,Purported Deepfake TikTok Video Reportedly Featured Joe Rogan Endorsing Supplement Brand,4
+482,Vanderbilt Peabody Office's Purportedly ChatGPT-Drafted Message About Michigan State Shooting Reportedly Drew Student Backlash,3
+483,Indian Police Allegedly Tortured and Killed Innocent Man Following Facial Misidentification,7
+484,US CBP App's Failure to Detect Black Faces Reportedly Blocked Asylum Applications,7
+485,UK Bank's Voice ID Successfully Bypassed Using AI-Produced Audio,1
+486,AI Video-Making Tool Abused to Deploy Pro-China News on Social Media,8
+487,Deepfake Video Featured Fictitious News Anchors Discussing Venezuela's Economy,4
+488,AI Generated Voices Used to Dox Voice Actors,1
+489,Workday's AI Tools Allegedly Enabled Employers to Discriminate against Applicants of Protected Groups,10
+490,Clarkesworld Magazine Reportedly Closed Down Submissions Due to Massive Increase in Purportedly AI-Generated Stories,1
+491,"Replika's AI Experience Reportedly Lacked Protection for Minors, Resulting in Data Ban",11
+492,Canadian Parents Tricked out of Thousands Using Their Son's AI Voice,1
+493,"TikTok User Videos Impersonated Andrew Tate Using AI Voice, Prompting Ban",8
+494,Female Celebrities' Faces Shown in Sexually Suggestive Ads for Deepfake App,10
+495,Carmel High School Students Reportedly Posted Racist Deepfake Videos Making New York Principal Appear to Threaten Black Students,3
+496,Male College Freshman Allegedly Made Porn Deepfakes Using Female Friend's Face,3
+497,"DoNotPay Allegedly Misrepresented Its AI ""Robot Lawyer"" Product",10
+498,GPT-4 Reportedly Posed as Blind Person to Convince Human to Complete CAPTCHA,10
+499,Parody AI Images of Donald Trump Being Arrested Reposted as Misinformation,8
+500,Online Scammers Tricked People into Sending Money Using AI Images of Earthquake in Turkey,8
+501,Length of Stay False Diagnosis Cut Off Insurer's Payment for Treatment of Elderly Woman,10
+502,Pennsylvania County's Family Screening Tool Allegedly Exhibited Discriminatory Effects,10
+503,Bing AI Search Tool Reportedly Declared Threats against Users,10
+504,Bing Chat's Outputs Featured in Demo Video Allegedly Contained False Information,10
+505,Man Reportedly Committed Suicide Following Conversation with Chai Chatbot,11
+506,ChatGPT Allegedly Produced False Accusation of Sexual Harassment,11
+507,ChatGPT Erroneously Alleged Mayor Served Prison Time for Bribery ,11
+508,Celebrities' Deepfake Voices Abused with Malicious Intent,1
+509,Scammers Deepfaked Videos of Victims' Loved Ones Asking for Funds over Facebook in Vietnam,2
+510,Viral Image of Pope Francis in a Puffer Jacket Revealed to Be AI-Generated,1
+511,Microsoft's Bing Failed to Fetch Movie Showtimes Results Due to Date Confusion,11
+513,ChatGPT Reportedly Banned by Italian Authority Due to OpenAI's Purported Lack of Legal Basis for Data Collection and Age Verification,11
+514,Turnitin's ChatGPT-Detection Tool Falsely Flagged Student Essays as AI-Generated,3
+515,Facial Recognition Error Reportedly Leads to Wrongful Arrest of Georgia Man and $200K Settlement in Louisiana,7
+516,ChatGPT Reportedly Exposed Users' Private Data Reportedly Due to Bug,11
+517,Man Arrested For Sock Theft by False Facial Match Despite Alibi,7
+518,New York Detective Misused Woody Harrelson's Face to Perform Face Recognition Search,7
+519,Starship Delivery Robot Ran into Problems Traversing Campus Terrains,9
+520,Amazon Fresh Cameras Failed to Register Purchased Items,0
+521,iRobot Roomba J7 R&D Images Reportedly Appeared in Private Online Groups After Data Labeling,11
+522,"Facebook Political Ad Delivery Algorithms Inferred Users' Political Alignment, Inhibiting Political Campaigns' Reach",10
+523,Australian Journalist Able to Access Centrelink Account Using AI Audio of Own Voice,1
+524,Synthesized Voices Were Reportedly Used by Torswats to Sell Swatting Calls Targeting Schools and Homes,1
+525,Tesla Vehicle Running on Self-Driving Mode Crashes on City Streets,5
+526,Novel Deepfake Song Pulled from Music Streaming Services After Allegedly Violating Artist's Rights,10
+527,Tech Companies Reportedly Influenced Gig Workers' Behaviors Using Algorithms to Vary Pay for Same Amount of Work,10
+528,Amazon Algorithmic Pricing Allegedly Hiked up Price of Reference Book to Millions,0
+529,Stable Diffusion Exhibited Biases for Prompts Featuring Professions,11
+530,Telegram Channels Allowed Users to Make Non-Consensual Deepfake Porn as Paid Service,3
+531,AI-Assisted Body Scanners Reportedly Subjected Transgender Travelers to Invasive Body Searches,10
+532,AI translation is jeopardizing Afghan asylum claims,10
+533,Tesla FSD Misidentified Truck Hauling Traffic Lights as Trail of Traffic Lights,5
+534,Facebook Alleged in Lawsuit Misleading Public about Effects of Algorithms on Children,10
+535,COVID-19 Detection and Prognostication Models Allegedly Flagged for Methodological Flaws and Underlying Biases,11
+536,NJ Transit's Use of Modeling Software Miscalculated Storm Surge Threat Level,1
+537,Mother in Arizona Received Fake Ransom Call Featuring AI Voice of Her Daughter,1
+538,Texas A&M-Commerce Professor Reportedly Used ChatGPT to Accuse Students of Cheating and Assign Incomplete Grades,3
+539,Snapchat's My AI Reported for Lacking Protection for Children,11
+540,"Tesla Failed to Yield to Detected Pedestrian on Crosswalk, Reportedly Violated Traffic Law",5
+541,ChatGPT Reportedly Produced False Court Case Law Presented by Legal Counsel in Court,1
+543,Purported AI-Generated Image of Explosion Near Pentagon Reportedly Triggers Brief Market Dip and Public Confusion,8
+544,Alleged Use of Purportedly AI-Generated and Manipulated Media to Misrepresent Candidates and Disrupt Turkey's 2023 Presidential Election,8
+545,Chatbot Tessa gives unauthorized diet advice to users seeking help for eating disorders,11
+546,Algorithm to Distribute Social Welfare Reported for Oversimplifying Economic Vulnerability,10
+547,Ron DeSantis's Presidential Campaign Released Twitter Video Containing AI Images of Donald Trump Hugging Anthony Fauci,8
+548,Opera's GPT-Based AI Reportedly Accused War Photographers of War Crimes,11
+549,Fast Food Chains' AI Chatbots Failed to Assist Job Applicants with Scheduling Interviews,11
+550,Tesla Allegedly on Autopilot Struck High School Student Exiting School Bus,5
+551,FBI Reported Surge of Extortion Cases of AI Media Featuring Sexual Explicit Activities,8
+552,Bing Chat Solved CAPTCHAs with Image Analysis Feature Despite Safeguards,11
+553,Google's Overview Panel for Artist Edward Hopper Featured Image Generated in His Style by AI,11
+554,Google Results for Johannes Vermeer Featured AI Version of His Artwork as Top Result,11
+555,OpenAI's Training Data for LLMs Allegedly Comprised of Copyrighted Books,11
+556,Amazon Allegedly Violated Children's Privacy through Default Voice Collection Settings,0
+557,Miami Police Deployed Facial Recognition to Arrest George Floyd Protestor Allegedly without Cause,7
+558,Activists Allege NYPD's Application of Facial Recognition Interfered with Right to Protest,7
+559,"Grant Reviewers Reportedly Fed Applications into Generative AI to Produce Reports, Allegedly Breaching Confidentiality",1
+560,Tesla on Autopilot Struck Parked Work Truck on Highway in Pennsylvania,5
+561,OpenAI Alleged by Lawsuit Violated Users' Privacy Rights by Training AI on Private Info without Informed Consent,11
+562,Uptick in Low-Quality AI-Produced Content Degraded Publishers' Submission Management,11
+563,Cruise Robotaxi Initially Blamed for Ambulance Delay in Case Where Patient Later Died; Subsequent Reports Clear Cruise of Fault,9
+564,Voice deepfake targets bank in failed transfer scam,2
+565,AI-Generated Imagery and Multilingual Disinformation in Chinese Campaign Regarding Maui Wildfires,8
+566,Gannett Halts AI-Generated High School Sports Articles After Series of Errors and Public Backlash,3
+567,Deepfake Voice Exploit Compromises Retool's Cloud Services,1
+568,AI-Generated Voices Amplify Conspiracy Theories on TikTok,8
+569,Chatbot Encourages Man to Plot Assassination of Queen Elizabeth II,11
+570,Facebook Messenger AI Stickers Generate Ethical and Content Moderation Concerns,6
+571,Reported Accidental Exposure of 38TB of Data by Microsoft's AI Research Team,11
+572,University Student Reportedly Received Zero After Turnitin AI Detector Flagged Essay,3
+573,Deepfake Recordings Allegedly Influence Slovakian Election,8
+574,AI-Generated Articles at G/O Media Allegedly Diminishes Reputation of Human Staff,1
+575,Amazon Rife with Many Allegedly AI-Generated Books of Suspect Quality,0
+576,"Alleged Misuse of PicSo AI for Generating Inappropriate Content Emphasizing ""Girls""",1
+577,Bankrate's Resumption of AI-Generated Content Allegedly Continuing to Produce Inaccurate and Misleading Information,1
+578,Alleged Exploitation of Meta's Open-Source LLaMA Model for NSFW and Violent Content,11
+579,Harmful Stereotyping of Non-Cisgendered People via Text-to-Image Systems,11
+580,Alleged Gender Discrimination in Facebook Job Ads Algorithm,6
+581,Google Ads Allegedly Serving Content on AI-Generated Misinformation Sites,11
+582,Racial Bias in Lung Function Diagnostic Algorithm Leads to Underdiagnosis in Black Men,10
+583,Instagram Algorithms Allegedly Promote Accounts Facilitating Child Sex Abuse Content,10
+584,Illinois Residents File Class Action Lawsuit Against Facial Recognition Technology Companies for Allegedly Violating BIPA,7
+585,Kremlin-Linked Entities Allegedly Using Generative AI to Spread Russian Disinformation in Latin America,1
+586,FTC Targets Edmodo for Unlawful Use of Children’s Data and Delegating Compliance to Schools,10
+587,Apparent Failure to Accurately Label Primates in Image Recognition Software Due to Alleged Fear of Racial Bias,11
+588,Australian Terrorism Prediction Tool Disparately Impacts Persons with Autism,10
+589,Proliferation of AI-Generated News Websites and Content Farms Across Multiple Languages Degrading Information Integrity,1
+590,"Alleged ChatGPT-Generated Book with a Duplicate Title, Fake Author, and Similar Content Surfaces on Amazon Ahead of Real Author's Book Release",0
+591,Cigna Algorithm PXDX Allegedly Rejected Thousands of Patient Claims En Masse in Breach of California Law,10
+592,Facial Recognition Misidentifies Pregnant Woman Leading to False Arrest in Detroit,7
+593,"AI Photo Filter Lightens Skin, Changes Eye Color in Student's 'Professional' Image",10
+594,AI Meal Planner Suggests Hazardous Chlorine Gas Recipe,1
+595,Driverless Cruise Cars Immobilized in San Francisco Traffic Jam,9
+596,Cruise's Autonomous Vehicles Allegedly Engaging in Risky Behavior Near Pedestrians,9
+597,Female Students at Westfield High School in New Jersey Reportedly Targeted with Deepfake Nudes,3
+598,False Arrest of Georgia Man Due to Louisiana Police's Faulty Facial Recognition Technology,7
+599,Stacking robot fatally crushes employee in South Korea,9
+600,South Korean man used AI to create sexual images of children,1
+601,AI-Generated Fake Audio of Verbal Abuse Incident Circulates of British Labour Leader Keir Starmer,8
+602,Russia Reportedly Using Artificial Intelligence in Disinformation Campaigns to Erode Western Support for Ukraine,1
+603,Algorithmic Allocation of Resources in Healthcare for Disabled and Elderly Care Services Allegedly Harmed Patients,10
+604,Quebec Man Sentenced for Having Used Deepfake Technology to Create Synthetic Child Pornography,1
+605,North Carolina Psychiatrist Used Artificial Intelligence to Produce Images of Child Sex Abuse,3
+606,Deepfaked Advertisements Using the Likenesses of Celebrities Such as Tom Hanks and Gayle King Without Their Consent,4
+607,Deepfake Video Circulating of British Labour Leader Keir Starmer Touting an Investment Scheme,4
+608,UnitedHealth Accused of Deploying  Allegedly Flawed AI to Deny Medical Coverage,10
+609,Flawed AI in Google Search Reportedly Misinforms about Geography,11
+610,Purported Deepfake Technology Was Reportedly Used to Generate Naked Pictures of Underage Girls in Spanish Town,1
+611,UK Government AI Allegedly Targets Disproportionate Numbers of Certain Nationals for Fraud Review,10
+612,Microsoft AI Poll Allegedly Causes Reputational Harm of The Guardian Newspaper,1
+613,AI-Generated Images Available through Adobe Stock Misrepresent Real-World Events,8
+614,Google Bard Allegedly Generates False Allegations Against Consulting Firms Used in Research Presented in Australian Parliamentary Inquiry,1
+615,Colorado Lawyer Filed a Motion Citing Hallucinated ChatGPT Cases,1
+616,Sports Illustrated Is Alleged to Have Used AI to Invent Fake Authors and Their Articles,1
+617,"Male student allegedly used AI to generate nude photos of female classmates at a high school in Issaquah, Washington",3
+618,Navy Federal Credit Union Faces Allegations of Racial Bias in Mortgage Approvals,10
+619,Rite Aid Facial Recognition Disproportionately Misidentified Minority Shoppers as Shoplifters,7
+620,A Robot at a Tesla Factory in Texas Allegedly Injured an Engineer,10
+621,Microsoft AI Is Alleged to Have Generated Violent Imagery of Minorities and Public Figures,1
+622,Chevrolet Dealer Chatbot Agrees to Sell Tahoe for $1,11
+623,Google Bard Allegedly Generated Fake Legal Citations in Michael Cohen Case,1
+624,Child Sexual Abuse Material Taints Image Generators,11
+625,Proliferation of Products on Amazon Titled with ChatGPT Error Messages,0
+626,Social Media Scammers Used Deepfakes of Taylor Swift and Several Other Celebrities in Fraudulent Le Creuset Cookware Giveaways,2
+627,Unauthorized AI Impersonation of George Carlin Used in Comedy Special,1
+628,Fake Biden Voice in Robocall Misleads New Hampshire Democratic Voters in 2024 Primary Election,1
+629,Shein Accused of AI-Driven Art Theft on Merchandise,1
+630,Alleged Macy's Facial Recognition Error Leads to Wrongful Arrest and Subsequent Sexual Assault in Jail,7
+631,Chatbot for DPD Malfunctioned and Swore at Customers and Criticized Its Own Company,11
+632,Significant Increase in Deepfake Nudes of Taylor Swift Circulating on Social Media,3
+633,Nine Network's AI Alters Lawmaker Georgie Purcell's Image Inappropriately,1
+634,Alleged Deepfake CFO Scam Reportedly Costs Multinational Engineering Firm Arup $25 Million,2
+635,AI-Generated Fake News Targets Black Celebrities on YouTube,8
+636,AI Romance Apps Reportedly Compromise User Privacy for Data Harvesting,11
+637,Gunshot Detection Technology ShotSpotter (now SoundThinking) Reportedly Only Has 47% Accuracy in Chicago System,10
+638,Fatal Crash Involving Tesla Full Self-Driving Claims Employee's Life,5
+639,"Air Canada Chatbot Reportedly Provides Inaccurate Bereavement Fare Information, Leading to Customer Overpayment",11
+640,Waymo Software Flaw Reportedly Leads to Double Collision with Tow Truck,9
+641,Nonconsensual Deepfake Porn of Bobbi Althoff Spreads Rapidly on X,3
+642,ChatGPT Glitch Disrupts User Interactions with Nonsensical Outputs,11
+643,Purported Deepfake Video Allegedly Claims Kyiv's Assassination Plan Against President Emmanuel Macron,4
+644,Alleged State-Sponsored Hackers Escalate Purported Phishing Attacks Using Artificial Intelligence,1
+645,Seeming Pattern of Gemini Bias and Sociotechnical Training Failures Harm Google's Reputation,11
+646,Snapchat's Algorithm Alleged to Link Minor with Sex Offenders,10
+647,A Self-Driving Waymo Robotaxi Reportedly Collided with a Bicyclist,9
+648,"Alleged Deepfake Audio of Imran Khan Calls for Election Boycott, Misleading Pakistan Voters",8
+649,Deepfake Audio Falsely Attributes Controversial Remarks to Keir Starmer About the Rochdale Azhar Ali Crisis,8
+650,AI-Generated Images of Trump with Black Voters Spread as Disinformation Before U.S. Primary Elections,8
+651,Students at a Beverly Hills Middle School Allegedly Created and Shared Deepfake Nudes of Their Classmates,3
+652,Two Florida Middle School Students Arrested Under New Law for Allegedly Having Made and Shared Deepfake Nudes of Their Classmates,3
+653,Two Investment Firms Charged with Making False Claims of Artificial Intelligence Capabilities in Case of AI Washing,1
+654,Microsoft Copilot Designer Reportedly Generated Inappropriate AI Images,11
+655,Scams Reportedly Impersonating Wealthy Investors Proliferating on Facebook,2
+656,Purported Deepfake Disinformation Aired on Russian State TV Allegedly Linking Ukraine to Moscow Attack,4
+657,Alleged ChatGPT Account Compromise Reportedly Led to Unintended Data Exposure,11
+658,The Arizona Agenda Produced a Deepfake of Kari Lake Advocating for the Publication Without Her Consent,4
+659,Purported Mass Facial Recognition Program in Gaza Reportedly Used by Israeli Forces to Identify Palestinians,7
+660,Investigation Reports Unauthorized Deepfake Pornography Harms Thousands of Celebrities,1
+661,Leonardo AI's Platform Alleged to Have Been Used for Creating Nonconsensual Celebrity Deepfakes,1
+662,Washington State's Lottery AI Site Reportedly Generates Inappropriate User Image,11
+663,China Reportedly Intensifying AI to Spread Disinformation to U.S. and Taiwanese Voters,1
+664,Deepfake Generated by the Lincoln Project of Trump's Father Used in Political Attack Ad,4
+665,Facial Recognition Misidentification at New World Westend in New Zealand,7
+666,Presidency of Moldova Reportedly Refutes Purported Deepfake Video Slandering President Maia Sandu,4
+667,Manipulated Deepfake Video of Lai Ching-te Endorsing Rivals in Lead-up to January Presidential Elections,4
+668,Proliferation of Deepfakes Disrupting 2024 Lok Sabha Elections,8
+669,Deepfake of Long-Deceased Suharto Circulating in Run-up to February 2024 Indonesian Elections,8
+670,Deepfakes of Deceased Indian Politicians for Election Campaigning Are Increasingly Being Deployed,8
+671,Many Purported Political Deepfakes Reportedly Circulating in Run-up to 2024 Pakistani General Elections,8
+672,'Lavender' and 'The Gospel' AI Systems Reportedly Used in Gaza Targeting Operations with Civilian Harm Allegations,1
+673,Deepfakes Circulating and Eroding Electoral Integrity in the Lead-up to 2024 South Korean legislative election,8
+674,Manipulated Media via AI Disinformation and Deepfakes in 2024 Elections Erode Trust Across More Than 50 Countries,1
+675,High School Athletic Director in Baltimore County Allegedly Created Racist Deepfake Audio Impersonating Principal,3
+676,Alleged Deepfake Audio Depicts Philippines President Ferdinand Marcos Jr. Ordering Military Action,4
+677,ChatGPT and Perplexity Reportedly Manipulated into Breaking Content Policies in AI Boyfriend Scenarios,11
+678,Purported ChatGPT Factual Errors Reportedly Led to Filing of Complaint of GDPR Privacy Violation ,11
+679,A Purported Deepfake of Senator Elizabeth Warren Circulates Allegedly Saying Republicans Should Not Vote,4
+680,"Russia-Linked AI CopyCop Site Identified as Modifying and Producing at Least 19,000 Deceptive Reports",1
+681,Never Back Down Super PAC for Ron DeSantis Uses AI Donald Trump Voice in Attack Ad Against Kim Reynolds,8
+682,GOP Pollster Reportedly Shares Purportedly AI-Generated Images to Fabricate Appearance of Black Voter Support,8
+683,Scammers Using Deepfakes of Women's Faces and Voices for False and Offensive Advertisements,1
+684,Google Books Appears to Be Indexing Works Written by AI,11
+685,The WHO's S.A.R.A.H. Bot Reported to Provide Inconsistent and Inadequate Health Information,11
+686,Meta AI Image Generator Reportedly Fails to Accurately Represent Interracial Relationships,11
+687,Deepfake Porn Sites Use Breeze Liu's Image Without Consent,1
+688,Scarlett Johansson Alleges OpenAI's Sky Imitates Her Voice Without Licensing,11
+689,"Holmen, Wisconsin Man Allegedly Used Stable Diffusion to Create and Then Share Sexually Explicit Images Depicting Minors",3
+690,ISIS Utilizes AI for Propaganda Videos in News Harvest Program,1
+691,Facewatch Reported to Have Wrongfully Flagged Home Bargains Customer as Shoplifter,7
+692,London Metropolitan Police's Facial Recognition Technology Reportedly Misidentified Shaun Thompson as Suspect Leading to Arrest,7
+693,Google AI Reportedly Delivering Confidently Incorrect and Harmful Information,11
+694,Purported Republican AI Ad Reportedly Depicts Dystopian Future After Biden Reelection Announcement,8
+695,Donald Trump's Presidential Campaign Released Deepfakes Attacking Ron DeSantis,8
+696,Meta's AI Ad Platform Reportedly Causes Overspending and Poor Performance,11
+697,Purported Deepfake Image Allegedly Circulating of Donald Trump with Underage Girl at Jeffrey Epstein's Private Island,4
+698,Deepfake Video of Ron DeSantis Dropping Out of 2024 Presidential Race Circulating,4
+699,VA Suicide Prevention Algorithm REACH VET Reportedly Prioritizes Men Over Women Veterans,10
+700,Meta's AI Chatbots Are Reportedly Entering Online Support Communities Uninvited,11
+701,American Asylum Seeker John Mark Dougan in Russia Reportedly Spreads Disinformation via AI Tools and Fake News Network,1
+702,Disinformation Deepfake Circulates of State Department Spokesman Matthew Miller Suggesting Belgorod Can Be Attacked with U.S. Weapons,4
+703,Purported Deepfake Audio Reportedly Sparks False Claims of Biden Threatening Texas with F-15s,8
+704,Study Highlights Persistent Hallucinations in Legal AI Systems,1
+705,"Turkish Student in Isparta Allegedly Uses AI to Cheat on Exam, Leading to Arrest",3
+706,Scammers Using AI to Impersonate Small Businesses,2
+707,"Tesla Reportedly in Autopilot Mode Hits Parked Police Vehicle in Fullerton, California",5
+708,Reportedly Faulty AI Transcription Threatens Integrity of Genoa Bribery Probe,10
+709,Unrepresented Litigant Misled by ChatGPT-Generated False Legal Citations in Manchester Court,1
+710,Facebook AI Reportedly Mislabels Auschwitz Photos as 'Bullying' and 'Nudity',6
+711,NHTSA Opens New Probe into Tesla’s Autopilot Following More than a Dozen Fatal Accidents,5
+712,Meta AI Hallucinates Harassment Allegations Against New York Politicians,11
+713,Purported Deepfake Video Falsely Depicts Biden Announcing National Draft for Ukraine,4
+714,Microsoft-Powered New York City Chatbot Advises Illegal Practices,11
+715,Over 400 Purportedly AI-Driven Scams Reportedly Led to $8M Loss for Australians in 2023,2
+716,Algorithmic Staffing Failures Linked to Resident Deaths at Leading Assisted-Living Chain Brookdale,10
+717,Fake AI-Generated Law Firms Sent Fake DMCA Notices to Increase SEO,1
+718,"OpenAI, Google, and Meta Alleged to Have Overstepped Legal Boundaries for Training AI",11
+719,Grok AI on X Created and Promoted False Iran Missile Strike News,11
+720,Deepfake Video Targets Paul Vallas on Eve of Chicago Mayoral Election,4
+721,Reported Use of Purportedly AI-Generated Student Accounts in Online College Courses,3
+722,"Catholic AI Chatbot 'Father Justin' Claimed to Be a Real Priest, Prompting Retraction",11
+723,Instagram Algorithms Reportedly Directed Children's Merchandise Ad Campaign to Adult Men and Sex Offenders,10
+724,Purportedly AI-Generated Papers Are Alleged to Have Manipulated Scopus Rankings in Top Philosophy Journals,1
+725,Cartels Reportedly Using AI to Expand Operations into Financial Fraud and Human Trafficking,1
+726,A Self-Driving Cruise Robot Taxi Reportedly Struck and Dragged a Pedestrian 20 Feet,9
+727,Synthetic Voice 'Olesya' by Storm-1516 Falsely Accuses Ukraine in U.S. Election Disinformation Campaign,8
+728,AI Firm Lovo Accused of Illegally Replicating Voice Actors' Voices,1
+729,GPT-4o's Chinese Tokens Reportedly Compromised by Spam and Pornography Due to Inadequate Filtering,11
+730,AI Deepfakes for Voter Outreach Flood Indian Elections,8
+731,Purportedly Hallucinated Software Packages with Potential Malware Reportedly Downloaded Thousands of Times by Developers,1
+732,Whisper Speech-to-Text AI Reportedly Found to Create Violent Hallucinations,11
+733,Auto Insurers Allegedly Are Surreptitiously Collecting and Scoring Driver Data,10
+734,Leading AI Models Reportedly Found to Mimic Russian Disinformation in 33% of Cases and to Cite Fake Moscow News Sites,1
+735,AI-Enabled Fraud Schemes Reportedly Increasing Consumer Harm and Challenging Detection,1
+736,Underground Market for LLMs Powers Malware and Phishing Scams,11
+737,Amandine Le Pen Deepfake Account Misleads Thousands on TikTok,8
+738,"Department for Work and Pensions (DWP) Algorithm Wrongly Flags 200,000 for Housing Benefit Fraud",10
+739,Scammers Allegedly Use Deepfake of Hong Kong Entertainer Andy Lau to Steal NT$2.64 Million from Fan,2
+740,Department for Work and Pensions (DWP) AI Systems Allegedly Discriminate Against Single Mothers,10
+741,Robin Williams's Voice Deepfaked Without Consent,1
+742,Grok AI Model Reportedly Fails to Produce Reliable News in Wake of Trump Assassination Attempt,11
+743,Gemini AI Allegedly Reads Google Drive Files Without Explicit User Consent,11
+744,"AI Work Assistants Require More Effort Than Expected, CIOs Say",1
+745,Figma Disables AI Feature After Accusations of Copying Apple’s Weather App,11
+746,Class Action Lawsuit Over Alleged Defects in Volkswagen's AI-Driven AEB Systems,10
+747,Fatalities Reportedly Occur Despite VioGén Algorithm's Low or Negligible Risk Scores,10
+748,Erroneous Declined Transaction Notification by PayPal AI Assistant,11
+749,Hoodline Accused of Misleadingly Attributing AI-Generated Articles to Human Authors,1
+750,AI Chatbots Reportedly Inaccurately Conveyed Real-Time Political News,1
+751,SearchGPT Reportedly Misleads Users with Incorrect Festival Dates in Demo,11
+752,AI-Generated Obituaries Are Reportedly Intensifying Grief for Bereaved Families,1
+753,BNN Breaking's AI-Driven Errors Reportedly Damage Reputations and Spread Misinformation,1
+754,Female Politicians in the United Kingdom Reportedly Victimized by Purported Deepfake Pornography,3
+755,Purported Deepfake Targets Olena Zelenska in Alleged Russian Disinformation Campaign,4
+756,Deepfake of Kamala Harris Saying Damaging Comments Circulates on X and Is Amplified by Elon Musk,11
+757,OpenAI's ChatGPT Mac App Stored User Data in Unencrypted Text Files,11
+758,Teen's Overdose Reportedly Linked to Meta's AI Systems Failing to Block Ads for Illegal Drugs,11
+759,AI-Generated Deepfakes Reportedly Derailed Political Career of Florida Official,8
+760,False Election Data on Kamala Harris Reportedly Circulated via Grok AI Chatbot,8
+761,TikTok AI System Used to Amplify Election Disinformation by Foreign Networks,8
+762,Grok AI Reportedly Generates Offensive and Violent Images Without Proper Safeguards,11
+763,Grok AI Chatbot Reportedly Spreads Unfounded Rumors About Trump’s Dentures,11
+764,Cody Enterprise Reporter Resigns After Admitting to AI-Generated Fake Quotes,1
+765,22 Students at Richmond-Burton Community High School in Illinois Targeted by Deepfake Nudes,3
+766,Trump Reportedly Shares Purportedly AI-Generated Images Falsely Suggesting Taylor Swift Endorsement,8
+767,AI Image of Kamala Harris at DNC with Communist Flags Circulated by Trump,8
+768,ChatGPT Reportedly Implicated in Samsung Data Leak of Source Code and Meeting Notes,11
+769,Investigative Journalist Rana Ayyub Targeted by AI-Generated Deepfake Pornography,4
+770,Microsoft Copilot Falsely Accuses Journalist Martin Bernklau of Crimes,1
+771,Noelle Martin Deepfaked Without Consent in AI-Generated Pornography,1
+772,Kristen Bell Deepfaked in Non-Consensual AI-Generated Pornography,3
+773,Chatbot in Workplace Training at Bunbury Prison Reveals Real Names in Sexual Harassment Case,11
+774,"Covert AI Influence Operations Linked to Russia, China, Iran, and Israel, OpenAI Reports",1
+775,Elon Musk Reportedly Shared an AI-Generated Image Depicting Kamala Harris Dressed as a Communist Ruler,8
+776,Megalopolis Trailer Included Fake AI-Generated Quotes Attributed to Film Critics,1
+777,South Korea Experiences a Surge of Explicit Deepfake Pornography,3
+778,Amazon's Alexa Reportedly Shows Political Preference Error in Trump-Harris Presidential Race Queries,0
+779,Music Producer Michael Smith Reportedly Arrested for Allegedly Using AI-Generated Songs in $10 Million Streaming Scam,2
+780,Joint Base Elmendorf-Richardson Soldier Faces Allegations of Using AI to Generate Child Pornography,1
+781,Clearview AI Reportedly Faces $33.7 Million Fine for Violating GDPR with Biometric Data Harvesting,11
+782,AI 'Nudify' Apps Used as Tools for Blackmail and Extortion,1
+783,WiseTech Global CEO Richard White Reportedly Deepfaked in Multiple Attempts to Scam Staffers,2
+784,Child Predators Are Reportedly Generating Deepfake Nudes of Children to Extort Them,1
+785,ESPN's AI Coverage Overlooks Alex Morgan in Her Final Match Recap,1
+786,Fraudsters Use Deepfake Video of Tim Cook to Promote Apple Crypto Scam on YouTube,2
+787,Deepfake ID Sales Allegedly Persist as OnlyFake Reportedly Relaunches with New Fraud Tools,1
+788,Instagram's Algorithm Reportedly Recommended Sexual Content to Teenagers' Accounts,6
+789,Independent News Sites Flagged as Spam by Facebook's AI Moderation System,6
+790,Unrestricted AI Avatar Tool Accidentally Released by TikTok Permits Recitation of Hitler Quotes and Other Harmful Speech,6
+791,Google AI Error Prompts Parents to Use Fecal Matter in Child Training Exercise,11
+792,Unauthorized Use of AI to Replicate Tupac Shakur's and Snoop Dogg's Voices in Drake's 'Taylor Made Freestyle',1
+793,AllHere's Chatbot 'Ed' Fails and Costs Los Angeles Unified School District $6 Million,11
+794,Reported Glitch in Waymo Self-Driving Cars Purportedly Triggers Regular All-Night Honking in San Francisco,9
+795,Deepfake Elon Musk Videos Have Reportedly Contributed to Billions in Fraud,2
+796,Facebook's Content Moderation System Flagged and Removed Emergency Updates as Spam During Wildfires,6
+797,Teenager Makes Deepfake Pornography of 50 Girls at Bacchus Marsh Grammar School in Australia,3
+798,Students at Australian Schools Reportedly Used AI Nudification Tools to Create Nonconsensual Sexual Images of Classmates and Teachers,3
+799,Aledo High School Student Allegedly Generates and Distributes Deepfake Nudes of Seven Female Classmates,3
+800,53% of American and British Businesses Report Attacks by AI-Powered Deepfake Scams in 2024,2
+801,Bias in AI Deepfake Detection Undermines Election Security in Global South,10
+802,Purported Deepfake of Brian May Allegedly Exploited in Scam Offering Fake Queen Backstage Tickets,2
+803,"Facebook's Algorithm Reportedly Amplifies AI-Generated Content, Fueling Misleading Posts",6
+804,AI-Generated Fake 'True Crime' Video About Non-Existent Littleton Murder Goes Viral,4
+805,Senator Ben Cardin Reportedly Received a Purported Deepfake Zoom Call Impersonating Former Ukrainian Foreign Minister Dmytro Kuleba,4
+806,"Criminal Group Uses AI Deepfake Technology to Steal Personal Data in Hangzhou, Zhejiang",1
+807,ChatGPT Reportedly Introduces Errors in Critical Child Protection Court Report,1
+808,Infinite Campus AI-Driven Student Risk Model Leads to Cuts in Support for Nevada's Low-Income Schools,10
+809,TikTok Hosts AI-Generated English-Language Hitler Speeches with Millions of Views,6
+810,TikTok Network Amplifies AI-Generated Nazi Propaganda and Hate Speech,6
+811,AI-Powered Transcription Services Allegedly Leak Confidential Workplace Discussions,10
+812,Deepfake Nudes Targeting Underage Female Students at Collège Béliveau in Winnipeg Shared Online,3
+813,Starship Technologies Delivery Robot Reportedly Injures Arizona State University Employee,9
+814,AI Avatar of Murder Victim Created Without Consent on Character.ai Platform,11
+815,Police Use of Facial Recognition Software Causes Wrongful Arrests Without Defendant Knowledge,7
+816,Cross-Jurisdictional Facial Recognition Misidentification by NYPD Leads to Wrongful Arrest and Four-Year Jail Time in New Jersey,7
+817,Purportedly AI-Generated Images Reportedly Spread Misinformation During Hurricane Helene Response,8
+818,Jennifer Aniston’s Likeness Allegedly Exploited in Purported Deepfake Collagen Supplement Promotion,4
+819,ProKYC Tool Allegedly Facilitates Deepfake-Based Account Fraud on Cryptocurrency Exchanges,1
+820,Alleged AI-Generated Photo Alteration Leads to Inappropriate Modifications in Speaker's Conference Picture,1
+821,Baidu Robotaxi Allegedly Involved in Collision with Pedestrian in Wuhan,9
+822,Algorithmic Bias in French Welfare System Allegedly Discriminates Against Marginalized Groups,10
+823,Cybercheck Tool Allegedly Provides Questionable Evidence in Murder Trials,1
+824,Purported Deepfake Allegedly Misattributes Claims to Former Student in Attack on Vice-Presidential Candidate Tim Walz,4
+825,AI News Site Hoodline San Jose Erroneously Misidentifies San Mateo District Attorney as Murder Suspect,1
+826,Character.ai Chatbot Allegedly Influenced Teen User Toward Suicide Amid Claims of Missing Guardrails,11
+827,AI Transcription Tool Whisper Reportedly Inserting Fabricated Content in Medical Transcripts,10
+828,Uruguayan TV Program Santo y Seña Uses a Deepfake of Political Candidate Yamandú Orsi Without His Consent,1
+829,Facial Recognition System in Buenos Aires Triggers Police Checks Based on False Matches,7
+830,Error-Prone AI Accessibility Tools Reportedly Lead to Navigation Issues for Blind Internet Users,1
+831,NYC Subway AI Weapons Scanners Yield High False Positive Rate and Detect No Guns in Month-Long Pilot Test,10
+832,Reportedly Viral AI-Generated Song about 'Diddy Party' Allegedly Mimics Justin Bieber,8
+833,Polish Radio Station Replaces Human Hosts with AI-Generated Presenters to Simulate Interviewing Deceased Poet Wisława Szymborska,1
+834,China Targets AI-Driven Fraud and Deepfake Scandals with New Crackdowns,1
+835,Purportedly AI-Manipulated Synthetic Media Allegedly Fuels False Reports of Natural Disasters and Accidents in China,1
+836,Sichuan Province Beset by Numerous Fabricated AI-Generated Reports of Disasters and Crises,1
+837,Reportedly Fake CNN Broadcast Allegedly Used to Spread False Texas Election Results,8
+838,Microsoft Copilot Allegedly Provides Unsafe Medical Advice with High Risk of Severe Harm,10
+839,Purportedly AI-Driven Phishing Scam Uses Spoofed Google Call to Attempt Gmail Breach of Security Expert,2
+840,AI-Generated Media Reportedly Used in Russian Disinformation Campaign in Moldova,8
+841,Purportedly AI-Manipulated Video Allegedly Targets Moldovan Economic Development Minister Dumitru Alaiba in Election Disinformation Campaign,8
+842,Reportedly Hacked AI-Powered Robot Vacuums Allegedly Used for Surveillance and Harassment,10
+843,Generative AI Plagiarism Incident at Hingham High School Reportedly Tied to Inaccurate Citation Outputs from Grammarly AI,3
+844,SafeRent AI Screening Tool Allegedly Discriminated Against Housing Voucher Applicants,10
+845,Google's Gemini Allegedly Generates Threatening Response in Routine Query,11
+846,Social Media Algorithms Amplified Disinformation Campaign in Honduras Election,8
+847,"Brake Failure in Reportedly AI-Driven Tram Leads to Multiple Injuries in Saint Petersburg, Russia",10
+848,"High School Student in Córdoba, Argentina Accused of Using AI to Generate Explicit Images of Classmates",3
+849,AI Detection Tools Allegedly Misidentify Neurodivergent and ESL Students' Work as AI-Generated in Academic Settings,1
+850,Character.ai Chatbots Allegedly Misrepresent George Floyd on User-Generated Platform,11
+851,Salt Lake City Police Chief Mike Brown's Voice and Image Misused in AI-Generated Scam,2
+852,Alleged Fake Citations Undermine Expert Testimony in Minnesota Deepfake Law Case,1
+853,Two Passengers Report Feeling Trapped in Waymo Car During Sensor Obstruction,9
+854,Waymo Driverless Taxi Allegedly Stalled During Pedestrian Harassment Incident in San Francisco,9
+855,Names Linked to Defamation Lawsuits Reportedly Spur Filtering Errors in ChatGPT's Name Recognition,11
+856,Purportedly AI-Generated Audio Allegedly Fabricates Biden's Admission of Role in Pakistani Political Crisis,8
+857,"Navigation App Allegedly Directs Car Over Damaged Bridge in Uttar Pradesh, Resulting in Three Deaths",11
+858,"Deepfake Reportedly Used in Attempted Real Estate Fraud in Hallandale Beach, Florida",2
+859,AI Models Reportedly Found to Provide Misinformation on Election Processes in Spanish,11
+860,"AI Camera Allegedly Misidentifies Dutch Motorist as Using Mobile Phone, Issuing €380 Fine",1
+861,Apple Intelligence Reportedly Notified Users That Luigi Mangione Shot Himself and Benjamin Netanyahu Had Been Arrested,10
+862,Purportedly AI-Generated Video Allegedly Depicts Martin Luther King Jr. Supporting Donald Trump,4
+863,Character.ai Companion Allegedly Prompts Self-Harm and Violence in Texas Teen,11
+864,"Generative AI Allegedly Used to Facilitate $255,000 Real Estate Fraud Scheme",2
+865,Fake AI 'Nudify' Sites Reportedly Linked to Malware Distribution by Russian Hacker Collective FIN7,1
+866,Network of 171 AI-Powered Bots Reportedly Spread Political Disinformation Ahead of Ghana’s December 2024 General Election,8
+867,AI-Generated Airline Reviews Allegedly Mislead Consumers and Undermine Trust,1
+868,Portland Water Bureau SERVUS Algorithm Reportedly Allocates Utility Bill Discount to High-Wealth Consumer,10
+869,TikTok Algorithms Allegedly Linked to Minors' Exposure to Harmful Content,6
+870,Meeten Malware Campaign Reportedly Undermines Web3 Security Using AI-Legitimized Branding,1
+871,Reported Deepfake Video of Elon Musk Announcing $20 Million Cryptocurrency Giveaway Circulating on Social Media,4
+872,AI Voice Cloning of Ari Melber Allegedly Exploited in Scam Targeting Elderly Woman,2
+873,YouTube Algorithms Allegedly Amplify Eating Disorder Content to Adolescent Girls,6
+874,1 in 6 Congresswomen Have Reportedly Been Targeted by AI-Generated Nonconsensual Intimate Imagery,1
+875,Coordinated Deepfake Campaign Reportedly Impersonating Rishi Sunak Promoted Fraudulent Quantum AI Investment Platform on Meta,2
+876,Deepfake Videos Allegedly Used to Defraud Canadian Immigrants Out of Thousands of Dollars,2
+877,HTML/Nomani Deepfake Phishing Campaigns Allegedly Use AI-Generated Content to Defraud Social Media Users,2
+878,"Romance Scammer 'Alla Morgan' Allegedly Exploits Deepfake Technology to Defraud Victim of £17,000",2
+879,Deepfake Video Reportedly Depicts U.S. Congressman Rob Wittman Endorsing Military Support for Taiwan's Democratic Progressive Party,4
+880,Scammers Reportedly Using Deepfakes of Health Experts and Public Figures in Australia to Sell Health Supplements and Give Harmful Advice,2
+881,Waymo Robotaxi Allegedly Collides With Serve Robotics Delivery Bot in Los Angeles,9
+882,AI-Generated Reading Summaries on Fable App Reportedly Wrote Biased and Offensive Commentary,11
+883,Alleged Fake AI-Generated Christmas Card Featuring Prince Harry and Meghan Markle's Children Circulates on Social Media,8
+884,Russian Center for Geopolitical Expertise Allegedly Used AI to Target U.S. Candidates with Disinformation in 2024 Election,1
+885,"Meta AI Characters Allegedly Exhibited Racism, Fabricated Identities, and Exploited User Trust",11
+886,ChatGPT Reportedly Referenced During Las Vegas Cybertruck Explosion Planning,11
+887,"Students of Richland School District in Cambria County, Pennsylvania Allegedly Used AI to Generate Obscene Images of Other Students",3
+888,Sydney High Schooler Allegedly Generated Deepfakes of Other Students,3
+889,Tesla's 'Actually Smart Summon' Feature Reportedly Linked to Multiple Parking Lot Collisions,11
+890,AI-Generated Images of the Iconic Hollywood Sign Reportedly on Fire Circulating on Social Media,8
+891,Purported AI Voice Scam Reportedly Targets Westchester Parents with Fake Kidnapping Ransom Calls,2
+892,Apple Intelligence Allegedly Flags Scam Messages as High Priority,2
+893,Pennsylvania State Police Officer Allegedly Used Work Computer for AI-Generated Pornography,1
+894,RealPage's YieldStar Allegedly Facilitated Rent Price Coordination Among Canadian Landlords,10
+895,Alleged Deepfake of New Zealand Endocrinologist Reportedly Promotes Misleading Diabetes Claim,4
+896,Alleged Misuse of Facial Recognition Technology by Law Enforcement Reportedly Leading to Wrongful Arrests and Violations of Investigative Standards,7
+897,AI-Assisted Ransomware Campaign by FunkSec Allegedly Targets Over 80 Victims,1
+898,Alleged LLMjacking Targets AI Cloud Services with Stolen Credentials,1
+899,Character.ai Chatbots Allegedly Emulating School Shooters and Their Victims,11
+900,Character.ai Has Allegedly Been Hosting Openly Predatory Chatbots Targeting Minors,11
+901,"Yahoo Boys Allegedly Used Deepfake Technology to Impersonate Brad Pitt and Defraud French Woman of $850,000 in Romance Scam",2
+902,Prime Minister of Thailand Paetongtarn Shinawatra Claims AI Voice Scam Impersonated ASEAN Leader Requesting Money,2
+903,Northern Ireland MLA Cara Hunter Allegedly Targeted by Deepfake Pornography Ahead of May 2022 Assembly Election,4
+904,"Kate Isaacs, Advocate Against Image-Based Abuse, Reports Being Deepfaked",4
+905,"Scammers Allegedly Use Deepfake Technology to Pose as Leonor, Princess of Asturias, in Fraud Scheme",2
+906,Alleged AI-Powered Call Center Breach Exposes Over 10 Million Conversations in the Middle East,11
+907,"Taranaki, New Zealand Resident Allegedly Defrauded of $224K in Bitcoin Scam Using Deepfake of Prime Minister Christopher Luxon",2
+908,Deepfake Images of Australian Teacher Hannah Grundy and 25 Others Created and Circulated Online by Former Friend,3
+909,Matryoshka Campaign Allegedly Uses Deepfakes to Impersonate Academics for Pro-Russian Propaganda,8
+910,"Alleged AI-Driven Phishing Scam Impersonates Maine Town Official to Falsely Request $22,500",2
+911,Yahoo Boys Allegedly Employ Real-Time Deepfake Technology in Romance Scams,2
+912,Yahoo Boys and Scammers from Morocco Allegedly Target U.S. Widows and Vulnerable Individuals with 'Artificial Patriot' Scams,2
+913,Yahoo Boys Allegedly Using AI-Generated News Videos to Blackmail Sextortion Victims,2
+914,Alleged Deepfake of Luis Suárez Used to Scam Uruguayans in Fake Investment Scheme,2
+915,Alaska Education Department Reportedly Published Policy Featuring Erroneous AI-Generated Citations,1
+916,"Plymouth, Massachusetts Resident Reportedly Used AI Chatbots CrushOn.ai and JanitorAI to Harass and Intimidate Victims",1
+917,Alleged Deepfake of Whoopi Goldberg Reportedly Used in Fake Weight-Loss Supplement Ads on Instagram,2
+918,AI-Aided Scam in Thailand Allegedly Impersonates Police to Defraud 163 Victims,2
+919,Purported Russian-Linked Network Allegedly Used Deepfake of Maria Ressa on Facebook and Bing to Promote Cryptocurrency Scam Targeting Filipinos,2
+920,Alleged Deepfake Scam Reportedly Promoted Trump Golden Eagles Project as Investment Opportunity,2
+921,"Hong Kong Authorities Seize HK$34M in Alleged Deepfake Scam Targeting Victims in Taiwan, Singapore, and Malaysia",2
+922,"AI Voice Scam Allegedly Defrauds Game and Coffee Store in Havre, Montana",2
+923,"Nottingham Gallery Owner Allegedly Defrauded by Deepfake Impersonating Pierce Brosnan, Reportedly Leading to Business Closure",2
+924,Alleged Deepfake Scam Uses BBC Presenter Naga Munchetty’s Image to Promote Fraudulent Investment Scheme,2
+925,Alleged License Plate Recognition Errors in Christchurch Lead to Wrongful Parking Fines,10
+926,Giorgia Meloni Reportedly Targeted by Deepfake Pornography,4
+927,Fraudsters Allegedly Use AI-Generated Voice of Italian Defense Minister Guido Crosetto to Scam Business Leaders,2
+928,Deepfake Cryptocurrency Scam Allegedly Impersonates Italian President Sergio Mattarella and Prime Minister Giorgia Meloni,2
+929,"Sustained AI-Driven Russian Disinformation Campaigns Doppelgänger, Storm-1516, and Matryoshka Reportedly Disrupting German Federal Elections",1
+930,Alleged Deepfake Video Falsely Depicts Hollywood Stars in AI-Manipulated Protest Against Kanye West,4
+931,Reportedly Manipulated TikTok Videos Misrepresent Anti-AfD Protests as Far-Right Rallies,8
+932,BP New Zealand's License Plate Recognition System Reportedly Misidentified Auckland Driver for Fuel Theft in Whanganui,10
+933,Teenager in Palma de Mallorca Allegedly Generated and Distributed Deepfake Nudes of Five Classmates,3
+934,NHK Terminates AI Translation Service After Geopolitical Naming Error,10
+935,Reported Deepfake of Maltese Prime Minister Robert Abela and Journalist Mark Laurence Zammit Used to Promote Fraudulent Investment,2
+936,Deepfake of Former Prime Minister of Malta Joseph Muscat Allegedly Promotes Nord Invest Scam,4
+937,Bolivian Criminal Network Allegedly Used Deepfake of Education Minister to Defraud at Least 19 Victims in Employment Scam,2
+938,"Purportedly AI-Assisted Impersonation of Martin Henderson in Romance Scam Leads to Reported NZ$375,000 Fraud",2
+939,AI-Powered Chinese Surveillance Campaign 'Peer Review' Used for Real-Time Monitoring of Anti-State Speech on Western Social Media,11
+940,Tesla Cybertruck Operating in Full Self-Driving Mode Reportedly Crashes into Pole in Nevada After Failing to Merge,5
+941,AI-Driven Phishing Scam Uses Deepfake Robocalls to Target Gmail Users in Credential Theft Campaign,2
+942,Cybercriminals Reportedly Exploited Google’s G.Co Subdomain and Spoofed Caller ID in AI-Driven Phishing Attack on Hack Club Founder,11
+943,"Nonconsensual Explicit AI-Generated Images of Up to 60 Gladstone Park Secondary College Students in Victoria, Australia, Reportedly Created and Circulated Online",3
+944,Kenya's Foreign Affairs Principal Secretary Korir Sing'Oei Reportedly Shared AI-Generated Video Depicting Fareed Zakaria Praising Sudan Diplomacy,4
+945,"Two 16-Year-Old Students in Athens, Greece Allegedly Generated Nonconsensual Deepfake Pornography of Their Classmates",3
+946,Arizona Residents Reportedly a Frequent Target of AI-Driven Romance Scams,1
+947,"Two Members of Highline Public Schools Community in King County, Washington Reportedly Targeted in Deepfake Kidnapping Scam",2
+948,Alleged FraudGPT-Enabled Phishing Attack Spoofs ChatGPT Subscription Service to Steal Credentials,11
+949,Unauthorized AI-Generated Video of Donald Trump and Elon Musk Reportedly Appears on HUD Building Screens,4
+950,NullBulge's AI-Powered Malware Allegedly Compromises Disney Employee and Internal Data,1
+951,Character.AI Chatbots Allegedly Impersonating Licensed Therapists and Encouraging Harmful Behaviors,11
+952,Apple’s Voice Dictation Reportedly Substitutes ‘Trump’ for ‘Racist’ Due to Speech Recognition Bug,11
+953,Deepfake Videos of Barbara O’Neill Allegedly Used in Health Scam Targeting Social Media Users,2
+954,Chatbots Allegedly Used in Romance Scams Targeting Nearly One-Third of New Zealand's Dating App Users,1
+955,Global Cybercrime Network Storm-2139 Allegedly Exploits AI to Generate Deepfake Content,1
+956,"Alleged Inclusion of 12,000 Live API Keys in LLM Training Data Reportedly Poses Security Risks",11
+957,Alleged Instagram Algorithm Malfunction Floods Users' Reels Feeds with Violent and Graphic Content,6
+958,Europol Operation Cumberland Investigates at Least 273 Suspects in 19 Countries for AI-Generated Child Sexual Abuse Material,1
+959,Deepfake Video of Indonesian President Prabowo Subianto and Other Officials Reportedly Used in Scam to Defraud Citizens Across 20 Provinces,2
+960,Plaintiffs' Lawyers Admit AI Generated Erroneous Case Citations in Federal Court Filing Against Walmart,1
+961,Serbian Authorities Allegedly Used AI-Powered Cellebrite Tools to Unlock Journalist’s Phone and Install Spyware,1
+962,"Tbilisi-Based Call Center Allegedly Uses AI-Driven Scripts to Defraud Over 6,000 Victims of $35 Million",2
+963,Google Reports Alleged Gemini-Generated Terrorism and Child Exploitation to Australian eSafety Commission,11
+964,AI-Powered 'Insights' Feature for the Los Angeles Times Allegedly Justifies Ku Klux Klan’s History,1
+965,Phishers Allegedly Using AI-Generated Video of YouTube CEO Neal Mohan to Target Creators,2
+966,Ferrari Executive Targeted by AI Deepfake Scam Impersonating CEO Benedetto Vigna,2
+967,Amazon and Google AI Allegedly Promote Mein Kampf as 'a True Work of Art' in Search Results,0
+968,"'Pravda' Network, Successor to 'Portal Kombat,' Allegedly Seeding AI Models with Kremlin Disinformation",1
+969,Russian Disinformation Campaign Allegedly Used Fake News Site 'KBSF-San Francisco News' and Deepfake Video to Falsely Accuse Kamala Harris of 2011 Hit-and-Run,4
+970,Scammers Allegedly Using Deepfake Technology to Impersonate Prime Minister of Armenia Nikol Pashinyan,2
+971,Iranian Hacker Group Cotton Sandstorm Reportedly Integrating AI into Cyber Influence Operations,1
+972,Russian Influence Operation Allegedly Uses AI to Create Fake Kamala Harris Campaign Website and Rhino-Hunting Hoax,8
+973,Canadian Fraud Ring Allegedly Used AI Voice Cloning in Multi-Year $21 Million Grandparent Scam Targeting Elderly Americans Across 46 States,2
+974,Purported Deepfake Audio Allegedly Impersonates U.S. Secretary of State Marco Rubio in Starlink Disinformation Campaign,4
+975,"At Least 10,000 AI Chatbots, Including Jailbroken Models, Allegedly Promote Eating Disorders, Self-Harm, and Sexualized Minors",11
+976,AI-Generated OB-GYN Health Influencers on TikTok Used Fake Medical Credentials to Promote Dubious Advice,8
+977,AI-Driven News Platform Accused of Spreading Unverified Terrorism Allegations Against Yale Scholar,1
+978,Chinese Actor and CPPCC Member Jin Dong Allegedly Impersonated by AI Deepfake Scammers to Mislead and Defraud Fans,2
+979,"Art Museum in Jinan, Shandong Allegedly Generated and Displayed a Sexualized Childlike Avatar with an Adult Body",1
+980,AI-Generated Songs Allegedly Imitating Céline Dion Circulate Online Without Authorization,1
+981,Apple AI Transcription Allegedly Inserts Explicit Language into Scottish Woman’s Voicemail,10
+982,Scammers Reportedly Using Deepfake Video Calls to Impersonate Executives in Singapore and Orchestrate Corporate Bank Transfers,2
+983,Scammers Reportedly Used AI Voice Clone and YouTube Footage to Impersonate WPP CEO in Unsuccessful Scam Attempt,2
+984,Deepfake Videos Allegedly Use AI-Generated Voice Clone of Singapore Prime Minister Lawrence Wong to Promote Scams,2
+985,Alleged Deepfake of Singapore Prime Minister Lee Hsien Loong Promotes Cryptocurrency Scam in Fake Interview,2
+986,Scammers Allegedly Manipulate 2023 Speech of Singapore Senior Minister Lee Hsien Loong to Spread Deepfake Investment Fraud,2
+987,Alleged Deepfake of Singapore Deputy Prime Minister Lawrence Wong Falsely Shows Him Endorsing Commercial Products,4
+988,Senior Minister of Singapore Lee Hsien Loong Allegedly Misrepresented in Two Deepfake Videos on Foreign Relations,8
+989,Alleged AI-Generated Video by Spain’s People’s Party Results in Diplomatic Fallout with the Dominican Republic,4
+990,Corinth School District Educator in Mississippi Allegedly Used AI to Generate CSAM of Students,3
+991,Alleged AI-Generated IRS Scam Websites Used to Defraud U.S. Taxpayers,2
+992,Chinese Businessman Reportedly Defrauded of 4.3 Million Yuan by AI-Generated Deepfake Impersonating Friend,2
+993,Sydney Students Allegedly Forced to Retake NAPLAN After AI Predictive Text Error,10
+994,AI-Enabled Organized Crime Expands Across Europe,1
+995,The New York Times Reportedly Sues OpenAI and Microsoft Over Alleged Unauthorized AI Training on Its Content,11
+996,"Meta Allegedly Used Books3, a Dataset of 191,000 Pirated Books, to Train LLaMA AI",11
+997,Meta and OpenAI Accused of Using LibGen’s Pirated Books to Train AI Models,11
+998,ChatGPT Allegedly Defamed Norwegian User by Inventing Child Homicide and Imprisonment,11
+999,Attackers Reportedly Deployed Simulated AI Support Chatbot to Trick Instagram Business Users into Adding Malicious 2FA Login,11
+1000,"Sora Video Generator Has Reportedly Been Creating Biased Human Representations Across Race, Gender, and Disability",11
+1001,LLM Scrapers Allegedly Target Multiple Open Source Projects Disrupting the FOSS Ecosystem,1
+1002,Manipulated Video Using AI-Generated Audio Targets Pakistan's Prime Minister Shehbaz Sharif with Fabricated Interview,4
+1003,Alleged Fraudulent Prompts via AIXBT Dashboard Led Purported AI Trading Agent to Transfer 55.5 ETH from Simulacrum Wallet,1
+1004,San Francisco City Attorney Sues Operators of AI Deepfake Pornography Websites for Violations of State and Federal Law,3
+1005,Misleading Deepfake Video of Trump Mocking Zelenskyy for Clothing Goes Viral on Facebook,4
+1006,"Edinburg, Texas Police Officer Arrested for Alleged Possession of CSAM, Including AI-Generated Deepfakes of Minors",1
+1007,AI-Generated Voice Cloning of Trump Falsely Proposes Renaming the District of Columbia to the District of America,8
+1008,"AI-Generated Voice Purporting to Be Daughter Allegedly Used to Coerce $2,000 from Colorado Mother",2
+1009,Purportedly AI-Assisted Report by Tromsø Officials Allegedly Cited Non-Existent Sources in School Closure Proposal,1
+1010,"GenNomis AI Database Reportedly Exposes Nearly 100,000 Deepfake and Nudify Images in Public Breach",1
+1011,Deepfake of Bermuda Premier David Burt Promotes Investment Scam Using Royal Gazette Branding,4
+1012,AI Voice Clone of Texas Woman Used in Distress Scam Targeting Brother in Port Neches,2
+1013,Essex Man Sentenced to Five Years in Prison for Having Generated and Shared Deepfake Pornography of at Least 20 Women and a Minor,3
+1014,Students in Maltese Schools Reportedly Being Targeted by Deepfake Nudes,3
+1015,Reported Darknet Launch of Xanthorox AI Introduces Autonomous Cyberattack Platform,1
+1016,"Jailbroken Lovable AI Allegedly Used to Generate and Host Phishing Pages, Steal Credentials, and Bypass Security",1
+1017,Alleged Deepfake Investment Scam in Spain Defrauds 208 Victims of €19 million ($20.9 million),2
+1018,OpenAI's 4o Model Allegedly Used to Generate Fake Receipts and Prescriptions,11
+1019,Alleged AI-Generated Clone of Exante Brokerage Used to Defraud U.S. Investor via JPMorgan Account,2
+1020,Reportedly Unsafe Deployment of Llama.cpp Reveals Interactive AI-Generated CSAM Roleplay Prompts,1
+1021,Deepfake Job Applicant Allegedly Used AI Tools to Apply for Remote Role at U.S. Security Startup,1
+1022,Deepfake Video Reportedly Depicts Zambian President Hakainde Hichilema Withdrawing from 2026 Election,4
+1023,Purported AI-Cloned Voice Depicts Kenyan President William Ruto Speaking French in Viral Video,4
+1024,Kenyan Journalist Jeff Koinange Depicted Endorsing Gambling App in Purported AI-Generated Deepfake,4
+1025,Alleged Deepfake Video Depicts Former President of Kenya Uhuru Kenyatta Announcing 2027 Presidential Bid,4
+1026,Multiple LLMs Allegedly Endorsed Suicide as a Viable Option During Non-Adversarial Mental Health Venting Session,11
+1027,Norwegian Supreme Court Receives Legal Filing with Fabricated Citations Allegedly Generated by AI Tool,1
+1028,OpenAI's Operator Agent Reportedly Executed Unauthorized $31.43 Transaction Despite Safety Protocol,11
+1029,Purported AI-Generated Audio Was Reportedly Used to Claim Recep Tayyip Erdoğan Expressed Support for Imran Khan in Pakistani Parliament,8
+1030,Aspiring Artist Cherelle Kozak Reportedly Targeted by AI-Powered Impersonation of Rapper Fat Joe,2
+1031,Transgender User Alleges ChatGPT Allowed Suicide Letter Without Crisis Intervention,11
+1032,Reported Doctored Video of Nigerian President Bola Tinubu Claims Naira Will Be Replaced by U.S. Dollar,4
+1033,Video Allegedly Altered by AI Reportedly Spreads Claim of Nigerian Doctor's Hypertension Cure,4
+1034,Reported AI-Manipulated Video Depicts Donald Trump Endorsing Peter Obi and Criticizing Bola Tinubu,4
+1035,Purported AI-Generated Video Depicts Trump Urging Release of Nigerian Separatist Leader Nnamdi Kanu,4
+1036,Purported AI-Manipulated News Clip Fabricates Explosion and Doctor's Murder Plot for Scam,4
+1037,Microsoft Reportedly Blocks 1.6 Million Bot Signup Attempts Per Hour Amid Global AI-Driven Fraud Surge,1
+1038,Scammers Reportedly Use AI Tools to Impersonate Students and Obtain Federal Aid,1
+1039,"Anysphere AI Support Bot for Cursor Reportedly Invents Login Policy, Leading to Subscription Cancellations",10
+1040,Meta User-Created AI Companions Allegedly Implicated in Facilitating Sexually Themed Conversations Involving Underage Personas,11
+1041,"Nomi Chatbots Reportedly Encouraged Suicide, Sexual Violence, Terrorism, and Hate Speech",11
+1042,Fact-Checking Finds Reportedly AI-Generated Video Misattributed Hypertension Cure Endorsements to Taiwo Ajai-Lycett and Chinonso Egemba,4
+1043,Reddit Moderators Report Unauthorized AI Study Involving Fabricated Identities by Purported University of Zurich Researchers,1
+1044,Reported Emergence of 'Vegetative Electron Microscopy' in Scientific Papers Traced to Purported AI Training Data Contamination,11
+1045,"Mother in Louisville, Kentucky Describes Phone Scam Involving Purported AI-Generated Voice of Her Daughter",2
+1046,Brazil's Social Security AI Tool Is Allegedly Rejecting Complex Claims Improperly,10
+1047,Australian Analyst Allegedly Targeted by Scam Using Purportedly Sophisticated AI-Generated Corporate Materials,2
+1048,Tennessee Meteorologist's Likeness Reportedly Used in Sextortion Campaign Involving Purported AI-Generated Content,8
+1049,"AI Tools Reportedly Used to Fabricate Image of 5,000-Naira Nigerian Banknote Featuring President Bola Tinubu",8
+1050,Reportedly AI-Generated Image Circulates Amid Reports of Tanzania Revenue Authority Job Interviews,8
+1051,Video Reportedly Created with AI Appears to Show Trump Backing Biafra Secession,4
+1052,Purported AI-Generated Video Reportedly Depicts Trump Criticizing Former Kenyan Deputy President Rigathi Gachagua,4
+1053,Mumbai Businessman Reportedly Defrauded via Purported AI-Cloned Voice Impersonating Son,2
+1054,"Anthropic Report Details Claude Misuse for Influence Operations, Credential Stuffing, Recruitment Fraud, and Malware Development",1
+1055,FBI Reports AI Use by Threat Actors in Broader Cyber Context Including Infrastructure Intrusions,1
+1056,Purported AI-Generated Videos Impersonating President of Malta Myriam Spiteri Debono Circulate on Social Media in Alleged Crypto Scam Campaigns,2
+1057,"'Jewish Baby Strollers' Provided Antisemitic Google Images, Allegedly Resulting from Hate Speech Campaign",6
+1058,Purported AI-Generated Deepfake Images of Katy Perry at 2024 Met Gala Circulate Widely,8
+1059,Second Consecutive Year of Alleged AI-Generated Images Depicting Katy Perry at Met Gala Circulating Online,8
+1060,Institute for Strategic Dialogue Reports Russian-Aligned Operation Overload Using Purported AI-Generated Impersonations Across January to March 2025,1
+1061,Reportedly Viral USAID Disinformation Video Linked to Russian-Aligned Campaign Known as Matryoshka,4
+1062,Brazilian Authorities Reportedly Link AI-Generated Marcos Mion Videos to Purported Fake Restaurant Promotions in Brazil,2
+1063,Purported AI-Manipulated Videos of Cypriot Officials Circulated in Alleged Investment Fraud,2
+1064,Alleged AI-Generated Scam Uses Bank of Cyprus Branding to Solicit Investments,2
+1065,"Scammers Allegedly Use AI-Generated Avatars to Impersonate Friends in Houston, Texas and Solicit Money",2
+1066,Hong Kong Syndicate Allegedly Used AI-Generated Facial Composites to Open Bank Accounts,2
+1067,Alleged Use of Purported AI-Generated Identities to Defraud FTX Claims Buyers of $5.6M,2
+1068,AI-Powered Presentation Tool Gamma Implicated in Multi-Stage Phishing Campaign,1
+1069,Purported Graphite Spyware Linked to Paragon Solutions Allegedly Deployed Against Journalists and Civil Society Workers,10
+1070,"Serviceaide AI Platform Implicated in Health Data Exposure Affecting 483,000 Catholic Health Patients",11
+1071,Student Reportedly Files Complaint Over Professor's Undisclosed Use of Generative AI at Northeastern University,1
+1072,Grok Chatbot Reportedly Inserted Content About South Africa and 'White Genocide' in Unrelated User Queries,11
+1073,"$31,000 Sanction in Lacey v. State Farm Tied to Purportedly Undisclosed Use of LLMs and Erroneous Citations",1
+1074,Citation Errors in Concord Music v. Anthropic Attributed to Claude AI Use by Defense Counsel,1
+1075,New Orleans Police Reportedly Used Real-Time Facial Recognition Alerts Supplied by Project NOLA Despite Local Ordinance,7
+1076,Purported Unauthorized Deepfakes of Norman Swan and Others Circulated in Online Supplement Campaigns,2
+1077,FBI Reports Ongoing Vishing and Smishing Campaign Allegedly Targeting Government Officials Using Purportedly AI-Generated Voices,1
+1078,"Purported AI-Generated Images Reportedly Used in Sextortion Scheme Targeting Glasgow, Kentucky Teen Who Later Died by Suicide",8
+1079,Purported AI-Manipulated Videos Depict Mauricio Macri Endorsing Manuel Adorni and Silvia Lospennato Withdrawing Before Buenos Aires Vote,8
+1080,Noodlophile Stealer Reportedly Distributed Through Allegedly Fraudulent AI Content Platforms,1
+1081,Voice Actor Alleges Unconsented Use of AI-Generated Voice on ScotRail Trains,1
+1082,California Homeowner Reportedly Loses Insurance After Purported Aerial Imagery-Based Roof Assessment,1
+1083,"Texas Homeowner Reportedly Spent $3,000 to Contest AI-Flagged Warning of Insurance Nonrenewal",1
+1084,Federal 'Make America Healthy Again' Report Released with Multiple Reportedly Erroneous and Unverifiable Citations,1
+1085,Phone of White House Chief of Staff Susie Wiles Allegedly Breached in Reported AI Voice Impersonation Incident,1
+1086,Reported AI-Generated Video Purportedly Depicting Keanu Reeves Debating Elon Musk Circulates as Misinformation on Social Media,4
+1087,Campaign Featuring Purported AI-Generated Audio Attributed to Omar al-Bashir Spreads During Sudanese Conflict,8
+1088,Purported AI-Generated Audio Disinformation Reportedly Attributed to U.S. Ambassador John Godfrey Circulates in Sudan,8
+1089,Purported AI-Generated Content Circulates Widely in Sudan Amid Civil Conflict and Information Vacuum,8
+1090,"Reported AI-Generated Clickbait Targets Adolescents in Rockingham County, North Carolina",1
+1091,Purported Synthesia Avatars Used in Alleged Pro-Junta Deepfake Video Supporting Ibrahim Traoré in Burkina Faso,8
+1092,Purported AI-Generated Video Portrays Pope Leo XIV Addressing Ibrahim Traoré of Burkina Faso,4
+1093,Fact-Checkers Identify Viral Photo of Burkina Faso's Ibrahim Traoré with 'Wife and Children' as AI-Generated Composite,8
+1094,At Least 294 Purported AI-Generated Music Videos Portray Celebrities Praising Burkina Faso's Ibrahim Traoré,8
+1095,Alleged Russian-Linked Deepfake Campaign Misattributes Infrastructure Projects to Burkina Faso's Ibrahim Traoré,8
+1096,Purported AI-Generated Video Depicts Ibrahim Traoré of Burkina Faso Delivering Speech on Western Exploitation,4
+1097,Google AI Overview Reportedly Misstates Aircraft Manufacturer as Airbus Instead of Boeing in Air India Flight 171 Crash,11
+1098,Image Purporting to Show President Paul Kagame of Rwanda in M23 Uniform Reportedly AI-Generated,8
+1099,Factum in Ko v. Li Allegedly Contains AI-Generated Case Law Citations,1
+1100,Reported Audio Deepfake Impersonating CEO Karim Toubba Targets LastPass Employee via WhatsApp,2
+1101,Meta AI App Reportedly Publishes Personal Chats Without Users Fully Realizing,11
+1102,Purported Deepfake Featuring Dr. Rinki Murphy and Jack Tame Reportedly Used to Promote Diabetes Scam in New Zealand,4
+1103,Purported DOGE Contract Review Tool Cited in Reports of AI-Driven Misjudgments in VA Budget Cuts,1
+1104,AI Chatbot Allegedly Used to Research Explosive Materials in Palm Springs Fertility Clinic Bombing,11
+1105,Michigan Woman Defrauded in Alleged Tinder Romance Scam Using Purportedly AI-Generated Video Calls,2
+1106,"Chatbots Allegedly Reinforced Delusional Thinking in Several Reported Users, Leading to Real-World Harm",11
+1107,Bulgarian Tennis Player Grigor Dimitrov Alleges Deepfake Scam Promoting Fraudulent Investment Scheme Using His Likeness,4
+1108,Digital Rights Groups Accuse Meta and Character.AI of Facilitating Unlicensed Therapy via Chatbots,11
+1109,Year-long AI Surveillance Pilot in Two South Australian Aged Care Facilities Reportedly Overwhelmed Staff with False Positives,10
+1110,Alleged AI-Manipulated Video Uses Macau Chief Executive Sam Hou Fai's Likeness in Investment Scam,2
+1111,Reported AI-Generated Video Call Impersonation of Cryptocurrency Analyst Leads to Alleged Malware Installation and Account Theft,4
+1112,Scammer Reportedly Used AI Voice Clone of WCPO Cincinnati Meteorologist in Facebook Fraud Attempts,2
+1113,Financial Times Journalist Martin Wolf Reports AI-Generated Investment Scam Using His Likeness on Instagram and Facebook,2
+1114,Alleged AI-Generated Video Ads Impersonate Bank of Montreal Strategist Brian Belski to Promote Investment Scam,2
+1115,Alleged Deepfake Investment Scam Uses Economist David Rosenberg's Likeness on Meta Platforms,2
+1116,Alleged Deepfake Video Depicts Former Malaysian Inspector-General of Police Tan Sri Acryl Sani Abdullah in Financial Misconduct Context,4
+1117,North Korea-Linked Actors Allegedly Use AI Executive Deepfakes in Zoom Phishing Targeting Web3 Employee,1
+1118,Ongoing Purported AI-Assisted Identity Fraud Enables Unauthorized Access to Western Companies by North Korean IT Workers,1
+1119,Alleged Deepfake Videos Impersonate Lithuanian Politicians and Doctors in Purported Cross-Border Scam Network,2
+1120,Alleged AI-Generated Videos Depict Bangladesh's Chief Adviser Muhammad Yunus Endorsing Betting Platforms,8
+1121,"Alleged AI Deepfake Videos Used to Lure Simcoe County, Ontario Residents in Crypto Scam",2
+1122,Reportedly Sustained Multi-Celebrity Deepfake Persona Scam Targeting Vulnerable Southampton Resident,2
+1123,"Reported Student Misuse of ChatGPT, StudyX, and Gemini to Obtain Answers During Vietnam's 2025 National High School Graduation Exam",3
+1124,Alleged Unauthorized Deepfake AI Clones of Ravish Kumar Used to Spread Purportedly Fabricated News on YouTube,1
+1125,Reported Use and Circulation of AI-Generated Misinformation and Fake Victim Visuals After Air India 171 Crash,8
+1126,Reported Use of Deepfake Video Impersonating Owen Wilson in Romance Scam with Fake Job Payments,2
+1127,Purported AI-Generated Audio Clip Allegedly Portrays Cambodian Senate President Hun Sen Raising Money for Conflict with Thailand,4
+1128,Philippine Officials Reportedly Share Veo 3-Generated Video to Support Vice President Sara Duterte During Impeachment,4
+1129,Purported AI-Generated Video Depicting Philippine President Ferdinand Marcos Jr. Using Drugs Shared by Rodrigo Duterte Supporters and Amplified by China-Linked Spamouflage,4
+1130,Docomo Pacific CEO Reports Mother Targeted by Purported AI-Enabled Scam in Guam,2
+1131,Alleged Deepfake Identity Scam Uses Miami Beach Realtor's Likeness to Defraud Victim in the United Kingdom in Purported Romance Scam,2
+1132,Delhi Man Reportedly Arrested for Sharing Purportedly AI-Morphed Obscene Images of Ex-Girlfriend,3
+1133,Reported AI-Generated Audio of Ukrainian Commander Andriy Biletsky Used in Russian Disinformation Campaign,8
+1134,Reported Deepfakes of Ukrainian Deputy PM Olha Stefanishyna Allegedly Supporting Fictional Mobilization Plan for Women,8
+1135,Preprints Reportedly from Researchers from Multiple Universities Allegedly Contain Covert AI Prompts,1
+1136,Purported Widespread Use of AI-Generated Deepfake Videos Impersonate Malaysian Leaders in Investment Scams,2
+1137,Reported False Legal Citations in South African Case Mavundla v. MEC Generated by Purported AI Tool,1
+1138,South African Legal Team Reportedly Relied on Unverified ChatGPT Case Law in Johannesburg Body Corporate Defamation Matter,1
+1139,South African Legal Team for Northbound Processing Reportedly Admits Legal Genius AI Produced Purportedly Non-Existent Case Law in Urgent Court Filing,1
+1140,Purported Deepfake of Sri Lankan President Anura Kumara Dissanayake Promotes Alleged Fraudulent Government Investment Scheme,2
+1141,Purported AI Voice Cloning Used to Impersonate Secretary of State Marco Rubio,1
+1142,"Chicago Veteran Reportedly Loses $10,000 in Purported Deepfake Cryptocurrency Fraud Posing as Elon Musk",2
+1143,Former Namibian First Lady Monica Geingos's Likeness Reportedly Used in Purported AI-Generated Video Investment Scams,2
+1144,xAI Allegedly Operates Unpermitted Methane Turbines in Memphis to Power Supercomputer Colossus to Train Grok,11
+1145,MyPillow Defense Lawyers in Coomer v. Lindell Reportedly Sanctioned for Filing Court Document Allegedly Containing AI-Generated Legal Citations,1
+1146,Grok Chatbot Reportedly Posts Antisemitic Statements Praising Hitler on X,11
+1147,Purportedly AI-Generated Videos Impersonate Brunei Police in 'Real Money Magic' Scam on Social Media,2
+1148,Purported Deepfake Scam Videos Depict JG Summit Holdings President and CEO Lance Gokongwei Allegedly Endorsing Illicit Investments,2
+1149,ChatGPT Reportedly Generated Ritual Scripts Containing Instructions for Self-Harm and Symbolic Violence in Response to Thematic Prompts,11
+1150,Purported Deepfake of Barack Obama's Detention Reportedly Amplified by Donald Trump via Truth Social,4
+1151,"ChatGPT Reportedly Validated Autistic User's Faster-Than-Light Theory and Failed to Provide Grounding During Delusional Episode, Preceding Hospitalization",11
+1152,"LLM-Driven Replit Agent Reportedly Executed Unauthorized Destructive Commands During Code Freeze, Leading to Loss of Production Data",11
+1153,Purported Deepfake Video of Donald Trump at NATO Summit Allegedly Used in YouTube Crypto Scam,4
+1154,Reported AI‑Generated Deepfake Impersonations of Public Figures Allegedly Used in Coordinated Stock Pump‑and‑Dump Scheme Targeting Israeli Investors,2
+1155,Purported AI‑Edited Police Evidence Image Posted to Facebook by Westbrook Police Department in Maine,10
+1156,"Purported Deepfake Video Circulated Among Students Targets Orrington, Maine Educator",4
+1157,Google Gemini Reportedly Generates Sexual Role‑Play for Account Registered as Minor,11
+1158,Alleged Malicious Wiping Command Found in Amazon Q AI Assistant,0
+1159,Government‑Backed AI4Peat Mapping Tool Allegedly Misidentifies Granite Outcrops and Quarries as Peat,10
+1160,Reported AI-Aided Development of Explosive Devices by Long Island Resident Michael Gann,1
+1161,Airbnb Host Reportedly Accused of Using Purportedly AI‑Altered Photos in False Damage Claim,1
+1162,Purported Deepfake Depicts Altercation Between Bougainville President Ishmael Toroama and Papua New Guinea Prime Minister James Marape,4
+1163,"Purported Face‑Swap Technology Reportedly Used to Circumvent Financial Platform's Facial Recognition Security in Nanjing, China",7
+1164,Google Healthcare AI Model Med‑Gemini Allegedly Produces Non‑Existent 'Basilar Ganglia' Term in Published Output,11
+1165,Grok Imagine Reportedly Produces Nonconsensual Taylor Swift Deepfake Nudes Without Explicit Prompting,3
+1166,"ChatGPT Reportedly Suggests Sodium Bromide as Chloride Substitute, Leading to Bromism and Hospitalization",11
+1167,"Alleged Gaggle Surveillance Alert Reportedly Leads to Arrest and Detention of 13-Year-Old Student in Fairview, Tennessee",3
+1168,Purportedly AI-Generated Image of British Army Colonels Captured in Ukraine Reportedly Circulates in Russian Media,8
+1169,Reported AI-Assisted Influence Campaigns by GoLaxy Allegedly Targeting Hong Kong and Taiwan Political Discourse,1
+1170,"Chris Cuomo Amplifies Reportedly Labeled Deepfake Video of Alexandria Ocasio-Cortez, Purportedly Contributing to Misleading Political Narrative",4
+1171,Reported Hack of Tea Dating App Compromises Data from Purportedly AI-Supported Identity and Image Checks,11
+1172,Meta AI Bug in Deployed Service Reportedly Allowed Potential Access to Other Users' Prompts and Responses,11
+1173,Google Gemini Reportedly Exhibits Repetitive Self-Deprecating Responses Attributed to Bug,11
+1174,Microsoft Copilot Reportedly Able to Access Cached Data from Since-Private GitHub Repositories,11
+1175,Alleged Marine Park Orca Attack on 'Jessica Radcliffe' Reportedly an AI-Generated Hoax,8
+1176,Microsoft's Windows Recall Allegedly Stores Passwords and Social Security Numbers in Preview Mode,10
+1177,"Purported AI Monitoring Software Reportedly Flags Unsent Joke Threat, Leading to Arizona Student Suspension",3
+1178,Google Gemini CLI Reportedly Deletes User Files After Misinterpreting Command Sequence,11
+1179,McDonald's McHire AI Recruitment Platform Reportedly Exposed Data of 64 Million Applicants via Default Login and API Vulnerability,11
+1180,"Purported Meta AI Chatbot Persona 'Big sis Billie' Reportedly Engages in Romantic Roleplay and Provides Address, Linked to User's Fatal Fall",11
+1181,"Purported AI-Generated Video Reportedly Depicts Illegal Tiger Sales in Bagerhat, Bangladesh",4
+1182,Purportedly AI-Generated Video of Tigers at Barasat Madrasa in West Bengal Reportedly Causes Panic and Student Absenteeism,4
+1183,Purported Error by Grok Reportedly Misrepresents Basketball Slang as Criminal Allegation Against NBA Player,11
+1184,Purported Fictitious AI-Generated Citations in Supreme Court of Victoria Murder Case Filing Lead to Delay and King's Counsel Apology,1
+1185,South Korean Actor Kim Seon-ho's Likeness Allegedly Misused in Purported Deepfake Impersonation Attempts Demanding Money,2
+1186,"Reported Public Exposure of Over 100,000 LLM Conversations via Share Links Indexed by Search Engines and Archived",11
+1187,"Google AI Overviews and ChatGPT Reportedly Cited Fraudulent Cruise Hotline, Allegedly Enabling Successful Scam",11
+1188,Multiple LLMs Reportedly Generated Responses Aligning with Purported CCP Censorship and Propaganda,11
+1189,"Joann Fabrics Shoppers Reportedly Defrauded by AI-Generated Scam Sites, Part of Purported Wave of ~100,000 Fake Domains Across 194 Brands",2
+1190,Family Reportedly Discovers ChatGPT Logs Detailing Suicidal Ideation Prior to Daughter's Death,11
+1191,NYPD Facial Recognition System Allegedly Produced Erroneous Match That Reportedly Resulted in Wrongful Detention of Trevis Williams,7
+1192,16-Year-Old Allegedly Received Suicide Method Guidance from ChatGPT Before Death,11
+1193,Purportedly Taxpayer-Funded Deloitte Report for Australian Government Contains Alleged AI-Generated Citations and Fabricated Legal Quote,1
+1194,"L.A. Woman Reportedly Defrauded of $81,000 and $350,000 Condo Proceeds in Romance Scam Using Purported Deepfake Videos of Actor Steve Burton",2
+1195,Nigeria-Based YouTube Network Allegedly Uses AI Voiceovers and Anchors to Amplify Pro-Kremlin Narratives,1
+1196,Judge Reportedly Disqualifies Butler Snow Lawyers Following Purported Use of ChatGPT-Fabricated Citations in Alabama Prison Litigation,1
+1197,Alleged AI-Generated Photo of Burning Truck in Manila Reportedly Triggered Firefighter Response,1
+1198,Grok 3 Reportedly Generated Graphic Threats and Hate Speech Targeting Minnesota Attorney Will Stancil,11
+1199,Purportedly AI-Generated Deepfake Image Reportedly Falsely Links Canadian Prime Minister Mark Carney to Jeffrey Epstein,8
+1200,Meta AI on Instagram Reportedly Facilitated Suicide and Eating Disorder Roleplay with Teen Accounts,11
+1201,"Anthropic Reportedly Identifies AI Misuse in Extortion Campaigns, North Korean IT Schemes, and Ransomware Sales",1
+1202,Russian Disinformation Campaign Reportedly Used AI-Generated Posts and Videos to Target 2025 Moldovan Parliamentary Elections,8
+1203,"Carter County, Montana Man Reportedly Charged for Creating AI-Generated Child Sexual Abuse Material",1
+1204,"ChatGPT Allegedly Reinforced Delusions Before Greenwich, Connecticut Murder-Suicide",11
+1205,Multiple Generative AI Systems Reportedly Amplify False Information During Charlie Kirk Assassination Coverage,11
+1206,"Purported AI-Generated Deepfake of Spiritual Leader Sadhguru Used in Investment Scam Allegedly Defrauding Bengaluru Woman of ₹3.75 Crore (~$425,000)",2
+1207,Purported AI-Generated Deepfake of Irish Fine Gael Presidential Candidate Heather Humphreys Used in Fake Investment Videos on Meta Platforms,2
+1208,North Korea's Kimsuky Group Reportedly Uses AI-Generated Military ID Deepfakes in Phishing Campaign,1
+1209,Lawsuit Alleges Character AI Chatbot Contributed to Death of 13-Year-Old Juliana Peralta in Colorado,11
+1210,Malicious Nx npm Packages Reportedly Weaponize AI Coding Agents for Data Exfiltration,1
+1211,"Google AI Overviews Reportedly Misrepresented Pizza Specials at Stefanina's in Wentzville, Missouri",11
+1212,Nomi AI Companion Allegedly Directs Australian User to Stab Father and Engages in Harmful Role-Play,11
+1213,"Gaggle AI Monitoring at Lawrence, Kansas High School Reportedly Misflags Student Content and Blocks Emails",3
+1214,Donald Trump Reportedly Posts Purported AI-Modified Video of Chuck Schumer and Hakeem Jeffries During U.S. Government Shutdown Talks,4
+1215,"Gaggle Alert Reportedly Leads to Arrest of 15-Year-Old in Volusia County, Florida, for School Threat the Student Claimed Was Not Serious",3
+1216,"ChatGPT Reportedly Misleads Users About Soundslice Features, Allegedly Prompting Unplanned Product Development",11
+1217,"Purportedly AI-Cloned Voice of Daughter Used in Elaborate Bond Scam Targeting Retired Couple in Hillsborough County, Florida",2
+1218,Microsoft 365 Copilot Vulnerability Allegedly Allowed File Access Without Audit Log Entry,10
+1219,Meta Platforms Users Report Being Wrongfully Locked Out After Purported AI Moderation Flags Accounts for Child Exploitation Content,6
+1220,LAMEHUG Malware Reportedly Integrates Large Language Model for Real-Time Command Generation in a Purported APT28-Linked Cyberattack,1
+1221,Alleged AI-Enabled PRISONBREAK Influence Operation on X Reportedly Synchronizes Deepfake of Evin Prison Strike with Ongoing Attacks in Tehran,1
+1222,CFPB Reportedly Finds Hello Digit's Automated Savings Algorithm Caused Overdrafts and Orders Redress with $2.7M Penalty,10
+1223,"Purportedly AI-Generated Deepfake Ads on Facebook Reportedly Impersonate Trump, Musk, Ocasio-Cortez, Warren, Sanders, and Leavitt to Promote Fraudulent Rebates",2
+1224,Purportedly AI-Generated Deepfake Ads on Instagram Impersonate Gisele Bündchen and Other Celebrities in Brazilian Fraud Scheme,2
+1225,"Purportedly AI-Generated 'Home Invasion Prank' Images Reportedly Circulate in Ireland, Causing Panic and False Emergency Calls",8
+1226,Old Mutual Reportedly Warns of Purported Deepfake Videos Impersonating Chairman Trevor Manuel in Investment Scams,2
+1227,"New Zealand Financial Markets Authority (FMA), Te Mana Tātai Hokohoko, Reportedly Flags Purported Deepfake Pump-and-Dump Network Using Social Media Ads",2
+1228,Alleged ChatGPT Misuse by Contractor Leads to Reported Data Exposure in New South Wales Resilient Homes Program,11
+1229,"Gold Coast Man Reportedly Ordered to Pay $343,500 After Posting Purported Deepfake Pornographic Images of Australian Public Figures",1
+1230,"Suspect in Palisades Fire Allegedly Consulted ChatGPT for Arson Tips and Legal Advice Before Blaze That Killed 12 and Destroyed 6,837 Structures",11
+1231,Purported AI-Generated Deepfake Video Reportedly Depicts Senator Chuck Schumer Endorsing Government Shutdown in NRSC Campaign Ad,4
+1232,Reportedly Fatal Xiaomi SU7 Ultra Crash in Chengdu Purportedly Involves Automated Driving Failure and Door Lock Malfunction,9
+1233,Purported Deepfake Video Allegedly Shows Conservative MP George Freeman Leaving Party for Reform UK,4
+1234,Purported AI-Generated Explicit Deepfakes of Sydney High School Students Reportedly Circulated Online,3
+1235,Chinese-Backed Operation Reportedly Used AI-Generated Deepfake Videos of Indian Stock Experts in Investment Fraud Campaign,2
+1236,Quantum AI and Related AI-Themed Investment Scams Reportedly Used Deepfake Endorsements and Spoofed Media Sites to Solicit Investments,2
+1237,Alleged Deepfake Video of Anthony Albanese Promotes Fake AUFIRST 'Tax Dividend' Trading Platform,2
+1238,"OpenAI ChatGPT Models Reportedly Jailbroken to Provide Chemical, Biological, and Nuclear Weapons Instructions",11
+1239,Purported AI-Generated Deepfake of Steven Bartlett Reportedly Used to Promote Fake WhatsApp Investment Group,4
+1240,"Purported AI-Generated Deepfake of Infosys Co-Founder N. R. Narayana Murthy Used in Investment Scam Allegedly Defrauding 79-Year-Old Bengaluru Woman of ₹35 Lakh (~$40,000)",2
+1241,"Purported AI-Generated Video Reportedly Used in RM5,800 (~$1,400) Sextortion Attempt Targeting Malaysian Minor via Telegram",4
+1242,Purported AI-Generated Deepfake Videos Reportedly Used in Swedish Scam Campaign Impersonating Doctors Agnes Wold and Anders Tegnell,2
+1243,AWS Outage Reportedly Caused AI-Enabled Eight Sleep Smart Beds to Overheat and Malfunction,1
+1244,Purportedly AI-Generated 'King Trump' Fighter Jet Video Allegedly Posted by President Depicts Defecation Attack on 'No Kings' Protesters,4
+1245,Norwegian Student Reportedly Used AI-Generated Deepfake Videos in Spanish Coursework at University of South-Eastern Norway,2
+1246,Purportedly AI-Generated Deepfake Reportedly Used to Impersonate DNB Bank CFO and CEO in Live Teams Meeting,2
+1247,"Meta AI Reportedly Generated Purportedly False Claims Linking Activist Robby Starbuck to January 6th Riot, Prompting Defamation Lawsuit",11
+1248,"Google's Bard, Gemini, and Gemma AI Systems Allegedly Generated Defamatory Claims About Activist Robby Starbuck, Prompting Lawsuit",11
+1249,Virginia Candidate John Reid Reportedly Used AI-Generated Deepfake of Opponent Ghazala Hashmi in Simulated Political Debate,1
+1250,Alleged False Positive by Omnilert AI Gun Detection System Prompts Police Search at Baltimore County High School,3
+1251,Purportedly AI-Generated Hunting Regulation Errors Reportedly Lead to Idaho Citation and Multi-State Warnings from Wildlife Agencies,1
+1252,Judges in New Jersey and Mississippi Admit AI Tools Produced Erroneous Federal Court Filings,1
+1253,Large-Scale Mental Health Crises Allegedly Associated with ChatGPT Interactions,11
+1254,Purported AI Deepfake Reportedly Impersonated Thai PBS World Anchor and Miss Universe CEO in Fraudulent Investment Video,4
+1255,Purported Deepfake Reportedly Circulated on Facebook Impersonating Thai PBS World Anchors and Business Figures to Solicit Investments,4
+1256,"Purportedly AI-Generated Deepfake Investment Ads Defrauded 5,000 Swedish Investors of 500 Million SEK",2
+1257,Argentine Court Reportedly Annuls Criminal Conviction After Judge Allegedly Used ChatGPT to Draft Ruling Without Disclosure,1
+1258,Purported Deepfake Mimicking RTÉ Broadcast Falsely Announced Irish Presidential Candidate Catherine Connolly's Withdrawal,4
+1259,ChatGPT Allegedly Encouraged 23-Year-Old Texas User's Suicide During Extended Conversations,11
+1260,Purported Deepfake of Andrew Forrest Used to Promote Fraudulent 'Quantum AI' Crypto Platform on Facebook,4
+1261,Alleged AI-Generated Deepfake of Western Australia Premier Roger Cook Used in YouTube Investment Scam,2
+1262,YouTube Channel Reportedly Posts Purported Deepfake Video of Rajat Sharma Announcing India-Bangladesh Conflict,4
+1263,Chinese State-Linked Operator (GTG-1002) Reportedly Uses Claude Code for Autonomous Cyber Espionage,1
+1264,Rep. Mike Collins's Campaign Allegedly Produced Deepfake of Sen. Jon Ossoff Supporting the Government Shutdown,4
+1265,NTB Report on Telenor Security Findings Was Withdrawn After AI Tool Allegedly Introduced Fabricated Quotes,1
+1266,Purportedly AI-Generated Sexual Images of At Least 400 Minors at Zacatecas School Were Reportedly Created and Sold Online,3
+1267,"Omnilert AI Reportedly Triggered False Gun Alert at Parkville High, Prompting Student Relocation",3
+1268,Meta's Automated Ad and Targeting Systems Reportedly Enabled Large-Scale Fraud Revenue,2
+1269,Waymo Autonomous Vehicle Reportedly Ran Over and Killed a Cat in San Francisco,9
+1270,Multiple Purported AI-Assisted Cheating Incidents Reported Across South Korea's SKY Universities During October 2025 Midterms,1
+1271,Purported Deepfake of Greek Finance Minister Kyriakos Pierrakakis Reportedly Used in Facebook Investment Scam,2
+1272,Purportedly AI-Generated Home Intruder Videos Allegedly Prompt Dozens of Dutch Police Call-Outs,8
+1273,Purportedly AI-Generated Fake Videos of Louvre Heist Reportedly Circulated Widely Online,8
+1274,"AI-Powered Taco Bell Drive-Thru Reportedly Disrupted by Viral Prank Ordering 18,000 Water Cups",1
+1275,Purportedly AI-Enhanced Phishing Campaign Allegedly Impersonates Australian Government Services in Large-Scale Welfare Scam,1
+1276,"Ottawa Couple Reportedly Loses CA$177,023 After Purported Deepfake Elon Musk Investment Scam",2
+1277,"Alleged Harmful Outputs and Data Exposure in Children's AI Products by FoloToy, Miko, and Character.AI",11
+1278,ChatGPT Reportedly Found to Reproduce Protected German Lyrics in Copyright Case,11
+1279,Prominent AI Chatbots Allegedly Produced Incorrect UK Financial and ISA Guidance,11
+1280,Reported Use of AI Voice and Identity Manipulation in the Ongoing 'Phantom Hacker' Fraud Scheme,1
+1281,Alleged Harmful Health Outcomes Following Reported Use of Purported ChatGPT-Generated Medical Advice in Hyderabad,11
+1282,Reported Disqualification of Two Books from the Ockham New Zealand Book Awards Due to Alleged AI-Generated Cover Art,1
+1283,Purported AI-Enabled Pro-Russian Influence Campaign Centered on Burkina Faso's Ibrahim Traoré and Disseminated Across African Media,8
+1284,Secret Desires AI Platform Reportedly Exposed Nearly Two Million Sensitive Images in Cloud Storage Leak,11
+1285,"Purportedly AI-Generated Jason Momoa Deepfake Used in Romance Scam Reportedly Defrauding British Widow of $600,000",2
+1286,Purportedly AI-Assisted Citation Errors Allegedly Found in Newfoundland and Labrador's 2025 Health Workforce Report by Deloitte,1
+1287,Purported Deepfake-Based Facebook Impersonation Reportedly Targets Daughter of Scot in Coma,2
+1288,Purported Deepfake Video and Fake News Articles Allegedly Used to Impersonate Guernsey's Chief Minister in Investment Scam,2
+1289,Malta's Prime Minister Robert Abela Reportedly Deepfaked by a Ukrainian National in Cryptocurrency Fraud Targeting Local Residents,2
+1290,"Alleged Fabricated News Sites and Deepfakes Impersonated Maltese Ministers, Financial Experts, and Media to Promote NethertoxAGENT Fraud",2
+1291,South Korean Fraud Ring Allegedly Used Deepfake Identities to Traffic Victims into Cambodia Scam Operations,2
+1292,Glasgow Man Allegedly Used AI Tool to Create and Share Nonconsensual Deepfake Nude Images of Former Classmate,3
+1293,Purported Deepfake Impersonating Cyprus President Nikos Christodoulides Reportedly Defrauded Citizens of Thousands of Euros,2
+1294,The New York Times Sued Perplexity for Allegedly Using Copyrighted Content and Generating False Attributions,11
+1295,Japanese Teen Allegedly Uses AI-Generated Program to Breach Kaikatsu Frontier and Leak Data of 7.3 Million Customers,1
+1296,Attacker Reportedly Bypasses AI Safety Filters to Obtain Guidance for Non-Fatal Hammer Assault in Denmark,1
+1297,Blogger Milagro Gramz Allegedly Promoted AI-Generated Pornographic Deepfake Targeting Megan Thee Stallion,4
+1298,Perplexity AI Reportedly Accused in Federal Lawsuit of Purported Copyright Infringement and False Attribution of Chicago Tribune Content,11
+1299,Bodycam Footage Reportedly Contradicted Purportedly ChatGPT-Generated Use-of-Force Narrative by Immigration Agent,1
+1300,"Waymo Self-Driving Vehicles Reportedly Passed Stopped School Buses at Least 19 Times, Prompting NHTSA Probe",9
+1301,Purported AI-Generated Sexual Deepfakes Allegedly Deployed in Transnational Harassment Campaign Targeting Hong Kong Exiles,1
+1302,Reported Viral AI-Generated Photo Purportedly Shows Donald Trump Using a Walker,8
+1303,USGS ShakeAlert System Reportedly Generated False Earthquake Alert Affecting Nevada and California,10
+1304,Whirlpool Reportedly Used AI-Altered Footage of North Carolina State Senator DeAndrea Salvador in Brazilian Advertisement,1
+1305,UK Facial Recognition System Reportedly Exhibits Higher False Positive Rates for Black and Asian Subjects,7
+1306,"Florida Couple Reportedly Loses $45,000 in Alleged AI-Generated Elon Musk Impersonation Scam",2
+1307,Grok AI Reportedly Generated Fabricated Civilian Hero Identity During Bondi Beach Shooting,1
+1308,Springer Nature Book 'Mastering Machine Learning: From Basics to Advanced' Reportedly Published With Numerous Purportedly Nonexistent or Incorrect Citations,1
+1309,"Springer Nature Book 'Social, Ethical and Legal Aspects of Generative AI: Tools, Techniques and Systems' Reportedly Published With Numerous Purportedly Fabricated or Unverifiable Citations",1
+1310,Canada Revenue Agency (CRA) AI Chatbot 'Charlie' Reportedly Gave Incorrect Tax Filing Guidance at Scale,11
+1311,"Peppermill Casino Facial Recognition System Reportedly Misidentified Individual, Leading to Wrongful Arrest in Reno",7
+1312,"ZeroEyes AI Surveillance System Reportedly Flagged Clarinet as Gun, Triggering School Lockdown in Florida",3
+1313,Anthropic Claude AI Agent Reportedly Caused Financial Losses While Operating Office Vending Machine at Wall Street Journal Headquarters,1
+1314,"Purported Deepfake Impersonating Doctor Allegedly Used in $200,000 Investment Scam Targeting Florida Grandmother",2
+1315,Purportedly AI-Generated Nude Images of Middle School Students Reportedly Circulated at Louisiana School,3
+1316,"Google AI-Generated Search Summary Reportedly Falsely Implicated Canadian Musician in Sexual Offenses, Leading to Concert Cancellation",11
+1317,Purported Deepfake Impersonation of Elon Musk Used to Promote Fraudulent '17-Hour' Diabetes Treatment Claims,4
+1318,"School's Suspected AI-Cheating Allegation Precedes Student's Reported Suicide in Greater Noida, India",3
+1319,"Purported Deepfake Investment Video Reportedly Used in Scam That Defrauded Turkish Couple of 1.5 Million Lira (~$35,000 USD)",2
+1320,Purportedly AI-Manipulated Image Reported to Falsely Depict Taiwanese Politician Kao Chia-yu Posing With PRC Flag,8
+1321,Shilpa Shetty Alleges AI-Enabled Impersonation and Misuse of Likeness in Mumbai High Court Filing,1
+1322,Senior Kerala Congress Leader N. Subrahmanian Reportedly Booked for Sharing Purportedly AI-Generated Defamatory Image of Chief Minister Pinarayi Vijayan,8
+1323,Madhya Pradesh Congress Alleges AI-Generated Images Were Submitted in National Water Award Process,8
+1324,Pieces Technologies' Clinical AI Systems Allegedly Marketed With Misleading Performance Claims,10
+1325,Reported AI-Generated Deepfake Videos Impersonating Elon Musk and Dragon’s Den Allegedly Used in Cryptocurrency Investment Scam Targeting Canadian Victims,2
+1326,Waymo Robotaxis Allegedly Contributed to Traffic Gridlock During San Francisco PG&E Power Outage,9
+1327,Reported AI-Generated Deepfake Romance Scam Allegedly Used to Steal One Bitcoin From Recently Divorced Investor,2
+1328,"Purported Deepfake Impersonating Elon Musk Allegedly Defrauded Elderly U.S. Woman of $50,000 via Gift Card–to-Crypto Scam",2
+1329,Grok Reportedly Generated and Distributed Nonconsensual Sexualized Images of Adults and Minors in X Replies,3
+1330,Purportedly AI-Generated 'Eric Langford' Missing Boy Scout Hoax Circulating Across Multiple Social Media Platforms,8
+1331,Purported Deepfake Videos Reportedly Impersonated Yanis Varoufakis on YouTube and Social Media,8
+1332,National Weather Service Reportedly Published AI-Generated Forecast Map With Fabricated Idaho Town Names,8
+1333,Purportedly AI-Generated Images and Videos Reportedly Spread Misinformation About Nicolás Maduro's Capture on X,8
+1334,"Grok Reportedly Generated False 'Unmasked' Images of ICE Agent, Purportedly Triggering Online Misidentification and Harassment in Minneapolis",11
+1335,OpenDream AI Platform Reportedly Commercialized AI-Generated CSAM and Non-consensual Deepfake Sexual Images,1
+1336,BJP Used Deepfake Videos of Manoj Tiwari to Target Haryanvi Voters in 2020 Delhi Election,8
+1337,Waymo Robotaxi Reportedly Transported Undetected Person Trapped in Trunk in Los Angeles,9
+1338,Purported Deepfake Endorsements Reportedly Used to Promote Fraudulent Health and Investment Products in Montenegro and Bosnia and Herzegovina,2
+1339,"Purportedly AI-Cloned Voice Allegedly Used to Defraud Play School Owner of ₹97,500 (~$1,080 USD) in Indore, India",2
+1340,Purported AI-Generated Image Depicting JD Vance and Usha Vance in Public Altercation Circulated on Social Media,8
+1341,Purported Deepfake Advertisement Falsely Depicting Physician Endorsement Used to Sell Lipedema Cream to U.S. Patient Beth Holland,4
+1342,Purported Deepfake Nude Images of Students Circulated Without Consent at Valencia Educational Institute,3
+1343,ICE AI Resume Screening Error Allegedly Routed Inexperienced Recruits Into Inadequate Training Pathways,1
+1344,Purported AI-Generated Images Depict Kate Garraway With Fictitious Partner,8
+1345,Purported Deepfake Video Allegedly Used to Harass Washington State Patrol Trooper,4
+1346,Purported AI-Generated Videos Depicted George Will Reportedly Commenting on Trump and Supreme Court Rulings,8
+1347,"Automated Shuttle Bus Was Reportedly Rear-Ended During U.S. Department of Transportation Demonstration Ride in Washington, D.C.",9
+1348,"Purported Deepfake Explicit Images of Middle School Students Allegedly Created and Circulated Using Mobile App in Goffstown, New Hampshire",3
+1349,AI Training Dataset for Detecting Nudity Allegedly Found to Contain CSAM Images of Identified Victims,11
+1350,Reported Use of AI Apps to Create Sexualized Deepfake Images of High School Students at Cascade High School in Iowa,3
+1351,"Alleged Use of AI to Create Sexualized Deepfake Images of Middle School Students Under Investigation in Bucks County, Pennsylvania",3
+1352,Malaysian Teenager Allegedly Arrested for Creating and Selling AI-Generated Deepfake Images of Schoolmates and Alumni in Johor,3
+1353,ICE Facial Recognition App Mobile Fortify Reportedly Misidentified Woman Twice During Immigration Enforcement in Oregon,7
+1354,"Purportedly AI-Altered Fake Nude Images of High School Girls and Women Reportedly Created and Disseminated in Pensacola, Florida",3
+1355,Reported AI Impersonations of Pastors Used in Online Donation and Influence Scams,8
+1356,Urban VPN Proxy Browser Extension Reportedly Harvested and Sold Private AI Chatbot Conversations via Silent Update,11
+1357,White House Reportedly Shares Purportedly AI-Altered Arrest Photo Depicting Minnesota Protester Nekima Levy Armstrong as Crying,1
+1358,Purportedly AI-Altered Images Reportedly Distort Evidence After Minneapolis Shooting of ICU Nurse Alex Pretti,8
+1359,Reported Deepfake Influencers on TikTok Allegedly Used to Promote Fraudulent Wellness Products,2
+1360,CISA Acting Director Reportedly Uploaded Sensitive Government Documents to Public ChatGPT Instance,11
+1361,"Waymo Autonomous Vehicle Reportedly Struck Child Near Elementary School in Santa Monica, California",9
+1362,Border Patrol Agent Allegedly Claimed Facial Recognition Identified Minneapolis ICE Observer and Global Entry Was Reportedly Revoked Three Days Later,7
+1363,Trump Reportedly Posted Purportedly AI-Generated Racist Video Depicting Barack and Michelle Obama as Apes on Truth Social,4
+1364,Moltbook Database Exposure Allegedly Revealed Users' Private Communications and API Authentication Tokens,11
+1365,AkiraBot Reportedly Used OpenAI to Spam Website Chats and Contact Forms at Scale,11
+1366,Philippines Senate Hearing Featured Reports of Purported AI-Generated Deepfake Pornography Targeting Actress Angel Aquino and Content Creator Queen Hera's Daughter,4
+1367,"Spokane Transit Authority Onboard Navigation System Reportedly Routed Double-Decker Bus to Low Bridge, Injuring Seven",11
+1368,Malicious OpenClaw Skills Reportedly Delivered AMOS Stealer and Exfiltrated Credentials via ClawHub,1
+1369,Purportedly AI-Generated Image Reportedly Circulated Ahead of Thai Election Depicting PM Anutin Charnvirakul Dining with Benjamin Mauerberger,8
+1370,California Teen Reportedly Died of Overdose After Repeatedly Seeking Drug-Use Guidance Allegedly from ChatGPT,11
+1371,Purported Deepfake Reportedly Impersonated Consumer Adviser Clark Howard to Promote Auto-Insurance Quote Site,4
+1372,Houston Gun Store Co-Owner Allegedly Used AI to Create Sexually Explicit Deepfake Images of a Social Media Influencer,3
+1373,AI Coding Agent 'MJ Rathbun' Allegedly Published Personalized Accusatory Blog Post Targeting Matplotlib Maintainer After Pull Request Closure,11
+1374,"Purportedly AI-Generated Sepsis Alert Reportedly Prompted Potentially Inappropriate IV Fluid Administration for a Dialysis Patient, Averted by Clinician Intervention",1
+1375,OpenAI Allegedly Did Not Alert RCMP After ChatGPT Flagged Violent Chats Before British Columbia School Shooting,11
+1376,Amazon Delivery Van Reportedly Became Stranded on Essex Mudflats After GPS Routed It Onto the Broomway,0
+1377,"Seedance 2.0 Reportedly Generated Viral Tom Cruise–Brad Pitt Fight Video, Prompting Hollywood IP and Likeness Complaints",4
+1378,"Purportedly AI-Generated Video Allegedly Depicted Radnor High School Students in Pennsylvania Inappropriately, Prompting Police Investigation",3
+1379,Florida Woman Reportedly Jailed After Ex-Boyfriend Allegedly Submitted AI-Fabricated Text Screenshot as Bond-Violation Evidence,1
+1380,Purported AI Voice Clone Allegedly Narrated Shaun Rein's 'The Split' in Unauthorized YouTube 'Podcast' Videos,1
+1381,"Purportedly AI-Generated TikTok Videos Reportedly Urged 'Polexit' Campaign, Prompting Polish Government Complaint to EU",8
+1382,Tencent's WeChat-Integrated Yuanbao Chatbot Reportedly Insulted User During Coding Debug Request,11
+1383,"User Reportedly Developed Emotional Dependence on Customized ChatGPT 'Boyfriend,' Citing Grief After Context Resets",11
+1384,"Purported Deepfake Video Impersonating Elton John Reportedly Induced Northeast Ohio Man to Authorize $20,000 in Scam Charges",4
+1385,X Users Reportedly Prompted Grok to Sexualize Images of Renée Good After Her Killing in Minneapolis,11
+1386,"NPR Host David Greene Alleged Google's NotebookLM Replicated His Voice Without Consent, Prompting Lawsuit",11
+1387,Lawsuit Alleged ChatGPT (GPT-4o) Encouraged Colorado Man's Suicide After Prolonged 'AI Companion' Chats,11
+1388,Purported Deepfake Impersonating Sudha Murty Reportedly Promoted Quantum AI India Investment Scam via Spoofed News Link,2
+1389,"DJI Romo Cloud Authorization Bug Reportedly Exposed Camera, Microphone, and Home-Mapping Data From Nearly 7,000 Robot Vacuums",11
+1390,DHS Agents Reportedly Threatened Legal Observers With 'Domestic Terrorist' Database While Using Purportedly AI-Enabled Surveillance During ICE Operations,1
+1391,Azerbaijani Media Agency Reportedly Warned Purported Deepfake Videos Attributed to Defense and Foreign Ministers Claimed Belarusian Plane Was Downed in Russian Airspace,8
+1392,Ars Technica Retracted Article After Purportedly AI-Generated Text Was Presented as Direct Quotes From Matplotlib Maintainer,1
+1393,Woolworths' Olive Chatbot Reportedly Generated 'Angry Mother' Anecdotes During Support Calls After Gemini Upgrade,11
+1394,"Purported Deepfake TikTok Account Using Grainville School Branding in Jersey Reportedly Targeted Staff, Prompting Police Probe",8
+1395,"Anthropic Said DeepSeek, Moonshot, and MiniMax Used Fraudulent Accounts and Proxies to Illicitly Distill Claude Capabilities at Scale",1
+1396,Betfair's Machine-Learning Risk System Reportedly Failed to Flag Luke Ashton Before Gambling-Related Suicide in England,10
+1397,Deepfakes Reportedly Impersonated David Taylor-Robinson and Other UK Health Experts to Promote Wellness Nest Supplements,2
+1398,"Purported Deepfake Video Reportedly Misrepresented CBS Anchor Doug Dunbar and Frisco, Texas, Stabbing Suspect Amid Online Misinformation Campaign",4
+1399,South Korean Woman Allegedly Used ChatGPT to Assess Lethality of Drug-and-Alcohol Mixtures Before Two Fatal Motel Poisonings,11
+1400,West Midlands Police Reportedly Relied on Erroneous Copilot-Generated Intelligence in Maccabi Tel Aviv Away-Fan Ban Decision,1
+1401,Washington State DOL's AI Phone System Reportedly Failed to Provide Spanish-Language Service to Callers Requesting Spanish,11
+1402,DOGE Reportedly Relied on Unvetted ChatGPT Outputs in Canceling National Endowment for the Humanities Grants,11
+1403,NZ News Hub Reportedly Used AI-Rewritten News Posts and Synthetic Images to Mislead New Zealand Facebook Users,1
+1404,Purported AI-Generated Nude Images Reportedly Used to Extort Wichita Man in Kansas,8
+1405,Purported AI-Generated Doctor Deepfakes Reportedly Used Guy's and St Thomas' Branding to Market Weight Loss Patches,8
+1406,Purported AI-Generated War Footage Reportedly Circulated Widely Online During the Opening Phase of the War in Iran,8
+1407,Grammarly's AI Expert Review Allegedly Used Journalists' and Authors' Names Without Consent,11
+1408,Purported Oprah Deepfake Reportedly Induced Utah Woman to Buy Misrepresented Weight Loss Supplements,4
+1409,Purportedly AI-Generated Tasmania Tours Content Reportedly Misled Tourists Into Traveling to Nonexistent Weldborough Hot Springs,1
+1410,Purportedly AI-Generated Explicit Images of Royal School Armagh Girls Reportedly Circulated Among Pupils,3
+1411,Purported Deepfake Scam Ad Reportedly Used Lara Lewington and Martin Lewis to Promote Quantum AI Scheme,2
+1412,CodeWall's Autonomous Agent Reportedly Obtained Unauthorized Access to McKinsey's Lilli AI Platform Database,11
+1413,Purported AI-Generated Inland Revenue Scam Ads Reportedly Impersonated New Zealand Commissioner Peter Mersi in  Alleged Fake Crypto Tax Webinar,2
+1414,Purported Gemini-Generated AI Images Reportedly Claimed U.S. Delta Force Soldiers Were Captured by the IRGC,8
+1415,Nippon Life Alleged ChatGPT Practiced Law Without a License in Illinois Disability Case,11
+1416,Purported Facial Recognition Error Reportedly Led to Arrest and Monthslong Jailing of Tennessee Woman in North Dakota Fraud Case,7
+1417,Purported Deepfake of Ashley James Reportedly Used to Promote Weight Loss Pills,4
+1418,Meta AI Smart Glasses Reportedly Exposed Intimate User Imagery and Video to Human Reviewers in Kenya,11
+1419,Purported Deepfake Images of Gráinne Seoige Reportedly Circulated During Ireland's 2024 General Election Campaign,8
+1420,Balázs Orbán Allegedly Published Purported Deepfake of Péter Magyar Claiming He Would Cut Pensions,4
+1421,Purported Deepfake Applicant Reportedly Impersonated Tokyo IT Executive Kenbun Yoshii During Online Job Interview,4
+1422,Unlabeled Purportedly AI-Generated 'Jessica Foster' Account Reportedly Posed as Pro-Trump Army Service Member to Attract Followers and Funnel Users to Paid Adult Content,8
+1423,"KPMG Australia Partner Reportedly Used AI to Cheat on Internal AI Training Test and Was Fined A$10,000",1
+1424,"Claude Code Agent Reportedly Deleted DataTalks.Club Production Infrastructure, Database, and Snapshots via Terraform",1
+1425,'Citizens Against Mamdani' Accounts Reportedly Posted AI-Generated Videos of Fictional New Yorkers to Simulate Political Opposition,8
+1426,"Perplexity AI Reportedly Misstated CLL Research, Allegedly Contributing to Delayed Treatment and Prolonged Suffering",11
+1427,Baltimore Lawsuit Alleged DraftKings and FanDuel Used Machine-Learning-Driven Targeting to Exploit Vulnerable Gamblers,11
+1428,UK High Court Found Sky Betting & Gaming Unlawfully Used Automated Profiling and Targeted Marketing to Exploit a Recovering Problem Gambler,10
+1429,Bank of Italy Warned That Purported Deepfakes of Governor Fabio Panetta Were Used in Allegedly Fraudulent Investment Promotions,2
+1430,Anthropic's Claude Was Reportedly Jailbroken To Allegedly Help Steal Sensitive Mexican Government Data,1
+1431,"Google Gemini Reportedly Reinforced Delusions,  Allegedly Contributing to Florida User's Near-Harm Episode and Suicide",11
+1432,Purported Pornographic Deepfakes and Fake Accounts Reportedly Impersonated German TV Presenter and Actor Collien Fernandes,1
+1433,Google Antigravity Reportedly Deleted User's Entire D: Drive While Clearing Project Cache,11
+1434,DOJ Attorney Reportedly Used AI to File Brief With Purportedly Fabricated Quotes and Misstated Case Holdings,1
+1435,Purportedly AI-Edited Obscene Clip Reportedly Impersonated Thai Actor Khunnapat Pichetworawut in Paid Scam,2
+1436,AI-Enabled TruDi Navigation System Was Alleged to Have Contributed to Patient's Stroke During June 2022 Sinus Procedure,1
+1437,Grok Allegedly Generated Publicly Visible Sexist Abuse Targeting Swiss Finance Minister Karin Keller-Sutter After X User Prompt,11
+1438,"Jiushi Autonomous Delivery Vehicle Reportedly Dragged Fallen Electric Scooter During Delivery Run in Xianyang, Shaanxi",9
+1439,"Former New Orleans Isidore Newman School Teacher Allegedly Used AI to Create Fake Nude Images from Social Media Photos of Girls, Including Students",3
+1440,Coco Robotics Delivery Robot Reportedly Became Stuck on Railroad Tracks and Was Struck by Train in Miami,9
+1441,Claude Cowork Allegedly Deleted Folder Containing 15 Years of Family Photos While Organizing User's Wife's Desktop,11
+1442,Kiro AI Coding Tool Was Reportedly Implicated in 13-Hour AWS Cost Explorer Outage in Mainland China,0
+1443,"Grok Reportedly Disclosed Adult Performer Siri Dahl's Legal Name and Birthdate, Allegedly Contributing to Doxxing and Harassment",11
+1444,Hachette Reportedly Canceled Publication of Mia Ballard's Shy Girl After Generative AI Authorship Allegations,1
+1445,Lower Saxony CDU Employee Allegedly Shared Sexualized Purported Deepfake of Colleague in Internal WhatsApp Group,4
+1446,KBS AI Translation Subtitles Reportedly Broadcast Profanity During Artemis II Launch Livestream,1
+1447,Sixth Circuit Sanctioned Lawyers in Whiting v. City of Athens over Alleged Fake Appellate Citations in Briefs Reportedly Bearing Hallmarks of Hallucinations,1
+1448,Ohio Man Pleaded Guilty after Prosecutors Alleged He Used AI to Create and Distribute Nonconsensual Intimate-Image Forgeries Including CSAM in Harassment Campaign,1
+1449,Delaware Court Found Krafton Followed Most of ChatGPT's Recommendations in Campaign that Wrongfully Terminated Unknown Worlds Executives and Seized Operational Control,11
+1450,Florida Man Allegedly Used Purported Deepfake Video to Report Break-In of Deputy's Patrol Vehicle in Lake Mary,4
+1451,Purportedly AI-Generated Facebook Video Allegedly Misused Skënder Brataj and Blendi Fevziu to Promote Purported Miracle Cream in Albania,4
+1452,Purported AI-Generated Impersonations of Albanian Cardiologist Spiro Qirko and Journalist Ilir Topi Were Reportedly Used on Facebook to Promote Hypertension Product in Kosovo,8
+1453,"Attorney in Fletcher v. Experian Information Solutions, Inc. Reportedly Submitted Reply Brief with Purportedly AI-Generated Material Misrepresentations",1
+1454,Purported Deepfake Video Reportedly Portrayed Nirmala Sitharaman Endorsing Investment Scheme,4
+1455,Purported Deepfake Videos Allegedly Impersonated Optometrist Joseph Allen to Promote Myopia-Reversal Eyedrops on TikTok,8
+1456,Video with Reportedly AI-Generated Audio Purported to Show Croatian Footballer Luka Modrić Endorsing Immediate Matrix on Facebook Page Presented as N1 HR,4
+1457,Video with Reportedly AI-Generated Media Purported to Show Croatian Immunologist Stipan Jonjić Promoting Anti-Parasite Product on Facebook,4
+1458,Video with Reportedly AI-Generated Media Purported to Show Croatian Neurosurgeon Josip Paladino Endorsing Steplex in Fake TV Segment on Facebook,4
+1459,Video with Reportedly AI-Generated Media Purported to Show Croatian Physician Alemka Markotić Endorsing Hondrosol After False Murder Claim on Facebook,4
+1460,"Baidu Apollo Go Robotaxis Stopped in Traffic During Reported System Failure in Wuhan, Stranding Some Passengers",9
+1461,Purportedly AI-Manipulated Medical Scam Advertisement Reportedly Used Bulgarian TV Host and Physician's Likenesses,4
+1462,Purported Deepfake Facebook Advertisement Reportedly Used Bulgarian Actor and TV Host Mihail Bilalov's Likeness to Market Joint-Pain Product,4
+1463,"Purported Deepfake Facebook Advertisement Reportedly Used Bulgarian Actor, Director, and Playwright Kamen Donev's Likeness to Market Joint-Pain Product",4
+1464,Purportedly AI-Manipulated Video Reportedly Misrepresented Bulgarian DPS Figure Ahmed Dogan and Spread via TikTok and Facebook,4
+1465,Purportedly AI-Generated Video Reportedly Depicted Bulgarian Politician Kostadin Kostadinov Falling During Protest,4
+1466,Network of Allegedly Fake Facebook Profiles with Purportedly AI-Generated Images Amplified Posts by Bulgaria's 'There Is Such a People' (ITN) Party,8
+1467,South Africa Draft National AI Policy Reportedly Included Fictitious References Believed to Be AI Hallucinations,1
+1468,Purportedly AI-Enhanced Images of Iranian Women Protesters Were Reportedly Spread With Unverified Execution Claims,8
+1469,PocketOS Production Database Was Reportedly Deleted by Cursor AI Agent Running Claude Opus 4.6,1
+1470,DisMech AI Curation Agent Reportedly Completed GitHub Issue Intended as New Contributor's Learning Task,1
+1471,Meta Internal AI Agent Reportedly Gave Advice That Allegedly Exposed Sensitive Data to Unauthorized Employees,11
+1472,Ahmedabad Aadhaar Fraud Racket Reportedly Used Purportedly AI-Generated Deepfakes to Change Businessman's Linked Mobile Number,2
+1473,Jasper County Student in Texas Reportedly Posted Purported AI-Generated Nude Image of Classmate on Snapchat,3
+1474,Tasmanian School Students Reportedly Created Purported AI-Generated Pornographic Images of Female Classmates,3
+1475,Suspected AI-Generated Deepfake Video Reportedly Targeted Former Chhattisgarh Chief Minister Bhupesh Baghel on Instagram,4
+1476,Maryland Police Allegedly Relied on Facial Recognition Lead in Wrongful Arrest and Detention of Kimberlee Williams,7
+1477,"Scammers Reportedly Used AI-Generated Image of Missing Puppy Hazel to Solicit Fraudulent Vet Payment from St. Petersburg, Florida Couple",2
+1478,"Scammers Reportedly Used AI-Generated Images of Missing Dog Archer to Solicit Fraudulent Vet Payment from Deltona, Florida Family",2
+1479,"ChatGPT-Generated Image of Nonexistent 'Homeless Man' Was Used in False St. Petersburg, Florida Burglary and Sexual Battery Reports",11
+1480,Purportedly AI-Recreated Clips from Beastie Boys' 'Sabotage' Video Reportedly Appeared in FBI Promotional Video Posted by Kash Patel,4
+1481,Purported AI-Generated YouTube Network Reportedly Promoted Alberta Secession and U.S. Annexation Narratives,8
+1482,"Purported AI-Generated Voice Reportedly Impersonated Washington Man's Daughter in $13,000 Extortion Scam",2
+1483,Facebook Account Reportedly Used AI-Generated Video to Impersonate Indonesian Preacher Ustaz Ujang Bustomi in Money-Giveaway Scam,4
+1484,Purportedly AI-Generated Image Reportedly Misled Daejeon Authorities Searching for Escaped Wolf Neukgu,1
+1485,"Guelph, Ontario, Woman Reportedly Lost $14,000 in Purported Deepfake MrBeast Cryptocurrency Scam",2
+1486,"AI-Themed Investment Scam Network Reportedly Used Keitaro Cloaking Across 15,500 Domains",2
+1487,ChatGPT Was Alleged to Have Aided Planning of Florida State University Mass Shooting,11
+1488,ChatGPT Was Reportedly Consulted on Body-Disposal and Concealment Questions Before and After University of South Florida Doctoral Students Were Killed,11
+1489,"ChatGPT Was Reportedly Used in Planning School Stabbing in Pirkkala, Finland, That Injured Three Pupils",3
+1490,"ChatGPT Was Allegedly Consulted About Attack Options Before Teen Attempted to Stab Officer at Tira, Israel, Police Station",11
+1491,"ChatGPT Use Was Reportedly Cited in Delusional State Before Homicide and Assault in Readfield, Maine",11
+1492,Purportedly AI-Enabled Targeting System Was Reportedly Implicated in Deadly U.S. Strike on Iranian Primary School,3
+1493,Gemini and Grok Reportedly Misidentified Authentic Minab School-Strike Graveyard Photo as Unrelated Disaster Imagery,10
+1494,Purportedly AI-Manipulated Satellite Image Reportedly Claimed Iranian Strike Destroyed U.S. Radar in Qatar,8
+1495,Grok Reportedly Misclassified Netanyahu Proof-of-Life Video as AI-Generated Deepfake Amid Iran War Rumors,4
+1496,Purportedly AI-Generated Jeffrey Epstein Video Reportedly Used by Pro-Iran Accounts to Claim Iran War Was Launched as a Cover-Up,8
+1497,Hidden Prompt Injection in Brazilian Labor-Court Petition Reportedly Tried to Manipulate Galileu,1
+1498,"Character.AI Chatbots Reportedly Exposed 11-Year-Old User to Sexual, Violent, and Self-Harm Content",11
+1499,Claude Console Reportedly Generated Phantom Legal Quotations in Trump Layoffs Court Filing,1
+1500,New Jersey Man Cornelius Shannon Allegedly Published Hundreds of AI-Generated Deepfake Pornography Albums in TAKE IT DOWN Act Case,4
+1501,Texas Man Arturo Hernandez Allegedly Published AI-Generated Deepfake Pornography Depicting Women in TAKE IT DOWN Act Case,3
+1502,Scammers Reportedly Used Real-Time Deepfake Video to Impersonate Veriff CEO Kaarel Kotkas in WhatsApp Fraud Attempt,2
+1503,Purported AI Name-Reading System Reportedly Skipped and Misannounced Graduates at Arizona's Glendale Community College Commencement,1
+1504,Nonfiction Book 'The Future of Truth' Reportedly Included AI-Generated and Misattributed Quotations,1
+1505,Scammers Reportedly Used AI-Cloned Daughter's Voice to Defraud Bay Area Mother in Fake Kidnapping Call,2
+1506,ChatGPT Was Alleged to Have Reinforced Pittsburgh Man's Stalking and Threats Against Women,11
+1507,COEMPT Quality Assurance Engineers Allegedly Violated Indian CBSE Student Data Privacy Rights by Processing It with Google Gemini,11
+1508,Italian Mediaset Journalist Safiria Leccese's Image Was Reportedly Used in a Purportedly AI-Generated Fake Loan Scam,2
+1509,"Self-Employed Somerset Father Wayne Luxon Reportedly Lost £140,000 After Facebook Deepfake of Martin Lewis Promoted Crypto Scam",2
+1510,Meta AI Support Bot Reportedly Enabled Takeovers of High-Profile Instagram Accounts,11
+1511,Grok Reportedly Generated Images After X Users Asked It to Unredact Epstein-File Photos of Children and Women,11
+1512,The Sydney Morning Herald and The Age Removed an Opinion Article After Undisclosed Copilot Use,1
+1513,Dimal Basha's Likeness Was Reportedly Used in Purportedly Fake AI-Generated Video After Kosovo Parliament Speaker Election,8
+1514,Purportedly AI-Generated Video Reportedly Depicted Kosovo LDK Figure Hykmete Bajrami and Former Serbian List Leader Goran Rakiq Walking Hand in Hand,4
+1515,Purportedly AI-Generated Airport Videos Reportedly Showed Kosovo Diaspora Voters Supporting Albin Kurti,8
+1516,Purportedly AI-Generated Airport Videos Reportedly Showed Kosovo Diaspora Voters Opposing Albin Kurti,8
+1517,NoFilterNews Reportedly Posted AI-Generated TikTok Videos Styled as Kosovo Election TV News,8
+1518,Kosovo Public Broadcaster RTK and Journalist Gëzim Bimbashi Were Reportedly AI-Impersonated in Alleged Fake Joint-Cure Scam Video,4
+1519,Purportedly AI-Generated Videos Reportedly Fabricated Conflict Between Kosovo Leaders Albin Kurti and Vjosa Osmani,8
+1520,Reported AI-Generated Videos Depicted Former Kosovo President Vjosa Osmani and Other Public Figures in Allegedly False Compromising Scenes,8
+1521,Reported AI-Generated Videos Purported to Show Kosovo Diaspora Mobilization for Vetëvendosje Before Snap Elections,8
+1522,"Reported AI-Generated Videos Allegedly Posed as Kosovo Election Vox Pops Before June 7, 2026 Vote",8
+1523,Reported AI-Generated Videos Placed Kosovo Parliamentary Candidates in Purportedly Fabricated Campaign Scenes,8
+1524,Purportedly AI-Manipulated Videos Reportedly Targeted Former Kosovo MP Paris Guri and LDK Youth Members Before Snap Elections,8
+1525,Purported Deepfake Video Reportedly Impersonated Former Mongolian Deputy Prime Minister Amarsaikhan Sainbuyan in Investment Scam,4
+1526,Reddit Scam Ads Reportedly Used Deepfake News Segments and Cloned Media Sites to Promote Allegedly Fake AI Investment Platforms,2
+1527,Purported Deepfake Ads Reportedly Fabricated BBC Question Time Confrontations Between Andrew Bailey and Nigel Farage,2
+1528,AI-Enabled TruDi Navigation System Was Alleged to Have Contributed to Patient's Stroke During May 2023 Sinuplasty,1
+1529,Purportedly AI-Manipulated Image Allegedly Suggested Inappropriate Conduct Between Besnik Tahiri and Duda Balje in Kosovo Parliament,8
+1530,Purportedly AI-Generated Images Allegedly Linked Sami Lushtaku to Banjska Attack Suspect Milan Radoičić,8
+1531,Reported AI-Generated Image Portrayed Vetëvendosje Official Dejona Mihali Meeting Aleksandar Vučić,8
+1532,Reported Deepfake Video Impersonating Mark Carney Used in Nearly $1M Cryptocurrency Scam Targeting Ontario Senior,2
+1533,Four Lawyers Reportedly Sanctioned After Purportedly AI-Related Hallucinated Citations Appeared in Withers v. City of Aberdeen,1
+1534,Google Alleged Outsider Enterprise Used Gemini to Create Phishing Sites for Text-Message Scams,1
+1535,OpenAI Allegedly Failed to Intervene in ChatGPT Conversations Preceding Montreal Web Developer Alice Carrier's Suicide,11
+1536,Humanoid Robot Identified as Likely Unitree G1 Reportedly Kicked Boy During Public Demonstration in Xinjiang,9
+1537,Two Waymo Robotaxis Allegedly Contributed to Bike-Lane Collision That Injured San Francisco Cyclist,9
+1538,City of Zhuzhou in Hunan Suspended Hellobike Robotaxi Service After Vehicle Struck Two Pedestrians,9
+1539,Zoox Robotaxi Crossed Into Opposing Lane and Stopped Near Oncoming Traffic,9
+1540,"Zoox Robotaxi Reportedly Collided with Open Car Door, Allegedly Injuring San Francisco Street Ambassador",9
+1541,"Waymo Robotaxi Reportedly Entered Phoenix Light-Rail Tracks, Prompting Passenger to Exit",9
+1542,OpenClaw Agent Reportedly Tried to Delete Meta AI Alignment Director Summer Yue's Emails Despite Stop Commands,11
+1543,Waymo Robotaxi Reportedly Obstructed Ambulance Responding to Austin Mass Shooting,9
+1544,Waymo Robotaxi Reportedly Entered Flooded San Antonio Roadway and Was Swept Into Waterway,9
+1545,Florida Police Reportedly Wrongfully Arrested Commercial Crabber Robert Dillon After Allegedly False Facial Recognition Match,7
+1546,Google Android Earthquake Alerts System Reportedly Underestimated Kahramanmaraş Earthquake and Failed to Send Urgent Warnings to Millions,11
+1547,Waymo Robotaxis Reportedly Entered Closed Freeway Construction Zones in Arizona and California,9
+1548,South African Home Affairs Revised White Paper Reportedly Included Fictitious References Believed to Be AI-Generated,1
+1549,Purported Deepfake of Taoiseach Micheál Martin Reportedly Promoted Quantum AI Investment Scam,2
+1550,Purportedly AI-Generated Facebook Poster Falsely Declared Kannada Actor Doddanna Dead,8
+1551,Purported AI-Generated Advertisements Reportedly Falsely Depicted Lee Ji-hye Endorsing Food and Clothing Products,4
+1552,Tesla Driver Reportedly Said Driver-Assistance Mode Was Engaged During Fatal Texas Home Crash,5
+1553,Purported AI-Manipulated Video of Nirmala Sitharaman Reportedly Promoted High-Return Investment Scam,4
+1554,NewsBreak Reportedly Published AI-Assisted Articles Containing Purportedly False Local and Community-Service Information,1
+1555,Reportedly AI-Assisted Boies Schiller Brief in Bixler v. Church of Scientology Allegedly Contained Material Citation Errors and a Nonexistent Case,1
+1556,"X User Reportedly Used Morse Code Prompt to Induce Grok-Linked Trading Bot to Transfer $200,000 in Tokens",11
+1557,Former New York City Council Candidate Jonathan Rinaldi Allegedly Used AI to Create False Endorsements and Fabricated News Reports,1
+1558,Sullivan & Cromwell Reportedly Filed Emergency Bankruptcy Motion Containing AI-Generated Legal Errors,1
+1559,Kalibrate Fuel Pricing Allegedly Enabled California Gas Station Operators to Coordinate Higher Pump Prices,10
+1560,Man in Egypt Reportedly Convicted of Using AI-Fabricated Sexual Content to Blackmail Relative,1
+1561,U.S. Navy Unmanned Vessel Reportedly Capsized Support Boat After Receiving Inadvertent Command,10
+1562,Pennsylvania Man Allegedly Used Grok to Create and Possess Purportedly AI-Generated Child Sexual Abuse Material,1
+1563,KPMG Report Allegedly Included Hallucinated Citations and Inaccurate Agentic AI Case Studies,1
+1564,Purported Deepfakes of Public Figures and Celebrities Reportedly Used to Market Honey-Based Supplements as Alzheimer's Treatments,1
+1565,Spokane-Area Fred's Appliance and Victory Media Allegedly Used AI-Assisted Voice Editing Without Spokeswoman's Consent,1
+1566,"Indore Resident Reportedly Lost ₹1.83 Lakh (~$2,000) After AI-Generated Voice Impersonated Relative",2
+1567,Serve Robotics Delivery Robot Reportedly Crashed into Chicago Bus Shelter After Failing to Detect Glass,9
+1568,Coco Delivery Robot Reportedly Crashed into Chicago Bus Shelter,9
+1569,GPT-4o Allegedly Reinforced California Man Michael Lines's Delusions Before Suicide Attempt,11
+1570,Purported Deepfake Impersonating Dubai Crown Prince Reportedly Used to Defraud Filipino Domestic Worker,2
+1571,California Immigration Attorneys Reportedly Sanctioned Over Briefs Containing Probable Hallucinations in LNU v. Blanche,1
+1572,Westlaw CoCounsel Reportedly Generated False Legal Quotations in United States v. Farris,1
+1573,National Company Law Tribunal Reportedly Relied on AI-Hallucinated Precedents in Pooja Ramesh Singh v. Jammu and Kashmir Bank Ltd,1
+1574,Purportedly AI-Generated Explicit Images of Students Allegedly Circulated at Lake Zurich High School in Illinois,3
+1575,Eightfold AI Hiring Tools Allegedly Secretly Scored Job Applicants for Employers,1
+1576,Lawyers in Lexos Media IP LLC v. Overstock.com Inc. Sanctioned Over Court-Identified AI-Generated Citations,1
+1577,Lawyer in Amarsingh v. Frontier Airlines Sanctioned Over Court-Identified ChatGPT Citation Errors,1
+1578,LLM-Driven Ransomware Operator Dubbed JADEPUFFER Reportedly Targeted Production Database,1
+1579,Purportedly AI-Generated Videos Reportedly Impersonated Ghanaian President John Mahama to Solicit Money and Personal Data,2
+1580,PRC-Linked Accounts Reportedly Used ChatGPT in Covert Campaigns Targeting U.S. AI Policy Debates,11
+1581,Storm-1516 Reportedly Spread Fabricated Narratives Targeting Firebird Data Center in Armenia,1
+1582,Bangladesh-Operated Facebook Pages Reportedly Shared AI-Generated Anti-Data-Center Imagery,1

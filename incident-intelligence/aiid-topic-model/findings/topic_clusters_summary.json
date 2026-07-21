@@ -1,0 +1,278 @@
+[
+  {
+    "cluster": 11,
+    "size": 282,
+    "top_terms": [
+      "google",
+      "chatgpt",
+      "chatbot",
+      "openai",
+      "user",
+      "data",
+      "meta",
+      "users",
+      "grok",
+      "image"
+    ],
+    "sample_titles": [
+      "Gender Biases of Google Image Search",
+      "Common Biases of Vector Embeddings",
+      "Biased Sentiment Analysis",
+      "Images of Black People Labeled as Gorillas",
+      "Sexist and Racist Google Adsense Advertisements"
+    ]
+  },
+  {
+    "cluster": 1,
+    "size": 262,
+    "top_terms": [
+      "generated",
+      "ai generated",
+      "voice",
+      "tools",
+      "court",
+      "citations",
+      "legal",
+      "use",
+      "purportedly",
+      "case"
+    ],
+    "sample_titles": [
+      "Bad AI-Written Christmas Carols",
+      "AI mistakes referee’s bald head for football — hilarity ensued",
+      "Brand Safety Tech Firms Falsely Claimed Use of AI, Blocking Ads Using Simple Keyword Lists",
+      "AI Tools Failed to Sufficiently Predict COVID Patients, Some Potentially Harmful",
+      "Korean Politician Employed Deepfake as Campaign Representative"
+    ]
+  },
+  {
+    "cluster": 10,
+    "size": 229,
+    "top_terms": [
+      "risk",
+      "automated",
+      "detection",
+      "black",
+      "drivers",
+      "false",
+      "uk",
+      "based",
+      "users",
+      "racial"
+    ],
+    "sample_titles": [
+      "Wikipedia Vandalism Prevention Bot Loop",
+      "Collection of Robotic Surgery Malfunctions",
+      "Kronos Scheduling Algorithm Allegedly Caused Financial Issues for Starbucks Employees",
+      "Northpointe Risk Models",
+      "Crashes with Maneuvering Characteristics Augmentation System (MCAS)"
+    ]
+  },
+  {
+    "cluster": 2,
+    "size": 166,
+    "top_terms": [
+      "scam",
+      "deepfake",
+      "investment",
+      "scammers",
+      "ai generated",
+      "generated",
+      "voice",
+      "videos",
+      "000",
+      "fake"
+    ],
+    "sample_titles": [
+      "Reported AI-Cloned Voice Used to Deceive Hong Kong Bank Manager in Purported $35 Million Fraud Scheme",
+      "Fraudsters Used AI to Mimic Voice of a UK-Based Firm's CEO's Boss",
+      "AI-Generated Faces Used by Scammers to Pose as a Law Firm in Boston",
+      "Deepfake of FTX's Former CEO Posted on Twitter Aiming to Scam FTX Collapse Victims",
+      "Scammers Deepfaked Videos of Victims' Loved Ones Asking for Funds over Facebook in Vietnam"
+    ]
+  },
+  {
+    "cluster": 8,
+    "size": 128,
+    "top_terms": [
+      "ai generated",
+      "generated",
+      "videos",
+      "images",
+      "media",
+      "purportedly",
+      "image",
+      "election",
+      "political",
+      "circulated"
+    ],
+    "sample_titles": [
+      "AI-Generated Profiles Used in Disinformation Campaign Targeting Ukrainians",
+      "Indian Political App Tek Fog Allegedly Hijacked Trends and Manipulated Public Opinion on Other Social Media Platforms",
+      "AI Video-Making Tool Abused to Deploy Pro-China News on Social Media",
+      "TikTok User Videos Impersonated Andrew Tate Using AI Voice, Prompting Ban",
+      "Parody AI Images of Donald Trump Being Arrested Reposted as Misinformation"
+    ]
+  },
+  {
+    "cluster": 4,
+    "size": 125,
+    "top_terms": [
+      "video",
+      "deepfake",
+      "purported",
+      "deepfake video",
+      "generated",
+      "ai generated",
+      "video reportedly",
+      "purported deepfake",
+      "president",
+      "circulated"
+    ],
+    "sample_titles": [
+      "Deepfake Obama Introduction of Deepfakes",
+      "Facebook's AI Put \"Primates\" Label on Video Featuring Black Men",
+      "Deepfake Video of Ukrainian President Yielding to Russia Posted on Ukrainian Websites and Social Media",
+      "Climate Action Group Posted Deepfake of Belgian Prime Minister Urging Climate Crisis Action",
+      "Instagram Video Featured Deepfake Audio of US President Making Transphobic Remarks"
+    ]
+  },
+  {
+    "cluster": 3,
+    "size": 77,
+    "top_terms": [
+      "school",
+      "students",
+      "images",
+      "student",
+      "high school",
+      "deepfake",
+      "high",
+      "classmates",
+      "explicit",
+      "female"
+    ],
+    "sample_titles": [
+      "International Baccalaureate’s 2020 Calculated-Grades Model Reportedly Lowered Students' Scores and College Prospects",
+      "University of Toronto's ProctorU Deployment Reportedly Disadvantaged BIPOC Students During Exam Check-Ins",
+      "University of Illinois' Proctorio Remote-Proctoring Deployment Reportedly Raised Student Rights Concerns",
+      "Students Reportedly Used Generative Text Tools to Complete School Assignments and Exams",
+      "Dartmouth's Geisel School of Medicine Reportedly Used Canvas Activity Logs to Accuse Students of Cheating"
+    ]
+  },
+  {
+    "cluster": 6,
+    "size": 77,
+    "top_terms": [
+      "content",
+      "facebook",
+      "moderation",
+      "automated",
+      "users",
+      "tiktok",
+      "hate",
+      "content moderation",
+      "hate speech",
+      "youtube"
+    ],
+    "sample_titles": [
+      "Google’s YouTube Kids App Presents Inappropriate Content",
+      "Microsoft's TayBot Allegedly Posts Racist, Sexist, and Anti-Semitic Content to Twitter",
+      "Facebook translates 'good morning' into 'attack them', leading to arrest",
+      "#LekkiMassacre: Why Facebook labelled content from October 20 incident ‘false’",
+      "HUD charges Facebook with enabling housing discrimination"
+    ]
+  },
+  {
+    "cluster": 9,
+    "size": 72,
+    "top_terms": [
+      "robot",
+      "autonomous",
+      "waymo",
+      "cruise",
+      "san",
+      "vehicle",
+      "driving",
+      "san francisco",
+      "francisco",
+      "robotaxi"
+    ],
+    "sample_titles": [
+      "Las Vegas Self-Driving Bus Involved in Accident",
+      "Uber AV Killed Pedestrian in Arizona",
+      "Robot kills worker at German Volkswagen plant",
+      "Warehouse robot ruptures can of bear spray and injures workers",
+      "Uber Autonomous Cars Running Red Lights"
+    ]
+  },
+  {
+    "cluster": 7,
+    "size": 67,
+    "top_terms": [
+      "facial",
+      "facial recognition",
+      "recognition",
+      "police",
+      "arrest",
+      "black",
+      "technology",
+      "wrongful",
+      "misidentified",
+      "surveillance"
+    ],
+    "sample_titles": [
+      "Picture of Woman on Side of Bus Shamed for Jaywalking",
+      "Detroit Police Wrongfully Arrested Black Man Due To Faulty FRT",
+      "Live facial recognition is tracking kids suspected of being criminals",
+      "Skating Rink’s Facial Recognition Cameras Misidentified Black Teenager as Banned Troublemaker",
+      "Chinese Tech Firms Allegedly Developed Facial Recognition to Identify People by Race, Targeting Uyghur Muslims"
+    ]
+  },
+  {
+    "cluster": 5,
+    "size": 48,
+    "top_terms": [
+      "tesla",
+      "autopilot",
+      "tesla autopilot",
+      "driver",
+      "tesla model",
+      "model",
+      "crashed",
+      "mode",
+      "driving",
+      "highway"
+    ],
+    "sample_titles": [
+      "A Collection of Tesla Autopilot-Involved Crashes",
+      "Poor Performance of Tesla Factory Robots",
+      "Sleeping Driver on Tesla AutoPilot",
+      "Tesla on AutoPilot Killed Driver in Crash in Florida while Watching Movie",
+      "Tesla Autopilot Mistakes Red Letters on Flag for Red Traffic Lights"
+    ]
+  },
+  {
+    "cluster": 0,
+    "size": 38,
+    "top_terms": [
+      "amazon",
+      "products",
+      "alexa",
+      "search",
+      "translation",
+      "delivery",
+      "english translation",
+      "drivers",
+      "amazon alexa",
+      "items"
+    ],
+    "sample_titles": [
+      "Amazon Censors Gay Books",
+      "Amazon’s Experimental Hiring Tool Allegedly Displayed Gender Bias in Candidate Rankings",
+      "Amazon Alexa Responding to Environmental Inputs",
+      "Amazon Alexa Plays Loud Music when Owner is Away",
+      "AI-Designed Phone Cases Are Unexpected"
+    ]
+  }
+]

@@ -18,8 +18,9 @@ from [`docs/`](docs/) via GitHub Pages.
 - [`incident-intelligence/`](incident-intelligence/): Workstream 2,
   incident intelligence on public data. Contains the retrospective 5R
   scoring of the CrowdStrike Falcon outage of 19 July 2024, worked from
-  CrowdStrike's published post-incident documents. The AI Incident
-  Database analysis is not yet started.
+  CrowdStrike's published post-incident documents, and topic/tone
+  modelling plus a 5R governance lens over the AI Incident Database
+  public snapshot.
 - [`BUILD_BRIEF.md`](BUILD_BRIEF.md): the specification and decision log for
   this repository, including the complete generic 5R framework and the two
   planned workstreams (5R scoring on public release notes; incident
@@ -45,6 +46,10 @@ dataset used is publicly available and credited with a link.
 - Microsoft, Helping our customers through the CrowdStrike outage
   (20 July 2024), used for a single impact figure:
   <https://blogs.microsoft.com/blog/2024/07/20/helping-our-customers-through-the-crowdstrike-outage/>.
+- AI Incident Database (<https://incidentdatabase.ai>), a project of the
+  Responsible AI Collaborative, public database snapshot dated 13 July
+  2026. Editorial fields only (titles, descriptions, taxonomy); no
+  third-party report text republished.
 
 ## Provenance
 

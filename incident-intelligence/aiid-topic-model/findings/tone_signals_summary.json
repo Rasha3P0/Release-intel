@@ -1,0 +1,34 @@
+{
+  "total_incidents": 1571,
+  "signal_prevalence": {
+    "uncertainty_hedging": {
+      "count": 1176,
+      "pct": 74.9
+    },
+    "legal_regulatory": {
+      "count": 322,
+      "pct": 20.5
+    },
+    "financial_business": {
+      "count": 310,
+      "pct": 19.7
+    },
+    "fatality_injury": {
+      "count": 118,
+      "pct": 7.5
+    },
+    "urgency_emergency": {
+      "count": 66,
+      "pct": 4.2
+    }
+  },
+  "description_sentence_count": {
+    "min": 1,
+    "median": 2,
+    "max": 6
+  },
+  "descriptions_two_sentences_or_fewer": {
+    "count": 899,
+    "pct": 57.2
+  }
+}

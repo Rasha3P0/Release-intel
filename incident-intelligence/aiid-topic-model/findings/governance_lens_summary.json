@@ -1,0 +1,30 @@
+{
+  "sample_size": 60,
+  "sampling": "simple random sample, seed 20260721, from 1571 total incidents",
+  "label_proportions": {
+    "R1": {
+      "count": 19,
+      "pct": 31.7
+    },
+    "R2": {
+      "count": 0,
+      "pct": 0.0
+    },
+    "R3": {
+      "count": 2,
+      "pct": 3.3
+    },
+    "R4": {
+      "count": 5,
+      "pct": 8.3
+    },
+    "R5": {
+      "count": 6,
+      "pct": 10.0
+    },
+    "not_mappable": {
+      "count": 28,
+      "pct": 46.7
+    }
+  }
+}
