@@ -1,0 +1,11 @@
+Title: Invoice totals move to precomputed storage
+Release: fixture
+Source: synthetic validation fixture, not GitLab data
+
+Invoice totals are now precomputed and stored alongside each invoice
+record instead of being calculated at read time. A forward-only migration
+rewrites existing invoices into the new shape during upgrade. The public
+API returns the stored totals field, and any client that recomputed
+totals locally should switch to it. Rounding now happens once at write
+time, so figures displayed across the product come from a single stored
+value.

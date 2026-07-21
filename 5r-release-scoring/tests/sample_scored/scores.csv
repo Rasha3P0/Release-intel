@@ -1,0 +1,4 @@
+id,release,title,R1,R2,R3,R4,R5,stamps,action,r4_hard_gate
+001-invoice-totals-precomputed-storage,fixture,Invoice totals move to precomputed storage,yes,unclear,yes,no,yes,3,coordination sign-off before planning,False
+002-minor-performance-cleanup,fixture,Minor performance cleanup,unclear,unclear,unclear,yes,unclear,1,R4 testing protocol,True
+003-onboarding-wording-refresh,fixture,Onboarding wording refresh,unclear,unclear,unclear,no,unclear,0,proceed normally,False

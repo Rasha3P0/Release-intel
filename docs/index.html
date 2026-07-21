@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Release intelligence</title>
+<meta name="description" content="Predictive release governance and incident intelligence methods, demonstrated on public data.">
+<style>
+  :root {
+    --bg: #faf9f7;
+    --surface: #ffffff;
+    --ink: #1f2430;
+    --muted: #5b6372;
+    --line: #e3e0da;
+    --accent: #2f5d8a;
+    --accent-ink: #ffffff;
+    --gate: #8a5a2f;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14161c;
+      --surface: #1c1f27;
+      --ink: #e8e6e1;
+      --muted: #9aa1ad;
+      --line: #2b2f3a;
+      --accent: #7fa8d0;
+      --accent-ink: #14161c;
+      --gate: #d0a87f;
+    }
+  }
+  * { box-sizing: border-box; margin: 0; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font: 17px/1.65 Georgia, 'Times New Roman', serif;
+    padding: 0 1.25rem;
+  }
+  main { max-width: 44rem; margin: 0 auto; padding: 3.5rem 0 4rem; }
+  h1, h2, h3, .kicker, .card h3, nav, footer, .r-code, .status {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  }
+  .kicker {
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    font-size: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+  h1 { font-size: 2.1rem; line-height: 1.2; letter-spacing: -0.01em; }
+  .lede { margin-top: 1rem; font-size: 1.1rem; color: var(--muted); }
+  h2 {
+    font-size: 1.35rem;
+    margin: 3rem 0 1rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--line);
+  }
+  p + p { margin-top: 0.9rem; }
+  a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+  .cards { display: grid; gap: 0.75rem; margin: 1.25rem 0; }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 1rem 1.1rem;
+  }
+  .card h3 { font-size: 0.95rem; margin-bottom: 0.35rem; }
+  .card p { font-size: 0.95rem; color: var(--muted); }
+  .r-code {
+    display: inline-block;
+    background: var(--accent);
+    color: var(--accent-ink);
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 0.1rem 0.45rem;
+    margin-right: 0.5rem;
+    vertical-align: 1px;
+  }
+  .card.gate .r-code { background: var(--gate); }
+  .threshold { border-left: 3px solid var(--accent); padding: 0.2rem 0 0.2rem 1.1rem; margin: 1.5rem 0; }
+  .threshold p { font-size: 0.98rem; }
+  .status {
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--muted);
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 0.15rem 0.6rem;
+    margin-left: 0.5rem;
+    vertical-align: 2px;
+    white-space: nowrap;
+  }
+  footer {
+    max-width: 44rem;
+    margin: 0 auto;
+    padding: 1.5rem 0 3rem;
+    border-top: 1px solid var(--line);
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+  footer p + p { margin-top: 0.4rem; }
+</style>
+</head>
+<body>
+<main>
+  <p class="kicker">Release intelligence</p>
+  <h1>Categorical risk scoring for software releases</h1>
+  <p class="lede">Predictive release governance and incident intelligence
+  methods, demonstrated end to end on fully public data. Five yes/no
+  questions asked of every change, a threshold rule that turns the answers
+  into protocol, and no severity scores anywhere.</p>
+
+  <h2>The 5R framework</h2>
+  <p>5R is a categorical risk classification applied to every release note
+  before test planning. Each category is stamped yes or no, with quoted
+  evidence from the note text. There are no weights: the output of scoring
+  is a protocol, not a number.</p>
+  <div class="cards">
+    <div class="card"><h3><span class="r-code">R1</span>Data Structure</h3>
+      <p>The change touches schema, stored data shape, calculations, or
+      interpretation logic.</p></div>
+    <div class="card"><h3><span class="r-code">R2</span>Blast Radius</h3>
+      <p>The change touches high-volume processes, batch jobs, or critical
+      feeds.</p></div>
+    <div class="card"><h3><span class="r-code">R3</span>Integration</h3>
+      <p>The change affects downstream consumers, interfaces, APIs, or
+      reports.</p></div>
+    <div class="card gate"><h3><span class="r-code">R4</span>Hidden Complexity, the hard gate</h3>
+      <p>The note hides behind innocuous labels (performance, refactor,
+      cleanup, minor) or is three sentences or fewer. The note is held
+      until its author and a technical lead jointly re-score it.</p></div>
+    <div class="card"><h3><span class="r-code">R5</span>Rollback</h3>
+      <p>The change involves one-way operations, forward-only migrations,
+      or anything that cannot be cleanly reversed.</p></div>
+  </div>
+  <div class="threshold">
+    <p><strong>Threshold rule.</strong> Zero stamps proceeds normally. One
+    stamp triggers that category's testing protocol. Two or more add a
+    coordination sign-off before planning begins.</p>
+  </div>
+
+  <h2>Shifting the questions left</h2>
+  <p>At release-note time a stamp is a discovery: the change already
+  exists and the gate can only react. Asked earlier, when functional specs
+  are created from requirements, each stamp becomes an authoring
+  obligation instead: R1 demands an explicit data contract in the spec, R3
+  an enumerated list of consumers, R5 reversibility designed in rather
+  than bolted on. R4 becomes an intake gate on the requirement itself,
+  which is where innocuous labels originate. Release-time scoring then
+  verifies that what was built still matches the risk profile the spec
+  declared. The full argument is in
+  <a href="https://github.com/Rasha3P0/Release-intel/blob/main/5R_SHIFT_LEFT.md">the shift-left note</a>.</p>
+
+  <h2>Workstreams</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>5R scoring on public release notes<span class="status">scorer built</span></h3>
+      <p>GitLab's monthly release notes, versions 19.0 to 19.2, fetched
+      and split into individual items, then scored note by note against
+      the five categories. The scorer, the fetch script, and the committed
+      LLM scoring prompt are in
+      <a href="https://github.com/Rasha3P0/Release-intel/tree/main/5r-release-scoring">5r-release-scoring</a>.
+      Findings will report base rates per category, co-occurrence, the
+      proportion of notes tripping the R4 hard gate, and worked
+      examples.</p>
+    </div>
+    <div class="card">
+      <h3>Incident intelligence on public data<span class="status">planned</span></h3>
+      <p>Two analyses on public sources: a retrospective 5R scoring of the
+      CrowdStrike Falcon outage of 19 July 2024, worked from CrowdStrike's
+      own published root cause analysis, and topic modelling across the AI
+      Incident Database with a governance lens that asks which failure
+      modes a categorical pre-release gate would plausibly have
+      flagged.</p>
+    </div>
+  </div>
+
+  <h2>Provenance</h2>
+  <p>These methods were developed through the author's release governance
+  practice. This repository is a clean-room demonstration on public data,
+  built by AI-directed development with the author as product owner and
+  release manager. The code was generated; the specification, verification
+  and publication judgement were not.</p>
+</main>
+<footer>
+  <p>Source and specification:
+  <a href="https://github.com/Rasha3P0/Release-intel">github.com/Rasha3P0/Release-intel</a>.
+  MIT licence.</p>
+  <p>Data credits: GitLab release notes
+  (<a href="https://docs.gitlab.com/releases/">docs.gitlab.com/releases</a>),
+  quoted for analysis under fair-dealing review purposes. Planned:
+  CrowdStrike's published post-incident review, and the AI Incident
+  Database (<a href="https://incidentdatabase.ai">incidentdatabase.ai</a>).</p>
+</footer>
+</body>
+</html>

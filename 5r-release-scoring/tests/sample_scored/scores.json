@@ -1,0 +1,119 @@
+[
+  {
+    "id": "001-invoice-totals-precomputed-storage",
+    "release": "fixture",
+    "title": "Invoice totals move to precomputed storage",
+    "source": "synthetic validation fixture, not GitLab data",
+    "scores": {
+      "R1": {
+        "stamp": "yes",
+        "evidence": "matched 'stored': \"Invoice totals move to precomputed storage\nInvoice totals are now precomputed and stored alongside each invoice\nrecord instead of being calculated at read time.\""
+      },
+      "R2": {
+        "stamp": "unclear",
+        "evidence": "no trigger language in the note; missing: which processes the change runs through and their volume profile"
+      },
+      "R3": {
+        "stamp": "yes",
+        "evidence": "matched 'api': \"The public\nAPI returns the stored totals field, and any client that recomputed\ntotals locally should switch to it.\""
+      },
+      "R5": {
+        "stamp": "yes",
+        "evidence": "matched 'migration': \"A forward-only migration\nrewrites existing invoices into the new shape during upgrade.\""
+      },
+      "R4": {
+        "stamp": "no",
+        "evidence": "no innocuous label; 4 sentences"
+      }
+    },
+    "stamps": 3,
+    "stamped_codes": [
+      "R1",
+      "R3",
+      "R5"
+    ],
+    "action": "coordination sign-off before planning",
+    "r4_hard_gate": false,
+    "unclear_codes": [
+      "R2"
+    ]
+  },
+  {
+    "id": "002-minor-performance-cleanup",
+    "release": "fixture",
+    "title": "Minor performance cleanup",
+    "source": "synthetic validation fixture, not GitLab data",
+    "scores": {
+      "R1": {
+        "stamp": "unclear",
+        "evidence": "no trigger language in the note; missing: confirmation from the change owner whether stored data shape, calculations or interpretation logic change"
+      },
+      "R2": {
+        "stamp": "unclear",
+        "evidence": "no trigger language in the note; missing: which processes the change runs through and their volume profile"
+      },
+      "R3": {
+        "stamp": "unclear",
+        "evidence": "no trigger language in the note; missing: an enumeration of downstream consumers, interfaces and reports the change touches"
+      },
+      "R5": {
+        "stamp": "unclear",
+        "evidence": "no trigger language in the note; missing: whether the change involves one-way operations or forward-only migrations, and the rollback path if not"
+      },
+      "R4": {
+        "stamp": "yes",
+        "evidence": "innocuous label 'performance': \"Minor performance cleanup\nGeneral performance cleanup and refactoring behind the scenes.\""
+      }
+    },
+    "stamps": 1,
+    "stamped_codes": [
+      "R4"
+    ],
+    "action": "R4 testing protocol",
+    "r4_hard_gate": true,
+    "unclear_codes": [
+      "R1",
+      "R2",
+      "R3",
+      "R5"
+    ]
+  },
+  {
+    "id": "003-onboarding-wording-refresh",
+    "release": "fixture",
+    "title": "Onboarding wording refresh",
+    "source": "synthetic validation fixture, not GitLab data",
+    "scores": {
+      "R1": {
+        "stamp": "unclear",
+        "evidence": "no trigger language in the note; missing: confirmation from the change owner whether stored data shape, calculations or interpretation logic change"
+      },
+      "R2": {
+        "stamp": "unclear",
+        "evidence": "no trigger language in the note; missing: which processes the change runs through and their volume profile"
+      },
+      "R3": {
+        "stamp": "unclear",
+        "evidence": "no trigger language in the note; missing: an enumeration of downstream consumers, interfaces and reports the change touches"
+      },
+      "R5": {
+        "stamp": "unclear",
+        "evidence": "no trigger language in the note; missing: whether the change involves one-way operations or forward-only migrations, and the rollback path if not"
+      },
+      "R4": {
+        "stamp": "no",
+        "evidence": "no innocuous label; 4 sentences"
+      }
+    },
+    "stamps": 0,
+    "stamped_codes": [],
+    "action": "proceed normally",
+    "r4_hard_gate": false,
+    "unclear_codes": [
+      "R1",
+      "R2",
+      "R3",
+      "R5"
+    ]
+  }
+]

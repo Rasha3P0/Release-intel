@@ -1,0 +1,6 @@
+Title: Minor performance cleanup
+Release: fixture
+Source: synthetic validation fixture, not GitLab data
+
+General performance cleanup and refactoring behind the scenes. No
+functional changes.

@@ -1,0 +1,8 @@
+Title: Onboarding wording refresh
+Release: fixture
+Source: synthetic validation fixture, not GitLab data
+
+The welcome screen wording now explains the first steps in plainer
+language. The change edits displayed copy only. Behaviour, saved
+settings and outward-facing contracts are untouched. Screenshots in the
+user guide were refreshed to match the new wording.
